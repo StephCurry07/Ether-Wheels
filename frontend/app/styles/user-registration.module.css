@@ -1,0 +1,70 @@
+/* styles/passenger-registration.module.css */
+
+.container {
+  max-width: 40%;
+  margin: auto;
+}
+
+.formGroup {
+  margin-bottom: 10px;
+  margin-left: 60px;
+  padding-left: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.center__relative {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center__relativedriver {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -50%);
+}
+
+.inputField {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.carInput {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carInput .inputField{
+  width: 250px;
+}
+
+.acNonAc{
+  margin-top: 7.5%;
+}
+
+.submitButton {
+  background-color: #383838;
+  color: yellow;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.distance {
+  font-family: 'Arial, sans-serif';
+  font-size: '16px';
+  font-weight: bold;
+  color: '#333';
+  margin-top: '10px';
+}

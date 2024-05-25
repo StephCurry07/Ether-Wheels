@@ -1,0 +1,1268 @@
+Make,Model,Variant,Seating_Capacity,Fuel_Type,City_Mileage,Combined_Name
+Tata,Nano Genx,Xt,4,Petrol,23.6,Tata Nano Genx Xt
+Tata,Nano Genx,Xe,4,Petrol,23.6,Tata Nano Genx Xe
+Tata,Nano Genx,Emax Xm,4,CNG,6.7,Tata Nano Genx Emax Xm
+Tata,Nano Genx,Xta,4,Petrol,23.6,Tata Nano Genx Xta
+Tata,Nano Genx,Xm,4,Petrol,23.6,Tata Nano Genx Xm
+Tata,Nano Genx,Xma,4,Petrol,23.6,Tata Nano Genx Xma
+Datsun,Redi-Go,D,5,Petrol,21.38,Datsun Redi-Go D
+Datsun,Redi-Go,T,5,Petrol,21.38,Datsun Redi-Go T
+Datsun,Redi-Go,A,5,Petrol,21.38,Datsun Redi-Go A
+Datsun,Redi-Go,S,5,Petrol,21.38,Datsun Redi-Go S
+Datsun,Redi-Go,1.0 S,5,Petrol,6.7,Datsun Redi-Go 1.0 S
+Datsun,Redi-Go,1.0 S Amt,5,Petrol,6.7,Datsun Redi-Go 1.0 S Amt
+Renault,Kwid,Rxe 0.8,5,Petrol,25.17,Renault Kwid Rxe 0.8
+Renault,Kwid,Std 0.8,5,Petrol,25.17,Renault Kwid Std 0.8
+Renault,Kwid,Rxl 0.8,5,Petrol,25.17,Renault Kwid Rxl 0.8
+Renault,Kwid,Rxt 0.8,5,Petrol,25.17,Renault Kwid Rxt 0.8
+Renault,Kwid,Rxt 1.0,5,Petrol,25.17,Renault Kwid Rxt 1.0
+Renault,Kwid,Climber 1.0 Mt,5,Petrol,25.17,Renault Kwid Climber 1.0 Mt
+Renault,Kwid,Rxt Amt 1.0,5,Petrol,25.17,Renault Kwid Rxt Amt 1.0
+Renault,Kwid,Climber Amt 1.0,5,Petrol,25.17,Renault Kwid Climber Amt 1.0
+Renault,Kwid,Rxt (O) 1.0,5,Petrol,25.17,Renault Kwid Rxt (O) 1.0
+Renault,Kwid,Rxt (O) Amt 1.0,5,Petrol,25.17,Renault Kwid Rxt (O) Amt 1.0
+Renault,Kwid,Climber (O) Mt 1.0,5,Petrol,25.17,Renault Kwid Climber (O) Mt 1.0
+Renault,Kwid,Climber (O) Amt 1.0,5,Petrol,25.17,Renault Kwid Climber (O) Amt 1.0
+Maruti Suzuki,Eeco,5 Str,5,Petrol,12.0,Maruti Suzuki Eeco 5 Str
+Maruti Suzuki,Eeco,7 Str,7,Petrol,12.0,Maruti Suzuki Eeco 7 Str
+Maruti Suzuki,Eeco,5 Str With Ac+Htr,5,Petrol,11.0,Maruti Suzuki Eeco 5 Str With Ac+Htr
+Maruti Suzuki,Eeco,5 Str With Ac+Htr Cng,5,CNG,6.7,Maruti Suzuki Eeco 5 Str With Ac+Htr Cng
+Maruti Suzuki,Eeco,5 Str With Htr Cng,5,CNG,6.7,Maruti Suzuki Eeco 5 Str With Htr Cng
+Maruti Suzuki,Alto K10,Lxi,5,Petrol,14.0,Maruti Suzuki Alto K10 Lxi
+Maruti Suzuki,Alto K10,Vxi,5,Petrol,14.0,Maruti Suzuki Alto K10 Vxi
+Maruti Suzuki,Alto K10,Lx,5,Petrol,19.0,Maruti Suzuki Alto K10 Lx
+Maruti Suzuki,Alto K10,Vxi (O),5,Petrol,14.0,Maruti Suzuki Alto K10 Vxi (O)
+Maruti Suzuki,Alto K10,Lxi Cng (O),5,CNG,6.7,Maruti Suzuki Alto K10 Lxi Cng (O)
+Maruti Suzuki,Alto K10,Vxi Amt (O),5,Petrol,14.0,Maruti Suzuki Alto K10 Vxi Amt (O)
+Datsun,Go,D,5,Petrol,6.7,Datsun Go D
+Datsun,Go,T,5,Petrol,6.7,Datsun Go T
+Datsun,Go,T (O),5,Petrol,20.6,Datsun Go T (O)
+Datsun,Go,A (O),5,Petrol,20.6,Datsun Go A (O)
+Datsun,Go,A,5,Petrol,20.6,Datsun Go A
+Datsun,Go,T Vdc,5,Petrol,6.7,Datsun Go T Vdc
+Datsun,Go,T (O) Vdc,5,Petrol,20.6,Datsun Go T (O) Vdc
+Datsun,Go,T Cvt,5,Petrol,6.7,Datsun Go T Cvt
+Datsun,Go,T (O) Cvt,5,Petrol,20.6,Datsun Go T (O) Cvt
+Maruti Suzuki,Celerio Tour,H2,5,Petrol,23.0,Maruti Suzuki Celerio Tour H2
+Maruti Suzuki,Celerio Tour,H2 Cng,5,CNG,6.7,Maruti Suzuki Celerio Tour H2 Cng
+Hyundai,Santro,Era Mt,5,Petrol,6.7,Hyundai Santro Era Mt
+Hyundai,Santro,Magna Mt,5,Petrol,6.7,Hyundai Santro Magna Mt
+Hyundai,Santro,Magna Mt Cng,5,CNG,6.7,Hyundai Santro Magna Mt Cng
+Hyundai,Santro,Magna Amt,5,Petrol,6.7,Hyundai Santro Magna Amt
+Hyundai,Santro,Sportz Mt,5,Petrol,6.7,Hyundai Santro Sportz Mt
+Hyundai,Santro,Sportz Mt Cng,5,CNG,6.7,Hyundai Santro Sportz Mt Cng
+Hyundai,Santro,Sportz Amt,5,Petrol,6.7,Hyundai Santro Sportz Amt
+Hyundai,Santro,Asta Mt,5,Petrol,6.7,Hyundai Santro Asta Mt
+Tata,Tiago,Revotron Xe,5,Petrol,6.7,Tata Tiago Revotron Xe
+Tata,Tiago,Revotron Xt,5,Petrol,23.84,Tata Tiago Revotron Xt
+Tata,Tiago,Revotron Xz,5,Petrol,23.84,Tata Tiago Revotron Xz
+Tata,Tiago,Revotron Xz Plus,5,Petrol,23.84,Tata Tiago Revotron Xz Plus
+Tata,Tiago,Revotron Xz Plus Dual Tone,5,Petrol,23.84,Tata Tiago Revotron Xz Plus Dual Tone
+Tata,Tiago,Revotron Xza,5,Petrol,23.84,Tata Tiago Revotron Xza
+Tata,Tiago,Revotron Xza Plus,5,Petrol,23.84,Tata Tiago Revotron Xza Plus
+Tata,Tiago,Revotron Xza Plus Dual Tone,5,Petrol,23.84,Tata Tiago Revotron Xza Plus Dual Tone
+Maruti Suzuki,Celerio X,Vxi (O),5,Petrol,23.0,Maruti Suzuki Celerio X Vxi (O)
+Maruti Suzuki,Celerio X,Vxi,5,Petrol,23.0,Maruti Suzuki Celerio X Vxi
+Maruti Suzuki,Celerio X,Vxi Amt,5,Petrol,23.0,Maruti Suzuki Celerio X Vxi Amt
+Maruti Suzuki,Celerio X,Vxi Amt (O),5,Petrol,23.0,Maruti Suzuki Celerio X Vxi Amt (O)
+Maruti Suzuki,Celerio X,Zxi,5,Petrol,23.0,Maruti Suzuki Celerio X Zxi
+Maruti Suzuki,Celerio X,Zxi (O),5,Petrol,23.0,Maruti Suzuki Celerio X Zxi (O)
+Maruti Suzuki,Celerio X,Zxi Amt,5,Petrol,23.0,Maruti Suzuki Celerio X Zxi Amt
+Maruti Suzuki,Celerio X,Zxi Amt (O),5,Petrol,23.0,Maruti Suzuki Celerio X Zxi Amt (O)
+Maruti Suzuki,Ignis,Alpha 1.2 Amt,5,Petrol,20.89,Maruti Suzuki Ignis Alpha 1.2 Amt
+Maruti Suzuki,Ignis,Alpha 1.2 Mt,5,Petrol,20.89,Maruti Suzuki Ignis Alpha 1.2 Mt
+Maruti Suzuki,Ignis,Delta 1.2 Amt,5,Petrol,20.89,Maruti Suzuki Ignis Delta 1.2 Amt
+Maruti Suzuki,Ignis,Delta 1.2 Mt,5,Petrol,20.89,Maruti Suzuki Ignis Delta 1.2 Mt
+Maruti Suzuki,Ignis,Sigma 1.2 Mt,5,Petrol,20.89,Maruti Suzuki Ignis Sigma 1.2 Mt
+Maruti Suzuki,Ignis,Zeta 1.2 Amt,5,Petrol,15.1,Maruti Suzuki Ignis Zeta 1.2 Amt
+Maruti Suzuki,Ignis,Zeta 1.2 Mt,5,Petrol,20.89,Maruti Suzuki Ignis Zeta 1.2 Mt
+Renault,Triber,Rxe,7,Petrol,6.7,Renault Triber Rxe
+Renault,Triber,Rxl,7,Petrol,6.7,Renault Triber Rxl
+Renault,Triber,Rxt,7,Petrol,6.7,Renault Triber Rxt
+Renault,Triber,Rxz,7,Petrol,6.7,Renault Triber Rxz
+Premier,Rio,Gx,5,Petrol,13.0,Premier Rio Gx
+Premier,Rio,Ex,5,Diesel,12.0,Premier Rio Ex
+Premier,Rio,Glx,5,Petrol,13.0,Premier Rio Glx
+Premier,Rio,Dx,5,Diesel,12.0,Premier Rio Dx
+Premier,Rio,Lx,5,Diesel,12.0,Premier Rio Lx
+Premier,Rio,Crdi4,5,Diesel,20.0,Premier Rio Crdi4
+Toyota,Etios Liva,G,5,Petrol,15.1,Toyota Etios Liva G
+Toyota,Etios Liva,V,5,Petrol,15.1,Toyota Etios Liva V
+Toyota,Etios Liva,Gd,5,Diesel,20.3,Toyota Etios Liva Gd
+Toyota,Etios Liva,Vx,5,Petrol,15.1,Toyota Etios Liva Vx
+Toyota,Etios Liva,Vxd,5,Diesel,20.3,Toyota Etios Liva Vxd
+Toyota,Etios Liva,Vd,5,Diesel,20.3,Toyota Etios Liva Vd
+Toyota,Etios Liva,Dual Tone V,5,Petrol,15.1,Toyota Etios Liva Dual Tone V
+Toyota,Etios Liva,Dual Tone Vd,5,Diesel,20.3,Toyota Etios Liva Dual Tone Vd
+Toyota,Etios Liva,Dual Tone Vx,5,Petrol,15.1,Toyota Etios Liva Dual Tone Vx
+Toyota,Etios Liva,Dual Tone Vxd,5,Diesel,20.3,Toyota Etios Liva Dual Tone Vxd
+Toyota,Etios Liva,Gx,5,Petrol,15.1,Toyota Etios Liva Gx
+Toyota,Etios Liva,Gxd,5,Diesel,20.3,Toyota Etios Liva Gxd
+Toyota,Etios Liva,Vx Dual Tone Limited Edition,5,Petrol,15.1,Toyota Etios Liva Vx Dual Tone Limited Edition
+Toyota,Etios Liva,Vxd Dual Tone Limited Edition,5,Diesel,20.3,Toyota Etios Liva Vxd Dual Tone Limited Edition
+Nissan,Micra Active,Xl,5,Petrol,6.7,Nissan Micra Active Xl
+Nissan,Micra Active,Xv,5,Petrol,19.49,Nissan Micra Active Xv
+Nissan,Micra Active,Xl (O),5,Petrol,6.7,Nissan Micra Active Xl (O)
+Tata,Bolt,Xt Diesel,5,Diesel,22.0,Tata Bolt Xt Diesel
+Tata,Bolt,Xe Diesel,5,Diesel,22.0,Tata Bolt Xe Diesel
+Tata,Bolt,Xm Diesel,5,Diesel,22.0,Tata Bolt Xm Diesel
+Tata,Bolt,Xms Diesel,5,Diesel,22.0,Tata Bolt Xms Diesel
+Tata,Bolt,Xt Petrol,5,Petrol,17.0,Tata Bolt Xt Petrol
+Tata,Bolt,Xe Petrol,5,Petrol,17.0,Tata Bolt Xe Petrol
+Tata,Bolt,Xm Petrol,5,Petrol,17.0,Tata Bolt Xm Petrol
+Tata,Bolt,Xms Petrol,5,Petrol,17.0,Tata Bolt Xms Petrol
+Hyundai,Xcent Prime,Cng T + (Cng +,5,CNG + Petrol,6.7,Hyundai Xcent Prime Cng T + (Cng +
+Hyundai,Xcent Prime,T,5,Petrol,6.7,Hyundai Xcent Prime T
+Hyundai,Xcent Prime,T+,5,Petrol,6.7,Hyundai Xcent Prime T+
+Hyundai,Xcent Prime,Cng T (Cng +,5,CNG + Petrol,6.7,Hyundai Xcent Prime Cng T (Cng +
+Hyundai,Xcent Prime,T+ Crdi,5,Diesel,6.7,Hyundai Xcent Prime T+ Crdi
+Hyundai,Xcent Prime,T Crdi,5,Diesel,6.7,Hyundai Xcent Prime T Crdi
+Maruti Suzuki,Dzire Tour,Ldi,5,Diesel,14.6,Maruti Suzuki Dzire Tour Ldi
+Maruti Suzuki,Dzire Tour,Lxi,5,Petrol,16.3,Maruti Suzuki Dzire Tour Lxi
+Maruti Suzuki,Dzire Tour,Lxi Cng,5,CNG,6.7,Maruti Suzuki Dzire Tour Lxi Cng
+Hyundai,Elite I20,Era 1.2,5,Petrol,13.3,Hyundai Elite I20 Era 1.2
+Hyundai,Elite I20,Era 1.4 Crdi,5,Diesel,18.4,Hyundai Elite I20 Era 1.4 Crdi
+Hyundai,Elite I20,Magna Plus,5,Petrol,13.3,Hyundai Elite I20 Magna Plus
+Hyundai,Elite I20,Magna Plus Crdi,5,Diesel,18.4,Hyundai Elite I20 Magna Plus Crdi
+Hyundai,Elite I20,Sportz Plus,5,Petrol,13.3,Hyundai Elite I20 Sportz Plus
+Hyundai,Elite I20,Sportz Plus Crdi Dual Tone,5,Diesel,18.4,Hyundai Elite I20 Sportz Plus Crdi Dual Tone
+Hyundai,Elite I20,Asta (O) 1.2,5,Petrol,13.3,Hyundai Elite I20 Asta (O) 1.2
+Hyundai,Elite I20,Asta (O) Crdi,5,Diesel,18.4,Hyundai Elite I20 Asta (O) Crdi
+Hyundai,Elite I20,Asta (O) Cvt,5,Petrol,13.3,Hyundai Elite I20 Asta (O) Cvt
+Hyundai,Elite I20,Sportz Plus Dual Tone,5,Petrol,13.3,Hyundai Elite I20 Sportz Plus Dual Tone
+Hyundai,Elite I20,Sportz Plus Cvt,5,Petrol,13.3,Hyundai Elite I20 Sportz Plus Cvt
+Hyundai,Elite I20,Sportz Plus Crdi,5,Diesel,18.4,Hyundai Elite I20 Sportz Plus Crdi
+Hyundai,Aura,E 1.2 Petrol,5,Petrol,6.7,Hyundai Aura E 1.2 Petrol
+Hyundai,Aura,S 1.2 Petrol,5,Petrol,6.7,Hyundai Aura S 1.2 Petrol
+Hyundai,Aura,S 1.2 Amt Petrol,5,Petrol,6.7,Hyundai Aura S 1.2 Amt Petrol
+Hyundai,Aura,Sx 1.2 Petrol,5,Petrol,6.7,Hyundai Aura Sx 1.2 Petrol
+Hyundai,Aura,Sx Plus 1.2 Amt Petrol,5,Petrol,6.7,Hyundai Aura Sx Plus 1.2 Amt Petrol
+Hyundai,Aura,Sx (O) 1.2 Petrol,5,Petrol,6.7,Hyundai Aura Sx (O) 1.2 Petrol
+Hyundai,Aura,S 1.2 Cng Petrol (Cng +,5,CNG + Petrol,6.7,Hyundai Aura S 1.2 Cng Petrol (Cng +
+Hyundai,Aura,Sx Plus 1.0 Petrol,5,Petrol,6.7,Hyundai Aura Sx Plus 1.0 Petrol
+Hyundai,Aura,S 1.2 Diesel,5,Diesel,6.7,Hyundai Aura S 1.2 Diesel
+Hyundai,Aura,S 1.2 Amt Diesel,5,Diesel,6.7,Hyundai Aura S 1.2 Amt Diesel
+Hyundai,Aura,Sx Plus 1.2 Amt Diesel,5,Diesel,6.7,Hyundai Aura Sx Plus 1.2 Amt Diesel
+Hyundai,Aura,Sx (O) 1.2 Diesel,5,Diesel,6.7,Hyundai Aura Sx (O) 1.2 Diesel
+Volkswagen,Polo,Trendline 1.0L (P),5,Petrol,14.0,Volkswagen Polo Trendline 1.0L (P)
+Volkswagen,Polo,Comfortline 1.0 (P),5,Petrol,14.0,Volkswagen Polo Comfortline 1.0 (P)
+Volkswagen,Polo,Highline Plus 1.0 (P),5,Petrol,14.0,Volkswagen Polo Highline Plus 1.0 (P)
+Volkswagen,Polo,Trendline 1.5L (D),5,Diesel,19.0,Volkswagen Polo Trendline 1.5L (D)
+Volkswagen,Polo,Comfortline 1.5 (D),5,Diesel,19.0,Volkswagen Polo Comfortline 1.5 (D)
+Volkswagen,Polo,Highline Plus 1.5 (D),5,Diesel,19.0,Volkswagen Polo Highline Plus 1.5 (D)
+Volkswagen,Polo,Gt Tsi,5,Petrol,17.0,Volkswagen Polo Gt Tsi
+Volkswagen,Polo,Gt Tdi,5,Diesel,19.0,Volkswagen Polo Gt Tdi
+Maruti Suzuki,Dzire,Lxi,5,Petrol,16.3,Maruti Suzuki Dzire Lxi
+Maruti Suzuki,Dzire,Vxi,5,Petrol,16.3,Maruti Suzuki Dzire Vxi
+Maruti Suzuki,Dzire,Ldi,5,Diesel,28.0,Maruti Suzuki Dzire Ldi
+Maruti Suzuki,Dzire,Zxi,5,Petrol,16.3,Maruti Suzuki Dzire Zxi
+Maruti Suzuki,Dzire,Vdi,5,Diesel,28.4,Maruti Suzuki Dzire Vdi
+Maruti Suzuki,Dzire,Vxi Amt,5,Petrol,16.3,Maruti Suzuki Dzire Vxi Amt
+Maruti Suzuki,Dzire,Zdi Amt,5,Diesel,28.4,Maruti Suzuki Dzire Zdi Amt
+Maruti Suzuki,Dzire,Zdi,5,Diesel,28.0,Maruti Suzuki Dzire Zdi
+Maruti Suzuki,Dzire,Zxi Plus,5,Petrol,16.3,Maruti Suzuki Dzire Zxi Plus
+Maruti Suzuki,Dzire,Zxi At,5,Petrol,16.3,Maruti Suzuki Dzire Zxi At
+Maruti Suzuki,Dzire,Zxi Plus Amt,5,Petrol,16.3,Maruti Suzuki Dzire Zxi Plus Amt
+Maruti Suzuki,Dzire,Zdi Plus,5,Diesel,28.0,Maruti Suzuki Dzire Zdi Plus
+Maruti Suzuki,Dzire,Vdi Amt,5,Diesel,28.4,Maruti Suzuki Dzire Vdi Amt
+Maruti Suzuki,Dzire,Zdi Plus Amt,5,Diesel,28.4,Maruti Suzuki Dzire Zdi Plus Amt
+Ford,Freestyle,1.5L Tdci Ambiente,5,Diesel,6.7,Ford Freestyle 1.5L Tdci Ambiente
+Ford,Freestyle,1.5L Tdci Titanium,5,Diesel,6.7,Ford Freestyle 1.5L Tdci Titanium
+Ford,Freestyle,1.5L Tdci Titanium Plus,5,Diesel,6.7,Ford Freestyle 1.5L Tdci Titanium Plus
+Ford,Freestyle,1.2L Ti-Vct Ambiente,5,Petrol,6.7,Ford Freestyle 1.2L Ti-Vct Ambiente
+Ford,Freestyle,1.2L Ti-Vct Titanium,5,Petrol,6.7,Ford Freestyle 1.2L Ti-Vct Titanium
+Ford,Freestyle,1.2L Ti-Vct Titanium Plus,5,Petrol,6.7,Ford Freestyle 1.2L Ti-Vct Titanium Plus
+Ford,Freestyle,1.2L Ti-Vct Trend Plus,5,Petrol,6.7,Ford Freestyle 1.2L Ti-Vct Trend Plus
+Ford,Freestyle,1.5L Tdci Trend Plus,5,Diesel,6.7,Ford Freestyle 1.5L Tdci Trend Plus
+Volkswagen,Ameo,Trendline 1.5L Tdi,5,Diesel,15.3,Volkswagen Ameo Trendline 1.5L Tdi
+Volkswagen,Ameo,Comfortline 1.5L Tdi,5,Diesel,15.3,Volkswagen Ameo Comfortline 1.5L Tdi
+Volkswagen,Ameo,Highline Plus 1.5L Tdi Dsg,5,Diesel,15.3,Volkswagen Ameo Highline Plus 1.5L Tdi Dsg
+Volkswagen,Ameo,Highline Plus 1.5L Tdi,5,Diesel,15.3,Volkswagen Ameo Highline Plus 1.5L Tdi
+Volkswagen,Ameo,Trendline 1.0L,5,Petrol,6.7,Volkswagen Ameo Trendline 1.0L
+Volkswagen,Ameo,Comfortline 1.0L,5,Petrol,6.7,Volkswagen Ameo Comfortline 1.0L
+Volkswagen,Ameo,Highline Plus 1.0L,5,Petrol,6.7,Volkswagen Ameo Highline Plus 1.0L
+Volkswagen,Ameo,Gt Line Tdi Dsg,5,Diesel,15.3,Volkswagen Ameo Gt Line Tdi Dsg
+Ford,Aspire,1.2 Ti-Vct Ambiente,5,Petrol,6.7,Ford Aspire 1.2 Ti-Vct Ambiente
+Ford,Aspire,1.2 Ti-Vct Trend Plus,5,Petrol,6.7,Ford Aspire 1.2 Ti-Vct Trend Plus
+Ford,Aspire,1.2 Ti-Vct Trend,5,Petrol,6.7,Ford Aspire 1.2 Ti-Vct Trend
+Ford,Aspire,1.5 Tdci Ambiente,5,Diesel,6.7,Ford Aspire 1.5 Tdci Ambiente
+Ford,Aspire,1.5 Tdci Trend,5,Diesel,6.7,Ford Aspire 1.5 Tdci Trend
+Ford,Aspire,1.5 Tdci Trend Plus,5,Diesel,6.7,Ford Aspire 1.5 Tdci Trend Plus
+Ford,Aspire,1.5 Tdci Titanium,5,Diesel,6.7,Ford Aspire 1.5 Tdci Titanium
+Ford,Aspire,1.5 Tdci Titanium Plus,5,Diesel,6.7,Ford Aspire 1.5 Tdci Titanium Plus
+Ford,Aspire,1.2 Ti-Vct Titanium Plus,5,Petrol,6.7,Ford Aspire 1.2 Ti-Vct Titanium Plus
+Ford,Aspire,1.2 Ti-Vct Titanium,5,Petrol,6.7,Ford Aspire 1.2 Ti-Vct Titanium
+Ford,Aspire,1.2 Trend Plus Cng,5,CNG,6.7,Ford Aspire 1.2 Trend Plus Cng
+Ford,Aspire,1.2 Ti-Vct Blu,5,Petrol,6.7,Ford Aspire 1.2 Ti-Vct Blu
+Ford,Aspire,1.5 Tdci Blu,5,Diesel,6.7,Ford Aspire 1.5 Tdci Blu
+Toyota,Platinum Etios,G,5,Petrol,13.0,Toyota Platinum Etios G
+Toyota,Platinum Etios,V,5,Petrol,13.0,Toyota Platinum Etios V
+Toyota,Platinum Etios,Gd,5,Diesel,20.32,Toyota Platinum Etios Gd
+Toyota,Platinum Etios,Vd,5,Diesel,20.3,Toyota Platinum Etios Vd
+Toyota,Platinum Etios,Vxd,5,Diesel,20.32,Toyota Platinum Etios Vxd
+Toyota,Platinum Etios,Vx,5,Petrol,13.0,Toyota Platinum Etios Vx
+Toyota,Platinum Etios,Gx,5,Petrol,13.6,Toyota Platinum Etios Gx
+Toyota,Platinum Etios,Gxd,5,Diesel,20.3,Toyota Platinum Etios Gxd
+Toyota,Platinum Etios,Vxd Limited Edition,5,Diesel,20.32,Toyota Platinum Etios Vxd Limited Edition
+Toyota,Platinum Etios,Vx Limited Edition,5,Petrol,13.6,Toyota Platinum Etios Vx Limited Edition
+Toyota,Etios Cross,V,5,Petrol,15.0,Toyota Etios Cross V
+Toyota,Etios Cross,G,5,Petrol,16.0,Toyota Etios Cross G
+Toyota,Etios Cross,Vd,5,Diesel,18.1,Toyota Etios Cross Vd
+Toyota,Etios Cross,Gd,5,Diesel,18.1,Toyota Etios Cross Gd
+Toyota,Etios Cross,1.2 X Edition,5,Petrol,16.78,Toyota Etios Cross 1.2 X Edition
+Toyota,Etios Cross,1.4 X Edition,5,Diesel,18.1,Toyota Etios Cross 1.4 X Edition
+Mahindra,Verito Vibe,D2,5,Diesel,18.0,Mahindra Verito Vibe D2
+Mahindra,Verito Vibe,D4,5,Diesel,18.0,Mahindra Verito Vibe D4
+Mahindra,Verito Vibe,D6,5,Diesel,18.0,Mahindra Verito Vibe D6
+Fiat,Urban Cross,1.3 Multijet Active,5,Diesel,20.0,Fiat Urban Cross 1.3 Multijet Active
+Fiat,Urban Cross,1.3 Multijet Dynamic,5,Diesel,20.0,Fiat Urban Cross 1.3 Multijet Dynamic
+Fiat,Urban Cross,1.4 T-Jet Emotion,5,Petrol,17.0,Fiat Urban Cross 1.4 T-Jet Emotion
+Fiat,Urban Cross,1.3 Multijet Emotion,5,Diesel,20.0,Fiat Urban Cross 1.3 Multijet Emotion
+Toyota,Glanza,G Hybrid,5,Petrol,6.7,Toyota Glanza G Hybrid
+Toyota,Glanza,V,5,Petrol,6.7,Toyota Glanza V
+Toyota,Glanza,G Cvt,5,Petrol,6.7,Toyota Glanza G Cvt
+Toyota,Glanza,V Cvt,5,Petrol,6.7,Toyota Glanza V Cvt
+Toyota,Glanza,G Mt,5,Petrol,6.7,Toyota Glanza G Mt
+Fiat,Avventura,Multijet Dynamic,5,Diesel,11.2,Fiat Avventura Multijet Dynamic
+Fiat,Avventura,Multijet Active,5,Diesel,11.2,Fiat Avventura Multijet Active
+Fiat,Avventura,Multijet Emotion,5,Diesel,11.2,Fiat Avventura Multijet Emotion
+Honda,Jazz,V Petrol,5,Petrol,11.3,Honda Jazz V Petrol
+Honda,Jazz,Vx Cvt,5,Petrol,11.3,Honda Jazz Vx Cvt
+Honda,Jazz,Vx Petrol,5,Petrol,11.3,Honda Jazz Vx Petrol
+Honda,Jazz,V Cvt,5,Petrol,11.3,Honda Jazz V Cvt
+Honda,Jazz,S Diesel,5,Diesel,12.0,Honda Jazz S Diesel
+Honda,Jazz,V Diesel,5,Diesel,12.0,Honda Jazz V Diesel
+Honda,Jazz,Vx Diesel,5,Diesel,12.0,Honda Jazz Vx Diesel
+Honda,Jazz,Exclusive Edition Cvt,5,Petrol,6.7,Honda Jazz Exclusive Edition Cvt
+Jeep,Compass Trailhawk,2.0 Trailhawk 4X4 At,5,Diesel,6.7,Jeep Compass Trailhawk 2.0 Trailhawk 4X4 At
+Jeep,Compass Trailhawk,2.0 Trailhawk (O) 4X4 At,5,Diesel,6.7,Jeep Compass Trailhawk 2.0 Trailhawk (O) 4X4 At
+Isuzu,Mu-X,4X2,7,Diesel,13.8,Isuzu Mu-X 4X2
+Isuzu,Mu-X,4X4,7,Diesel,13.8,Isuzu Mu-X 4X4
+Mahindra,Alturas G4,2Wd At,7,Diesel,6.7,Mahindra Alturas G4 2Wd At
+Mahindra,Alturas G4,4Wd At,7,Diesel,6.7,Mahindra Alturas G4 4Wd At
+Volkswagen,Tiguan,Comfortline 2.0L Tdi Amt,5,Diesel,6.7,Volkswagen Tiguan Comfortline 2.0L Tdi Amt
+Volkswagen,Tiguan,Highline 2.0L Tdi Amt,5,Diesel,6.7,Volkswagen Tiguan Highline 2.0L Tdi Amt
+Honda,Cr-V,2Wd Petrol Cvt,5,Petrol,6.7,Honda Cr-V 2Wd Petrol Cvt
+Honda,Cr-V,2Wd Diesel At,7,Diesel,6.7,Honda Cr-V 2Wd Diesel At
+Honda,Cr-V,Awd Diesel At,7,Diesel,6.7,Honda Cr-V Awd Diesel At
+Skoda,Superb Sportline,Sportline 1.8L Tsi At,5,Petrol,11.3,Skoda Superb Sportline Sportline 1.8L Tsi At
+Skoda,Superb Sportline,Sportline 2.0L Tdi At,5,Diesel,15.1,Skoda Superb Sportline Sportline 2.0L Tdi At
+Audi,A3,35 Tdi Premium Plus,5,Diesel,18.0,Audi A3 35 Tdi Premium Plus
+Audi,A3,35 Tdi Technology,5,Diesel,18.0,Audi A3 35 Tdi Technology
+Audi,A3,35 Tfsi Premium Plus,5,Petrol,12.4,Audi A3 35 Tfsi Premium Plus
+Audi,A3,35 Tfsi Technology,5,Petrol,12.4,Audi A3 35 Tfsi Technology
+,Mercedes-Benz B-Class,B 180 Sport,5,Petrol,9.5,Mercedes-Benz B-Class B 180 Sport
+,Mercedes-Benz B-Class,B 200 Cdi Sport,5,Diesel,11.5,Mercedes-Benz B-Class B 200 Cdi Sport
+,Mercedes-Benz B-Class,B 180 Night Edition,5,Petrol,9.5,Mercedes-Benz B-Class B 180 Night Edition
+,Mercedes-Benz B-Class,B 200 Cdi Night Edition,5,Diesel,11.5,Mercedes-Benz B-Class B 200 Cdi Night Edition
+,Mercedes-Benz Cla-Class,200 Sport,5,Petrol,11.04,Mercedes-Benz Cla-Class 200 Sport
+,Mercedes-Benz Cla-Class,200 Cdi Style,5,Diesel,13.9,Mercedes-Benz Cla-Class 200 Cdi Style
+,Mercedes-Benz Cla-Class,200 D Sport,5,Diesel,13.9,Mercedes-Benz Cla-Class 200 D Sport
+Skoda,Kodiaq,Style 2.0 Tdi 4X4 At,5,Diesel,15.1,Skoda Kodiaq Style 2.0 Tdi 4X4 At
+Skoda,Kodiaq,Laurin And Klement,5,Diesel,15.1,Skoda Kodiaq Laurin And Klement
+Skoda,Kodiaq,Corporate Edition,5,Diesel,15.1,Skoda Kodiaq Corporate Edition
+Dc,Avanti,Standard,2,Petrol,8.0,Dc Avanti Standard
+Audi,Q3,30 Tdi Premium Fwd,5,Diesel,12.0,Audi Q3 30 Tdi Premium Fwd
+Audi,Q3,35 Tdi Quattro Premium Plus,5,Diesel,12.0,Audi Q3 35 Tdi Quattro Premium Plus
+Audi,Q3,35 Tdi Quattro Technology,5,Diesel,12.0,Audi Q3 35 Tdi Quattro Technology
+Audi,Q3,30 Tfsi Premium,5,Petrol,12.0,Audi Q3 30 Tfsi Premium
+Mini,Cooper 5 Door,Cooper D,5,Petrol,10.3,Mini Cooper 5 Door Cooper D
+Mini,Convertible,Cooper S,4,Petrol,6.7,Mini Convertible Cooper S
+Volvo,Xc40,D4 Momentum,5,Diesel,6.7,Volvo Xc40 D4 Momentum
+Volvo,Xc40,D4 Inscription,5,Diesel,6.7,Volvo Xc40 D4 Inscription
+Volvo,Xc40,T4 R-Design,5,Petrol,6.7,Volvo Xc40 T4 R-Design
+Mini,Clubman,Cooper S,5,Petrol,12.3,Mini Clubman Cooper S
+Audi,A4,Premium Plus 35 Tfsi,5,Petrol,6.7,Audi A4 Premium Plus 35 Tfsi
+Audi,A4,Technology 35 Tfsi,5,Petrol,6.7,Audi A4 Technology 35 Tfsi
+Mini,John Cooper Works,Hatch,2,Petrol,6.7,Mini John Cooper Works Hatch
+Jaguar,Xe,S Petrol,5,Petrol,6.7,Jaguar Xe S Petrol
+Jaguar,Xe,S Diesel,4,Diesel,6.7,Jaguar Xe S Diesel
+Jaguar,Xe,Se Diesel,4,Diesel,6.7,Jaguar Xe Se Diesel
+Jaguar,Xe,Se Petrol,5,Petrol,6.7,Jaguar Xe Se Petrol
+Jaguar,Xf,2.0 Prestige,5,Petrol,5.7,Jaguar Xf 2.0 Prestige
+Jaguar,Xf,2.0 Portfolio,5,Petrol,5.7,Jaguar Xf 2.0 Portfolio
+Jaguar,Xf,2.0 Portfolio Diesel,5,Diesel,5.7,Jaguar Xf 2.0 Portfolio Diesel
+Jaguar,Xf,2.0 Prestige Diesel,5,Diesel,5.7,Jaguar Xf 2.0 Prestige Diesel
+Jaguar,Xf,2.0 Pure Diesel,5,Diesel,5.7,Jaguar Xf 2.0 Pure Diesel
+Audi,A3 Cabriolet,40 Tfsi,4,Petrol,19.2,Audi A3 Cabriolet 40 Tfsi
+Audi,A6,Premium Plus 45 Tfsi,5,Petrol,6.7,Audi A6 Premium Plus 45 Tfsi
+Audi,A6,Technology 45 Tfsi,5,Petrol,6.7,Audi A6 Technology 45 Tfsi
+Bmw,X3,Xdrive 20D Luxury Line,5,Diesel,16.0,Bmw X3 Xdrive 20D Luxury Line
+Bmw,X3,Xdrive 30I Luxury Line,5,Petrol,16.0,Bmw X3 Xdrive 30I Luxury Line
+Bmw,X3,Xdrive20D Xline,5,Diesel,16.0,Bmw X3 Xdrive20D Xline
+Land Rover,Discovery Sport,S,7,Diesel,6.7,Land Rover Discovery Sport S
+Land Rover,Discovery Sport,R-Dynamic Se,7,Diesel,6.7,Land Rover Discovery Sport R-Dynamic Se
+Volvo,S90,D4 Inscription,5,Diesel,11.0,Volvo S90 D4 Inscription
+Audi,S5,Sportback,5,Petrol,6.7,Audi S5 Sportback
+Bmw,X5,Xdrive30D Sport,5,Diesel,6.7,Bmw X5 Xdrive30D Sport
+Bmw,X5,Xdrive30D Xline,5,Diesel,6.7,Bmw X5 Xdrive30D Xline
+Bmw,X5,Xdrive40I M Sport,5,Petrol,6.7,Bmw X5 Xdrive40I M Sport
+Ford,Mustang,Fastback V8,4,Petrol,10.0,Ford Mustang Fastback V8
+Jeep,Grand Cherokee,Limited,5,Diesel,12.8,Jeep Grand Cherokee Limited
+Jeep,Grand Cherokee,Summit,5,Diesel,12.8,Jeep Grand Cherokee Summit
+Jeep,Grand Cherokee,Srt,5,Petrol,12.8,Jeep Grand Cherokee Srt
+Jeep,Grand Cherokee,Summit Petrol,5,Petrol,6.7,Jeep Grand Cherokee Summit Petrol
+,Mercedes-Benz E-Class Cabriolet,E400,4,Petrol,4.5,Mercedes-Benz E-Class Cabriolet E400
+Bmw,M2 Competition,Coupe,4,Petrol,12.5,Bmw M2 Competition Coupe
+Porsche,718,Boxster,2,Petrol,9.0,Porsche 718 Boxster
+Porsche,718,Cayman,2,Petrol,9.0,Porsche 718 Cayman
+,Mercedes-Benz Gls,350 Cdi,5,Diesel,6.5,Mercedes-Benz Gls 350 Cdi
+,Mercedes-Benz Gls,63 Amg,7,Petrol,9.0,Mercedes-Benz Gls 63 Amg
+,Mercedes-Benz Gls,400 4Matic,7,Petrol,9.0,Mercedes-Benz Gls 400 4Matic
+,Mercedes-Benz Gls,Grand Edition Petrol,7,Petrol,9.0,Mercedes-Benz Gls Grand Edition Petrol
+,Mercedes-Benz Gls,Grand Edition Diesel,5,Diesel,6.5,Mercedes-Benz Gls Grand Edition Diesel
+Toyota,Land Cruiser Prado,Vx L,7,Diesel,7.0,Toyota Land Cruiser Prado Vx L
+Lexus,Rx 450H,450Hl Luxury,5,Petrol,18.8,Lexus Rx 450H 450Hl Luxury
+Audi,Rs5,Coupe,4,Petrol,6.7,Audi Rs5 Coupe
+Bmw,7-Series,730Ld Design Pure Excellence,4,Diesel,13.5,Bmw 7-Series 730Ld Design Pure Excellence
+Bmw,7-Series,730Ld Design Pure Excellence Signature,4,Diesel,13.5,Bmw 7-Series 730Ld Design Pure Excellence Signature
+Bmw,7-Series,730Ld M Sport,4,Diesel,13.5,Bmw 7-Series 730Ld M Sport
+Bmw,7-Series,740Li Design Pure Excellence Signature,4,Petrol,6.7,Bmw 7-Series 740Li Design Pure Excellence Signature
+Bmw,7-Series,745Le Xdrive,4,Hybrid,6.7,Bmw 7-Series 745Le Xdrive
+Bmw,7-Series,M760Li Xdrive,4,Petrol,6.7,Bmw 7-Series M760Li Xdrive
+Audi,Q8,55 Tfsi Quattro Tiptronic,7,Petrol,6.7,Audi Q8 55 Tfsi Quattro Tiptronic
+,Mercedes-Benz S-Class,S 350 D,5,Diesel,9.0,Mercedes-Benz S-Class S 350 D
+,Mercedes-Benz S-Class,S 450,5,Petrol,5.4,Mercedes-Benz S-Class S 450
+,Mercedes-Benz S-Class,Amg S 63 Coupe,4,Petrol,5.4,Mercedes-Benz S-Class Amg S 63 Coupe
+Maserati,Levante,Diesel,4,Diesel,5.2,Maserati Levante Diesel
+Maserati,Levante,Gransport,4,Diesel,5.2,Maserati Levante Gransport
+Maserati,Levante,Granlusson,4,Diesel,5.2,Maserati Levante Granlusson
+,Mercedes-Benz G-Class,Amg G 63,7,Petrol,6.7,Mercedes-Benz G-Class Amg G 63
+,Mercedes-Benz G-Class,G 350D,7,Diesel,6.7,Mercedes-Benz G-Class G 350D
+Audi,A8 L,55 Tfsi Quattro,4,Petrol,6.7,Audi A8 L 55 Tfsi Quattro
+Maserati,Granturismo,Sport,4,Petrol,4.6,Maserati Granturismo Sport
+Maserati,Quattroporte,Granlusso,4,Diesel,5.2,Maserati Quattroporte Granlusso
+Lexus,Lc 500H,Coupe,4,Hybrid,6.7,Lexus Lc 500H Coupe
+,Mercedes-Benz Maybach,S650,4,Petrol,6.7,Mercedes-Benz Maybach S650
+,Mercedes-Benz Maybach,S560,4,Petrol,7.81,Mercedes-Benz Maybach S560
+Porsche,Panamera,Turbo,4,Petrol,7.1,Porsche Panamera Turbo
+Porsche,Panamera,Turbo Executive,4,Petrol,7.1,Porsche Panamera Turbo Executive
+Porsche,Panamera,Turbo Sport Turismo,4,Petrol,7.1,Porsche Panamera Turbo Sport Turismo
+Lexus,Lx 450D,V8,7,Diesel,18.0,Lexus Lx 450D V8
+,Mercedes-Benz S-Class Cabriolet,S500,4,Petrol,5.4,Mercedes-Benz S-Class Cabriolet S500
+Audi,R8,V10 Plus,2,Petrol,7.8,Audi R8 V10 Plus
+Lamborghini,Urus,V8,5,Petrol,6.7,Lamborghini Urus V8
+Bentley,Continental Gt,Coupe,4,Petrol,5.3,Bentley Continental Gt Coupe
+Ferrari,Portofino,V8 Convertible,2,Petrol,6.0,Ferrari Portofino V8 Convertible
+Bentley,Bentayga,W12,5,Petrol,9.0,Bentley Bentayga W12
+Bentley,Bentayga,V8,5,Petrol,6.7,Bentley Bentayga V8
+Aston Martin,Db 11,V12,2,Petrol,6.0,Aston Martin Db 11 V12
+Ferrari,458 Speciale,Coupe,2,Petrol,6.0,Ferrari 458 Speciale Coupe
+,Rolls-Royce Ghost Series Ii,6.6,5,Petrol,10.5,Rolls-Royce Ghost Series Ii 6.6
+,Rolls-Royce Ghost Series Ii,Ewb,5,Petrol,6.7,Rolls-Royce Ghost Series Ii Ewb
+,Rolls-Royce Wraith,Coupe,4,Petrol,4.7,Rolls-Royce Wraith Coupe
+Bentley,Mulsanne,Sedan,4,Petrol,6.2,Bentley Mulsanne Sedan
+,Rolls-Royce Cullinan,Suv,5,Petrol,6.7,Rolls-Royce Cullinan Suv
+,Rolls-Royce Phantom Coupe,6.8 L,4,Petrol,10.2,Rolls-Royce Phantom Coupe 6.8 L
+Bugatti,Chiron,W16,2,Petrol,6.7,Bugatti Chiron W16
+Bugatti,Chiron,Sport,2,Petrol,6.7,Bugatti Chiron Sport
+Bajaj,Qute (Re60),Qcar,4,Petrol,6.7,Bajaj Qute (Re60) Qcar
+Bajaj,Qute (Re60),Qcar Cng,4,CNG,6.7,Bajaj Qute (Re60) Qcar Cng
+Maruti Suzuki,Alto,Std,5,Petrol,6.7,Maruti Suzuki Alto Std
+Maruti Suzuki,Alto,Std (O),5,Petrol,6.7,Maruti Suzuki Alto Std (O)
+Maruti Suzuki,Alto,Lxi,5,Petrol,6.7,Maruti Suzuki Alto Lxi
+Maruti Suzuki,Alto,Lxi (O),5,Petrol,6.7,Maruti Suzuki Alto Lxi (O)
+Maruti Suzuki,Alto,Vxi,5,Petrol,6.7,Maruti Suzuki Alto Vxi
+Maruti Suzuki,Alto,Lxi Cng (Cng +,5,CNG + Petrol,6.7,Maruti Suzuki Alto Lxi Cng (Cng +
+Maruti Suzuki,Alto,Lxi (O) Cng (Cng +,5,CNG + Petrol,6.7,Maruti Suzuki Alto Lxi (O) Cng (Cng +
+Maruti Suzuki,Alto,Vxi Plus,5,Petrol,6.7,Maruti Suzuki Alto Vxi Plus
+Maruti Suzuki,S-Presso,Std,5,Petrol,6.7,Maruti Suzuki S-Presso Std
+Maruti Suzuki,S-Presso,Std (O),5,Petrol,6.7,Maruti Suzuki S-Presso Std (O)
+Maruti Suzuki,S-Presso,Lxi,5,Petrol,6.7,Maruti Suzuki S-Presso Lxi
+Maruti Suzuki,S-Presso,Lxi (O),5,Petrol,6.7,Maruti Suzuki S-Presso Lxi (O)
+Maruti Suzuki,S-Presso,Vxi,5,Petrol,6.7,Maruti Suzuki S-Presso Vxi
+Maruti Suzuki,S-Presso,Vxi (O),5,Petrol,6.7,Maruti Suzuki S-Presso Vxi (O)
+Maruti Suzuki,S-Presso,Vxi Ags,5,Petrol,6.7,Maruti Suzuki S-Presso Vxi Ags
+Maruti Suzuki,S-Presso,Vxi+,5,Petrol,6.7,Maruti Suzuki S-Presso Vxi+
+Maruti Suzuki,S-Presso,Vxi (O) Ags,5,Petrol,6.7,Maruti Suzuki S-Presso Vxi (O) Ags
+Maruti Suzuki,S-Presso,Vxi+ Ags,5,Petrol,6.7,Maruti Suzuki S-Presso Vxi+ Ags
+Maruti Suzuki,Celerio,Lxi,5,Petrol,23.0,Maruti Suzuki Celerio Lxi
+Maruti Suzuki,Celerio,Vxi,5,Petrol,23.0,Maruti Suzuki Celerio Vxi
+Maruti Suzuki,Celerio,Vxi At,5,Petrol,23.0,Maruti Suzuki Celerio Vxi At
+Maruti Suzuki,Celerio,Zxi,5,Petrol,23.0,Maruti Suzuki Celerio Zxi
+Maruti Suzuki,Celerio,Zxi (Opt),5,Petrol,23.0,Maruti Suzuki Celerio Zxi (Opt)
+Maruti Suzuki,Celerio,Vxi Cng Mt,5,CNG,6.7,Maruti Suzuki Celerio Vxi Cng Mt
+Maruti Suzuki,Celerio,Zxi Ags,5,Petrol,23.0,Maruti Suzuki Celerio Zxi Ags
+Maruti Suzuki,Celerio,Lxi Mt (O),5,Petrol,23.0,Maruti Suzuki Celerio Lxi Mt (O)
+Maruti Suzuki,Celerio,Vxi (O) Mt,5,Petrol,23.0,Maruti Suzuki Celerio Vxi (O) Mt
+Maruti Suzuki,Celerio,Vxi (O) Ags,5,Petrol,23.0,Maruti Suzuki Celerio Vxi (O) Ags
+Maruti Suzuki,Celerio,Zxi (O) Ags,5,Petrol,23.0,Maruti Suzuki Celerio Zxi (O) Ags
+Hyundai,Grand I10 Prime,Era T Crdi,5,Diesel,24.0,Hyundai Grand I10 Prime Era T Crdi
+Hyundai,Grand I10 Prime,Era T+ Crdi,5,Diesel,24.0,Hyundai Grand I10 Prime Era T+ Crdi
+Hyundai,Grand I10 Prime,Era T Vtvt,5,Petrol,18.9,Hyundai Grand I10 Prime Era T Vtvt
+Hyundai,Grand I10 Prime,Era T+ Vtvt,5,Petrol,18.9,Hyundai Grand I10 Prime Era T+ Vtvt
+Hyundai,Grand I10 Prime,Era T+ Cng Vtvt,5,CNG,6.7,Hyundai Grand I10 Prime Era T+ Cng Vtvt
+Hyundai,Grand I10 Prime,Era T Cng Vtvt,5,CNG,6.7,Hyundai Grand I10 Prime Era T Cng Vtvt
+Mahindra,Kuv100 Nxt,K2 6Str,6,Petrol,15.5,Mahindra Kuv100 Nxt K2 6Str
+Mahindra,Kuv100 Nxt,K2+ 6Str,6,Petrol,15.5,Mahindra Kuv100 Nxt K2+ 6Str
+Mahindra,Kuv100 Nxt,K2 D 6Str,6,Diesel,22.25,Mahindra Kuv100 Nxt K2 D 6Str
+Mahindra,Kuv100 Nxt,K2+ D 6Str,6,Diesel,22.25,Mahindra Kuv100 Nxt K2+ D 6Str
+Mahindra,Kuv100 Nxt,K4+ D 6Str,6,Diesel,22.25,Mahindra Kuv100 Nxt K4+ D 6Str
+Mahindra,Kuv100 Nxt,K4+ 6Str,6,Petrol,15.5,Mahindra Kuv100 Nxt K4+ 6Str
+Mahindra,Kuv100 Nxt,K6+ 6Str,6,Petrol,15.5,Mahindra Kuv100 Nxt K6+ 6Str
+Mahindra,Kuv100 Nxt,K6+ D 6Str,6,Diesel,22.25,Mahindra Kuv100 Nxt K6+ D 6Str
+Mahindra,Kuv100 Nxt,K8 6Str,6,Petrol,15.5,Mahindra Kuv100 Nxt K8 6Str
+Mahindra,Kuv100 Nxt,K8 D 6Str,6,Diesel,22.25,Mahindra Kuv100 Nxt K8 D 6Str
+Mahindra,Kuv100 Nxt,K8 6 Str Dual Tone,6,Petrol,15.5,Mahindra Kuv100 Nxt K8 6 Str Dual Tone
+Mahindra,Kuv100 Nxt,K8 D 6 Str Dual Tone,6,Diesel,22.25,Mahindra Kuv100 Nxt K8 D 6 Str Dual Tone
+Mahindra,Kuv100 Nxt,K4+ 5Str,5,Petrol,15.5,Mahindra Kuv100 Nxt K4+ 5Str
+Mahindra,Kuv100 Nxt,K6+ 5Str,5,Petrol,15.5,Mahindra Kuv100 Nxt K6+ 5Str
+Mahindra,Kuv100 Nxt,K8 5Str,5,Petrol,15.5,Mahindra Kuv100 Nxt K8 5Str
+Mahindra,Kuv100 Nxt,K4+ D 5Str,5,Diesel,22.25,Mahindra Kuv100 Nxt K4+ D 5Str
+Mahindra,Kuv100 Nxt,K6+ D 5Str,5,Diesel,22.25,Mahindra Kuv100 Nxt K6+ D 5Str
+Mahindra,Kuv100 Nxt,K8 D 5Str,5,Diesel,22.25,Mahindra Kuv100 Nxt K8 D 5Str
+Mahindra,Kuv100 Nxt,K2 D 5Str Taxi,5,Diesel,22.25,Mahindra Kuv100 Nxt K2 D 5Str Taxi
+Mahindra,Kuv100 Nxt,K2 D 6Str Taxi,6,Diesel,22.25,Mahindra Kuv100 Nxt K2 D 6Str Taxi
+Mahindra,Kuv100 Nxt,K2 5Str Cng Taxi,5,Petrol,15.5,Mahindra Kuv100 Nxt K2 5Str Cng Taxi
+Mahindra,Kuv100 Nxt,K2 6Str Cng Taxi,6,Petrol,15.5,Mahindra Kuv100 Nxt K2 6Str Cng Taxi
+Maruti Suzuki,Swift,Lxi,5,Petrol,12.6,Maruti Suzuki Swift Lxi
+Maruti Suzuki,Swift,Vxi,5,Petrol,6.7,Maruti Suzuki Swift Vxi
+Maruti Suzuki,Swift,Vxi Amt,5,Petrol,6.7,Maruti Suzuki Swift Vxi Amt
+Maruti Suzuki,Swift,Zxi,5,Petrol,6.7,Maruti Suzuki Swift Zxi
+Maruti Suzuki,Swift,Zxi Amt,5,Petrol,6.7,Maruti Suzuki Swift Zxi Amt
+Maruti Suzuki,Swift,Zxi Plus,5,Petrol,6.7,Maruti Suzuki Swift Zxi Plus
+Maruti Suzuki,Swift,Ldi,5,Diesel,6.7,Maruti Suzuki Swift Ldi
+Maruti Suzuki,Swift,Vdi,5,Diesel,6.7,Maruti Suzuki Swift Vdi
+Maruti Suzuki,Swift,Vdi Amt,5,Diesel,6.7,Maruti Suzuki Swift Vdi Amt
+Maruti Suzuki,Swift,Zdi,5,Diesel,6.7,Maruti Suzuki Swift Zdi
+Maruti Suzuki,Swift,Zdi Amt,5,Diesel,6.7,Maruti Suzuki Swift Zdi Amt
+Maruti Suzuki,Swift,Zdi Plus,5,Diesel,6.7,Maruti Suzuki Swift Zdi Plus
+Maruti Suzuki,Swift,Zxi Plus Amt,5,Petrol,6.7,Maruti Suzuki Swift Zxi Plus Amt
+Maruti Suzuki,Swift,Zdi Plus Amt,5,Diesel,6.7,Maruti Suzuki Swift Zdi Plus Amt
+Tata,Altroz,Xe Petrol,5,Petrol,6.7,Tata Altroz Xe Petrol
+Tata,Altroz,Xm Petrol,5,Petrol,6.7,Tata Altroz Xm Petrol
+Tata,Altroz,Xt Petrol,5,Petrol,6.7,Tata Altroz Xt Petrol
+Tata,Altroz,Xz Petrol,5,Petrol,6.7,Tata Altroz Xz Petrol
+Tata,Altroz,Xz (O) Petrol,5,Petrol,6.7,Tata Altroz Xz (O) Petrol
+Tata,Altroz,Xe Diesel,5,Diesel,6.7,Tata Altroz Xe Diesel
+Tata,Altroz,Xm Diesel,5,Diesel,6.7,Tata Altroz Xm Diesel
+Tata,Altroz,Xt Diesel,5,Diesel,6.7,Tata Altroz Xt Diesel
+Tata,Altroz,Xz Diesel,5,Diesel,6.7,Tata Altroz Xz Diesel
+Tata,Altroz,Xz (O) Diesel,5,Diesel,6.7,Tata Altroz Xz (O) Diesel
+Icml,Extreme,Ld Di Non Ac 9 Seater Bsiii,9,Diesel,8.6,Icml Extreme Ld Di Non Ac 9 Seater Bsiii
+Icml,Extreme,Ld Crdfi Non Ac 9 Seater Bsiv,9,Diesel,8.6,Icml Extreme Ld Crdfi Non Ac 9 Seater Bsiv
+Icml,Extreme,Ld Di Ps Ac 9 Seater Bsiii,9,Diesel,8.6,Icml Extreme Ld Di Ps Ac 9 Seater Bsiii
+Icml,Extreme,Ld Crdfi Ps Ac 9 Seater Bsiii,9,Diesel,8.6,Icml Extreme Ld Crdfi Ps Ac 9 Seater Bsiii
+Icml,Extreme,Sd Di 9 Seater Bsiii,9,Diesel,8.6,Icml Extreme Sd Di 9 Seater Bsiii
+Icml,Extreme,Ld Crdfi Ps Ac 9 Seater Bsiv,9,Diesel,8.6,Icml Extreme Ld Crdfi Ps Ac 9 Seater Bsiv
+Icml,Extreme,Vd Crdfi 7 Seater Bsiii,7,Diesel,8.6,Icml Extreme Vd Crdfi 7 Seater Bsiii
+Icml,Extreme,Vd Di 7 Seater Bsiii,7,Diesel,8.6,Icml Extreme Vd Di 7 Seater Bsiii
+Icml,Extreme,Sd Crdfi 9 Seater Bsiv,9,Diesel,8.6,Icml Extreme Sd Crdfi 9 Seater Bsiv
+Icml,Extreme,Vd Crdfi 7 Seater Bsiv,7,Diesel,8.6,Icml Extreme Vd Crdfi 7 Seater Bsiv
+Icml,Extreme,Sd Crdfi 9 Seater Bsiii,9,Diesel,8.6,Icml Extreme Sd Crdfi 9 Seater Bsiii
+Tata,Tigor,Revotron Xe,5,Petrol,24.12,Tata Tigor Revotron Xe
+Tata,Tigor,Revotron Xm,5,Petrol,24.12,Tata Tigor Revotron Xm
+Tata,Tigor,Revotron Xz,5,Petrol,24.12,Tata Tigor Revotron Xz
+Tata,Tigor,Revotron Xz Plus,5,Petrol,24.12,Tata Tigor Revotron Xz Plus
+Tata,Tigor,Revotron Xma,5,Petrol,24.12,Tata Tigor Revotron Xma
+Tata,Tigor,Revotron Xza Plus,5,Petrol,24.12,Tata Tigor Revotron Xza Plus
+Tata,Zest,Xe Petrol,5,Petrol,13.2,Tata Zest Xe Petrol
+Tata,Zest,Xe Diesel,5,Diesel,19.2,Tata Zest Xe Diesel
+Tata,Zest,Xm Petrol,5,Petrol,13.2,Tata Zest Xm Petrol
+Tata,Zest,Xms Petrol,5,Petrol,13.2,Tata Zest Xms Petrol
+Tata,Zest,Xt Petrol,5,Petrol,13.2,Tata Zest Xt Petrol
+Tata,Zest,Xm Diesel,5,Diesel,19.2,Tata Zest Xm Diesel
+Tata,Zest,Xms Diesel,5,Diesel,19.2,Tata Zest Xms Diesel
+Tata,Zest,Xt Diesel,5,Diesel,19.2,Tata Zest Xt Diesel
+Tata,Zest,Xma Diesel,5,Diesel,19.2,Tata Zest Xma Diesel
+Tata,Zest,Xta Diesel,5,Diesel,19.2,Tata Zest Xta Diesel
+Tata,Zest,Zest Premio Edition,5,Diesel,19.2,Tata Zest Zest Premio Edition
+Honda,Amaze,S Cvt Petrol,5,Petrol,6.7,Honda Amaze S Cvt Petrol
+Honda,Amaze,E Mt Diesel,5,Diesel,6.7,Honda Amaze E Mt Diesel
+Honda,Amaze,E Mt Petrol,5,Petrol,6.7,Honda Amaze E Mt Petrol
+Honda,Amaze,S Cvt Diesel,5,Diesel,6.7,Honda Amaze S Cvt Diesel
+Honda,Amaze,V Cvt Petrol,5,Petrol,6.7,Honda Amaze V Cvt Petrol
+Honda,Amaze,V Cvt Diesel,5,Diesel,6.7,Honda Amaze V Cvt Diesel
+Honda,Amaze,S Mt Diesel,5,Diesel,6.7,Honda Amaze S Mt Diesel
+Honda,Amaze,Vx Mt Diesel,5,Diesel,6.7,Honda Amaze Vx Mt Diesel
+Honda,Amaze,V Mt Diesel,5,Diesel,6.7,Honda Amaze V Mt Diesel
+Honda,Amaze,Vx Mt Petrol,5,Petrol,6.7,Honda Amaze Vx Mt Petrol
+Honda,Amaze,V Mt Petrol,5,Petrol,6.7,Honda Amaze V Mt Petrol
+Honda,Amaze,S Mt Petrol,5,Petrol,6.7,Honda Amaze S Mt Petrol
+Honda,Amaze,Exclusive Edition Diesel,5,Diesel,6.7,Honda Amaze Exclusive Edition Diesel
+Honda,Amaze,Exclusive Edition Petrol,5,Petrol,6.7,Honda Amaze Exclusive Edition Petrol
+Honda,Amaze,Vx Cvt Diesel,5,Diesel,6.7,Honda Amaze Vx Cvt Diesel
+Honda,Amaze,Vx Cvt Petrol,5,Petrol,6.7,Honda Amaze Vx Cvt Petrol
+Honda,Amaze,Ace Edition Cvt Diesel,5,Diesel,6.7,Honda Amaze Ace Edition Cvt Diesel
+Honda,Amaze,Ace Edition Cvt Petrol,5,Petrol,6.7,Honda Amaze Ace Edition Cvt Petrol
+Honda,Amaze,Ace Edition Mt Diesel,5,Diesel,6.7,Honda Amaze Ace Edition Mt Diesel
+Honda,Amaze,Ace Edition Mt Petrol,5,Petrol,6.7,Honda Amaze Ace Edition Mt Petrol
+Maruti Suzuki,Gypsy,Hard Top,8,Petrol,10.2,Maruti Suzuki Gypsy Hard Top
+Maruti Suzuki,Gypsy,Soft Top,8,Petrol,10.2,Maruti Suzuki Gypsy Soft Top
+Hyundai,Venue,1.2 Kappa Mt E,5,Petrol,6.7,Hyundai Venue 1.2 Kappa Mt E
+Hyundai,Venue,1.0 Turbo Gdi Mt S,5,Petrol,6.7,Hyundai Venue 1.0 Turbo Gdi Mt S
+Hyundai,Venue,1.4 Crdi Mt E,5,Diesel,6.7,Hyundai Venue 1.4 Crdi Mt E
+Hyundai,Venue,1.0 Turbo Gdi Mt Sx,5,Petrol,6.7,Hyundai Venue 1.0 Turbo Gdi Mt Sx
+Hyundai,Venue,1.0 Turbo Gdi Mt Sx Dual Tone,5,Petrol,6.7,Hyundai Venue 1.0 Turbo Gdi Mt Sx Dual Tone
+Hyundai,Venue,1.0 Turbo Gdi Mt Sx(O),5,Petrol,6.7,Hyundai Venue 1.0 Turbo Gdi Mt Sx(O)
+Hyundai,Venue,1.0 Turbo Gdi Dct S,5,Petrol,6.7,Hyundai Venue 1.0 Turbo Gdi Dct S
+Hyundai,Venue,1.0 Turbo Gdi Dct Sx Plus,5,Petrol,6.7,Hyundai Venue 1.0 Turbo Gdi Dct Sx Plus
+Hyundai,Venue,1.2 Kappa Mt S,5,Petrol,6.7,Hyundai Venue 1.2 Kappa Mt S
+Hyundai,Venue,1.4 Crdi Mt S,5,Diesel,6.7,Hyundai Venue 1.4 Crdi Mt S
+Hyundai,Venue,1.4 Crdi Mt Sx,5,Diesel,6.7,Hyundai Venue 1.4 Crdi Mt Sx
+Hyundai,Venue,1.4 Crdi Mt Sx Dual Tone,5,Diesel,6.7,Hyundai Venue 1.4 Crdi Mt Sx Dual Tone
+Hyundai,Venue,1.4 Crdi Mt Sx(O),5,Diesel,6.7,Hyundai Venue 1.4 Crdi Mt Sx(O)
+Tata,Nexon,Xe,5,Petrol,6.7,Tata Nexon Xe
+Tata,Nexon,Xm,5,Petrol,6.7,Tata Nexon Xm
+Tata,Nexon,Xz,5,Petrol,6.7,Tata Nexon Xz
+Tata,Nexon,Xz Plus,5,Petrol,6.7,Tata Nexon Xz Plus
+Tata,Nexon,Xz Plus Dual Tone,5,Petrol,6.7,Tata Nexon Xz Plus Dual Tone
+Tata,Nexon,Xz Plus (O),5,Petrol,6.7,Tata Nexon Xz Plus (O)
+Tata,Nexon,Xz Plus (O) Dual Tone,5,Petrol,6.7,Tata Nexon Xz Plus (O) Dual Tone
+Tata,Nexon,Xma,5,Petrol,6.7,Tata Nexon Xma
+Tata,Nexon,Xza Plus,5,Petrol,6.7,Tata Nexon Xza Plus
+Tata,Nexon,Xza Plus Dual Tone,5,Petrol,6.7,Tata Nexon Xza Plus Dual Tone
+Tata,Nexon,Xza Plus (O),5,Petrol,6.7,Tata Nexon Xza Plus (O)
+Tata,Nexon,Xza Plus (O) Dual Tone,5,Petrol,6.7,Tata Nexon Xza Plus (O) Dual Tone
+Tata,Nexon,Xe Diesel,5,Diesel,6.7,Tata Nexon Xe Diesel
+Tata,Nexon,Xm Diesel,5,Diesel,6.7,Tata Nexon Xm Diesel
+Tata,Nexon,Xz Diesel,5,Diesel,6.7,Tata Nexon Xz Diesel
+Tata,Nexon,Xz Plus Diesel,5,Diesel,6.7,Tata Nexon Xz Plus Diesel
+Tata,Nexon,Xz Plus Diesel Dual Tone,5,Diesel,6.7,Tata Nexon Xz Plus Diesel Dual Tone
+Tata,Nexon,Xz Plus (O) Diesel,5,Diesel,6.7,Tata Nexon Xz Plus (O) Diesel
+Tata,Nexon,Xz Plus (O) Diesel Dual Tone,5,Diesel,6.7,Tata Nexon Xz Plus (O) Diesel Dual Tone
+Tata,Nexon,Xma Diesel,5,Diesel,6.7,Tata Nexon Xma Diesel
+Tata,Nexon,Xza Plus Diesel,5,Diesel,6.7,Tata Nexon Xza Plus Diesel
+Tata,Nexon,Xza Plus Diesel Dual Tone,5,Diesel,6.7,Tata Nexon Xza Plus Diesel Dual Tone
+Tata,Nexon,Xza Plus (O) Diesel,5,Diesel,6.7,Tata Nexon Xza Plus (O) Diesel
+Tata,Nexon,Xza Plus (O) Diesel Dual Tone,5,Diesel,6.7,Tata Nexon Xza Plus (O) Diesel Dual Tone
+Fiat,Linea,Active Fire,5,Petrol,11.0,Fiat Linea Active Fire
+Fiat,Linea,Active Multijet,5,Diesel,17.2,Fiat Linea Active Multijet
+Fiat,Linea,Dynamic Multijet,5,Diesel,17.2,Fiat Linea Dynamic Multijet
+Fiat,Linea,Emotion Multijet,5,Diesel,17.2,Fiat Linea Emotion Multijet
+Fiat,Linea,T-Jet Emotion,5,Petrol,11.0,Fiat Linea T-Jet Emotion
+Mahindra,Bolero Power Plus,Zlx,7,Diesel,12.4,Mahindra Bolero Power Plus Zlx
+Mahindra,Bolero Power Plus,Slx,7,Diesel,12.4,Mahindra Bolero Power Plus Slx
+Mahindra,Bolero Power Plus,Sle,7,Diesel,12.4,Mahindra Bolero Power Plus Sle
+Mahindra,Bolero Power Plus,Lx,7,Diesel,12.4,Mahindra Bolero Power Plus Lx
+Mahindra,Bolero Power Plus,Plus Ac Bs4 Ps,7,Diesel,9.4,Mahindra Bolero Power Plus Plus Ac Bs4 Ps
+Mahindra,Bolero Power Plus,Plus Non Ac Bs4 Ps,9,Diesel,12.4,Mahindra Bolero Power Plus Plus Non Ac Bs4 Ps
+Maruti Suzuki,Vitara Brezza,Ldi,5,Diesel,20.0,Maruti Suzuki Vitara Brezza Ldi
+Maruti Suzuki,Vitara Brezza,Vdi,5,Diesel,20.0,Maruti Suzuki Vitara Brezza Vdi
+Maruti Suzuki,Vitara Brezza,Zdi,5,Diesel,20.0,Maruti Suzuki Vitara Brezza Zdi
+Maruti Suzuki,Vitara Brezza,Zdi+,5,Diesel,20.0,Maruti Suzuki Vitara Brezza Zdi+
+Maruti Suzuki,Vitara Brezza,Zdi+ Dual Tone,5,Diesel,20.0,Maruti Suzuki Vitara Brezza Zdi+ Dual Tone
+Maruti Suzuki,Vitara Brezza,Zdi+ Ags,5,Diesel,20.0,Maruti Suzuki Vitara Brezza Zdi+ Ags
+Maruti Suzuki,Vitara Brezza,Vdi Ags,5,Diesel,20.0,Maruti Suzuki Vitara Brezza Vdi Ags
+Maruti Suzuki,Vitara Brezza,Zdi Ags,5,Diesel,20.0,Maruti Suzuki Vitara Brezza Zdi Ags
+Maruti Suzuki,Vitara Brezza,Zdi+ Dual Tone Ags,5,Diesel,20.0,Maruti Suzuki Vitara Brezza Zdi+ Dual Tone Ags
+Hyundai,I20 Active,1.2 S,5,Petrol,15.0,Hyundai I20 Active 1.2 S
+Hyundai,I20 Active,1.2 Sx,5,Petrol,15.0,Hyundai I20 Active 1.2 Sx
+Hyundai,I20 Active,1.2 Sx Dual Tone,5,Petrol,15.0,Hyundai I20 Active 1.2 Sx Dual Tone
+Hyundai,I20 Active,1.4 Sx,5,Diesel,21.19,Hyundai I20 Active 1.4 Sx
+Ford,Ecosport,1.5L Ti-Vct Ambiente,5,Petrol,6.7,Ford Ecosport 1.5L Ti-Vct Ambiente
+Ford,Ecosport,1.5L Ti-Vct Trend,5,Petrol,6.7,Ford Ecosport 1.5L Ti-Vct Trend
+Ford,Ecosport,1.5L Ti-Vct Titanium,5,Petrol,6.7,Ford Ecosport 1.5L Ti-Vct Titanium
+Ford,Ecosport,1.5L Ti-Vct Titanium Plus At,5,Petrol,6.7,Ford Ecosport 1.5L Ti-Vct Titanium Plus At
+Ford,Ecosport,1.5L Tdci Ambiente,5,Diesel,6.7,Ford Ecosport 1.5L Tdci Ambiente
+Ford,Ecosport,1.5L Tdci Trend,5,Diesel,6.7,Ford Ecosport 1.5L Tdci Trend
+Ford,Ecosport,1.5L Tdci Titanium,5,Diesel,6.7,Ford Ecosport 1.5L Tdci Titanium
+Ford,Ecosport,1.5L Tdci Titanium Plus,5,Diesel,6.7,Ford Ecosport 1.5L Tdci Titanium Plus
+Ford,Ecosport,1.5L Ti-Vct Titanium Plus,5,Petrol,6.7,Ford Ecosport 1.5L Ti-Vct Titanium Plus
+Ford,Ecosport,1.5L Tdci Titanium S,5,Diesel,6.7,Ford Ecosport 1.5L Tdci Titanium S
+Ford,Ecosport,1.5L Ti-Vct Thunder Edition,5,Petrol,6.7,Ford Ecosport 1.5L Ti-Vct Thunder Edition
+Ford,Ecosport,1.5L Tdci Thunder Edition,5,Diesel,6.7,Ford Ecosport 1.5L Tdci Thunder Edition
+Renault,Duster,Rxe Petrol,5,Petrol,10.2,Renault Duster Rxe Petrol
+Renault,Duster,Rxs Petrol,5,Petrol,10.0,Renault Duster Rxs Petrol
+Renault,Duster,Rxs (Opt) Cvt,5,Petrol,10.0,Renault Duster Rxs (Opt) Cvt
+Renault,Duster,85 Ps Rxe Mt Diesel,5,Diesel,16.0,Renault Duster 85 Ps Rxe Mt Diesel
+Renault,Duster,85 Ps Rxs Mt Diesel,5,Diesel,16.0,Renault Duster 85 Ps Rxs Mt Diesel
+Renault,Duster,110 Ps Rxs Mt Diesel,5,Diesel,16.0,Renault Duster 110 Ps Rxs Mt Diesel
+Renault,Duster,110 Ps Rxz Mt Diesel,5,Diesel,16.0,Renault Duster 110 Ps Rxz Mt Diesel
+Renault,Duster,110 Ps Rxz Amt Diesel,5,Diesel,16.0,Renault Duster 110 Ps Rxz Amt Diesel
+Renault,Duster,110 Ps Rxs Awd (Opt) Diesel,5,Diesel,16.0,Renault Duster 110 Ps Rxs Awd (Opt) Diesel
+Hyundai,Verna,1.6 Vtvt Sx,5,Petrol,6.7,Hyundai Verna 1.6 Vtvt Sx
+Hyundai,Verna,1.6 Crdi Sx,5,Diesel,19.9,Hyundai Verna 1.6 Crdi Sx
+Hyundai,Verna,1.6 Crdi Sx (O),5,Diesel,19.9,Hyundai Verna 1.6 Crdi Sx (O)
+Hyundai,Verna,1.6 Vtvt Sx (O),5,Petrol,6.7,Hyundai Verna 1.6 Vtvt Sx (O)
+Hyundai,Verna,1.6 Crdi Sx Plus At,5,Diesel,14.0,Hyundai Verna 1.6 Crdi Sx Plus At
+Hyundai,Verna,1.6 Vtvt Sx(O) At,5,Petrol,6.7,Hyundai Verna 1.6 Vtvt Sx(O) At
+Hyundai,Verna,1.4 Vtvt Ex,5,Petrol,6.7,Hyundai Verna 1.4 Vtvt Ex
+Hyundai,Verna,1.4 Vtvt E,5,Petrol,6.7,Hyundai Verna 1.4 Vtvt E
+Hyundai,Verna,1.6 Vtvt Sx (O) Anniversary Edition,5,Petrol,6.7,Hyundai Verna 1.6 Vtvt Sx (O) Anniversary Edition
+Hyundai,Verna,1.6 Vtvt Sx Plus At,5,Petrol,6.7,Hyundai Verna 1.6 Vtvt Sx Plus At
+Hyundai,Verna,1.6 Crdi Sx(O) At,5,Diesel,14.0,Hyundai Verna 1.6 Crdi Sx(O) At
+Hyundai,Verna,1.4 Crdi E,5,Diesel,6.7,Hyundai Verna 1.4 Crdi E
+Hyundai,Verna,1.4 Crdi Ex,5,Diesel,6.7,Hyundai Verna 1.4 Crdi Ex
+Mahindra,Xuv300,1.2 W4,5,Petrol,6.7,Mahindra Xuv300 1.2 W4
+Mahindra,Xuv300,1.2 W6,5,Petrol,6.7,Mahindra Xuv300 1.2 W6
+Mahindra,Xuv300,1.2 W8,5,Petrol,6.7,Mahindra Xuv300 1.2 W8
+Mahindra,Xuv300,1.2 W8(O),5,Petrol,6.7,Mahindra Xuv300 1.2 W8(O)
+Mahindra,Xuv300,1.5 W4,5,Diesel,6.7,Mahindra Xuv300 1.5 W4
+Mahindra,Xuv300,1.5 W6,5,Diesel,6.7,Mahindra Xuv300 1.5 W6
+Mahindra,Xuv300,1.5 W8,5,Diesel,6.7,Mahindra Xuv300 1.5 W8
+Mahindra,Xuv300,1.5 W8 (O),5,Diesel,6.7,Mahindra Xuv300 1.5 W8 (O)
+Mahindra,Xuv300,1.5 W8 Amt,5,Diesel,6.7,Mahindra Xuv300 1.5 W8 Amt
+Mahindra,Xuv300,1.5 W8 (O) Amt,5,Diesel,6.7,Mahindra Xuv300 1.5 W8 (O) Amt
+Mahindra,Xuv300,1.5 W6 Amt,5,Diesel,6.7,Mahindra Xuv300 1.5 W6 Amt
+Renault,Lodgy,85 Ps Std,8,Diesel,21.04,Renault Lodgy 85 Ps Std
+Renault,Lodgy,85 Ps Rxe 8 Seater,8,Diesel,21.04,Renault Lodgy 85 Ps Rxe 8 Seater
+Renault,Lodgy,Stepway Rxz 110Ps 8-Seater,8,Diesel,21.04,Renault Lodgy Stepway Rxz 110Ps 8-Seater
+Renault,Lodgy,Stepway Rxz 110Ps 7-Seater,7,Diesel,21.04,Renault Lodgy Stepway Rxz 110Ps 7-Seater
+Renault,Lodgy,Stepway Rxl 85Ps 8-Seater,8,Diesel,21.04,Renault Lodgy Stepway Rxl 85Ps 8-Seater
+Renault,Lodgy,Stepway Rxz 85Ps 8-Seater,8,Diesel,21.04,Renault Lodgy Stepway Rxz 85Ps 8-Seater
+Renault,Lodgy,85 Ps Rxe 7 Seater,7,Diesel,21.04,Renault Lodgy 85 Ps Rxe 7 Seater
+Volkswagen,Vento,Trendline 1.6 (P),5,Petrol,12.1,Volkswagen Vento Trendline 1.6 (P)
+Volkswagen,Vento,Highline 1.6 (P),5,Petrol,6.7,Volkswagen Vento Highline 1.6 (P)
+Volkswagen,Vento,Comfortline 1.6 (P),5,Petrol,6.7,Volkswagen Vento Comfortline 1.6 (P)
+Volkswagen,Vento,Highline 1.2 (P) Dsg,5,Petrol,6.7,Volkswagen Vento Highline 1.2 (P) Dsg
+Volkswagen,Vento,Highline Plus 1.2 (P) Dsg,5,Petrol,6.7,Volkswagen Vento Highline Plus 1.2 (P) Dsg
+Volkswagen,Vento,Trendline 1.5 (D),5,Diesel,6.7,Volkswagen Vento Trendline 1.5 (D)
+Volkswagen,Vento,Comfortline 1.5 (D),5,Diesel,6.7,Volkswagen Vento Comfortline 1.5 (D)
+Volkswagen,Vento,Highline 1.5 (D),5,Diesel,6.7,Volkswagen Vento Highline 1.5 (D)
+Volkswagen,Vento,Highline 1.5 (D) Dsg,5,Diesel,6.7,Volkswagen Vento Highline 1.5 (D) Dsg
+Volkswagen,Vento,Highline Plus 1.5 (D) Dsg,5,Diesel,6.7,Volkswagen Vento Highline Plus 1.5 (D) Dsg
+Volkswagen,Vento,Gt Line (D),5,Diesel,19.0,Volkswagen Vento Gt Line (D)
+Volkswagen,Vento,Gt Line (P) Dsg,5,Petrol,17.0,Volkswagen Vento Gt Line (P) Dsg
+Mahindra,E2O Plus,P4,4,Electric,80.0,Mahindra E2O Plus P4
+Mahindra,E2O Plus,P6,4,Electric,80.0,Mahindra E2O Plus P6
+Tata,Tigor Ev,Xm+,5,Electric,6.7,Tata Tigor Ev Xm+
+Tata,Tigor Ev,Xt+,5,Electric,6.7,Tata Tigor Ev Xt+
+Tata,Tigor Ev,Xe+,5,Electric,6.7,Tata Tigor Ev Xe+
+Honda,Brv,E Petrol,7,Petrol,12.0,Honda Brv E Petrol
+Honda,Brv,S Petrol,7,Petrol,12.0,Honda Brv S Petrol
+Honda,Brv,V Petrol,7,Petrol,12.0,Honda Brv V Petrol
+Honda,Brv,Vx Petrol,7,Petrol,12.0,Honda Brv Vx Petrol
+Honda,Brv,V Cvt Petrol,7,Petrol,12.0,Honda Brv V Cvt Petrol
+Honda,Brv,S Diesel,7,Diesel,16.2,Honda Brv S Diesel
+Honda,Brv,V Diesel,7,Diesel,16.2,Honda Brv V Diesel
+Honda,Brv,Vx Diesel,7,Diesel,16.2,Honda Brv Vx Diesel
+Mahindra,Thar,Crde,6,Diesel,6.7,Mahindra Thar Crde
+Mahindra,Thar,700 Special Edition,6,Diesel,6.7,Mahindra Thar 700 Special Edition
+Mahindra,Thar,Crde Abs,6,Diesel,6.7,Mahindra Thar Crde Abs
+Force,Gurkha,Xpedition 5 Door,7,Diesel,14.0,Force Gurkha Xpedition 5 Door
+Force,Gurkha,Xplorer 3 Door,5,Diesel,14.0,Force Gurkha Xplorer 3 Door
+Force,Gurkha,Xtreme,5,Diesel,6.7,Force Gurkha Xtreme
+Force,Gurkha,Xtreme Abs,5,Diesel,6.7,Force Gurkha Xtreme Abs
+Force,Gurkha,Xpedition 3 Door,7,Diesel,14.0,Force Gurkha Xpedition 3 Door
+Force,Gurkha,Xplorer 5 Door,5,Diesel,14.0,Force Gurkha Xplorer 5 Door
+Maruti Suzuki,Xl6,Zeta Mt,6,Petrol,6.7,Maruti Suzuki Xl6 Zeta Mt
+Maruti Suzuki,Xl6,Alpha Mt,6,Petrol,6.7,Maruti Suzuki Xl6 Alpha Mt
+Maruti Suzuki,Xl6,Zeta At,6,Petrol,6.7,Maruti Suzuki Xl6 Zeta At
+Maruti Suzuki,Xl6,Alpha At,6,Petrol,6.7,Maruti Suzuki Xl6 Alpha At
+Fiat,Abarth Avventura,1.4 T-Jet,5,Petrol,17.0,Fiat Abarth Avventura 1.4 T-Jet
+Mahindra,Tuv300 Plus,P4,9,Diesel,18.49,Mahindra Tuv300 Plus P4
+Mahindra,Tuv300 Plus,P6,9,Diesel,18.49,Mahindra Tuv300 Plus P6
+Mahindra,Tuv300 Plus,P8,9,Diesel,18.49,Mahindra Tuv300 Plus P8
+Mahindra,Marazzo,M2 7 Str,7,Diesel,6.7,Mahindra Marazzo M2 7 Str
+Mahindra,Marazzo,M4 7 Str,7,Diesel,6.7,Mahindra Marazzo M4 7 Str
+Mahindra,Marazzo,M6 7 Str,7,Diesel,6.7,Mahindra Marazzo M6 7 Str
+Mahindra,Marazzo,M8 7 Str,7,Diesel,6.7,Mahindra Marazzo M8 7 Str
+Mahindra,Marazzo,M2 8 Str,8,Diesel,6.7,Mahindra Marazzo M2 8 Str
+Mahindra,Marazzo,M4 8 Str,8,Diesel,6.7,Mahindra Marazzo M4 8 Str
+Mahindra,Marazzo,M6 8 Str,8,Diesel,6.7,Mahindra Marazzo M6 8 Str
+Mahindra,Marazzo,M8 8 Str,8,Diesel,6.7,Mahindra Marazzo M8 8 Str
+Mahindra,Scorpio,S3 2Wd,9,Diesel,11.5,Mahindra Scorpio S3 2Wd
+Mahindra,Scorpio,4Wd Getaway,5,Diesel,8.1,Mahindra Scorpio 4Wd Getaway
+Mahindra,Scorpio,2Wd Getaway,5,Diesel,9.4,Mahindra Scorpio 2Wd Getaway
+Mahindra,Scorpio,S5 2Wd,9,Diesel,11.5,Mahindra Scorpio S5 2Wd
+Mahindra,Scorpio,S7 120 2Wd,9,Diesel,11.5,Mahindra Scorpio S7 120 2Wd
+Mahindra,Scorpio,S7 140 2Wd,9,Diesel,11.5,Mahindra Scorpio S7 140 2Wd
+Mahindra,Scorpio,S11 2Wd,9,Diesel,11.5,Mahindra Scorpio S11 2Wd
+Mahindra,Scorpio,S11 4Wd,9,Diesel,11.5,Mahindra Scorpio S11 4Wd
+Mahindra,Scorpio,S9 2Wd,9,Diesel,11.5,Mahindra Scorpio S9 2Wd
+Skoda,Monte Carlo,Monte Carlo 1.5 Tdi At,5,Diesel,18.0,Skoda Monte Carlo Monte Carlo 1.5 Tdi At
+Skoda,Monte Carlo,Monte Carlo 1.6 Mpi At,5,Petrol,12.0,Skoda Monte Carlo Monte Carlo 1.6 Mpi At
+Skoda,Monte Carlo,Monte Carlo 1.5 Tdi Mt,5,Diesel,18.0,Skoda Monte Carlo Monte Carlo 1.5 Tdi Mt
+Skoda,Monte Carlo,Monte Carlo 1.6 Mpi Mt,5,Petrol,12.0,Skoda Monte Carlo Monte Carlo 1.6 Mpi Mt
+Mahindra,Xuv500,G At,7,Petrol,6.7,Mahindra Xuv500 G At
+Mahindra,Xuv500,W7,7,Diesel,16.0,Mahindra Xuv500 W7
+Mahindra,Xuv500,W7 At,7,Diesel,16.0,Mahindra Xuv500 W7 At
+Mahindra,Xuv500,W9,7,Diesel,16.0,Mahindra Xuv500 W9
+Mahindra,Xuv500,W9 At,7,Diesel,16.0,Mahindra Xuv500 W9 At
+Mahindra,Xuv500,W11,7,Diesel,16.0,Mahindra Xuv500 W11
+Mahindra,Xuv500,W11 At,7,Diesel,16.0,Mahindra Xuv500 W11 At
+Mahindra,Xuv500,W11 (O),7,Diesel,16.0,Mahindra Xuv500 W11 (O)
+Mahindra,Xuv500,W11 (O) At,7,Diesel,16.0,Mahindra Xuv500 W11 (O) At
+Mahindra,Xuv500,W11 (O) Awd,7,Diesel,16.0,Mahindra Xuv500 W11 (O) Awd
+Mahindra,Xuv500,W11 (O) Awd At,7,Diesel,16.0,Mahindra Xuv500 W11 (O) Awd At
+Mahindra,Xuv500,W3,7,Diesel,16.0,Mahindra Xuv500 W3
+Mahindra,E Verito,D4,5,Electric,110.0,Mahindra E Verito D4
+Mahindra,E Verito,D2,5,Electric,110.0,Mahindra E Verito D2
+Mahindra,E Verito,D6,5,Electric,110.0,Mahindra E Verito D6
+Tata,Hexa,Xm Plus 4X2,7,Diesel,14.0,Tata Hexa Xm Plus 4X2
+Tata,Hexa,Xt 4X4,6,Diesel,14.0,Tata Hexa Xt 4X4
+Tata,Hexa,Xta 4X2,6,Diesel,14.0,Tata Hexa Xta 4X2
+Tata,Hexa,Xt 4X2,6,Diesel,14.0,Tata Hexa Xt 4X2
+Tata,Hexa,Xe 4X2,7,Diesel,14.0,Tata Hexa Xe 4X2
+Tata,Hexa,Xm 4X2,7,Diesel,14.0,Tata Hexa Xm 4X2
+Tata,Hexa,Xma 4X2,7,Diesel,14.0,Tata Hexa Xma 4X2
+Toyota,Innova Crysta,2.4 Gx 7 Str,7,Diesel,12.0,Toyota Innova Crysta 2.4 Gx 7 Str
+Toyota,Innova Crysta,2.4 Vx 7 Str,7,Diesel,12.0,Toyota Innova Crysta 2.4 Vx 7 Str
+Toyota,Innova Crysta,2.4 Gx 8 Str,8,Diesel,12.0,Toyota Innova Crysta 2.4 Gx 8 Str
+Toyota,Innova Crysta,2.4 Vx 8 Str,8,Diesel,12.0,Toyota Innova Crysta 2.4 Vx 8 Str
+Toyota,Innova Crysta,2.4 Zx 7 Str,7,Diesel,12.0,Toyota Innova Crysta 2.4 Zx 7 Str
+Toyota,Innova Crysta,2.7 Gx At 8 Str,8,Petrol,11.2,Toyota Innova Crysta 2.7 Gx At 8 Str
+Toyota,Innova Crysta,2.7 Gx At 7 Str,7,Petrol,11.2,Toyota Innova Crysta 2.7 Gx At 7 Str
+Toyota,Innova Crysta,2.7 Zx At 7 Str,7,Petrol,11.2,Toyota Innova Crysta 2.7 Zx At 7 Str
+Toyota,Innova Crysta,2.7 Vx 7 Str,7,Petrol,11.2,Toyota Innova Crysta 2.7 Vx 7 Str
+Toyota,Innova Crysta,2.7 Gx Mt 7 Str,7,Petrol,11.2,Toyota Innova Crysta 2.7 Gx Mt 7 Str
+Toyota,Innova Crysta,2.7 Gx Mt 8 Str,8,Petrol,11.2,Toyota Innova Crysta 2.7 Gx Mt 8 Str
+Toyota,Innova Crysta,Touring Sport 2.4 Vx 7 Str,7,Diesel,12.0,Toyota Innova Crysta Touring Sport 2.4 Vx 7 Str
+Toyota,Innova Crysta,Touring Sport 2.7 Vx 7 Str,7,Petrol,11.2,Toyota Innova Crysta Touring Sport 2.7 Vx 7 Str
+Toyota,Innova Crysta,Touring Sport 2.7 Zx At 7 Str,7,Petrol,11.2,Toyota Innova Crysta Touring Sport 2.7 Zx At 7 Str
+Toyota,Innova Crysta,2.4 G Plus 7 Str,7,Diesel,12.0,Toyota Innova Crysta 2.4 G Plus 7 Str
+Toyota,Innova Crysta,2.4 G Plus 8 Str,8,Diesel,12.0,Toyota Innova Crysta 2.4 G Plus 8 Str
+Jeep,Compass,1.4 Limited At,5,Petrol,6.7,Jeep Compass 1.4 Limited At
+Jeep,Compass,1.4 Sport,5,Petrol,6.7,Jeep Compass 1.4 Sport
+Jeep,Compass,1.4 Limited (O) At,5,Petrol,6.7,Jeep Compass 1.4 Limited (O) At
+Jeep,Compass,2.0 Sport,5,Diesel,6.7,Jeep Compass 2.0 Sport
+Jeep,Compass,2.0 Longitude,5,Diesel,6.7,Jeep Compass 2.0 Longitude
+Jeep,Compass,2.0 Longitude (O),5,Diesel,6.7,Jeep Compass 2.0 Longitude (O)
+Jeep,Compass,2.0 Limited,5,Diesel,6.7,Jeep Compass 2.0 Limited
+Jeep,Compass,2.0 Limited (O),5,Diesel,6.7,Jeep Compass 2.0 Limited (O)
+Jeep,Compass,2.0 Limited 4X4,5,Diesel,6.7,Jeep Compass 2.0 Limited 4X4
+Jeep,Compass,2.0 Limited (O) 4X4,5,Diesel,6.7,Jeep Compass 2.0 Limited (O) 4X4
+Jeep,Compass,1.4 Limited Plus At Petrol,5,Petrol,6.7,Jeep Compass 1.4 Limited Plus At Petrol
+Jeep,Compass,2.0 Limited Plus 4X2 Diesel,5,Diesel,6.7,Jeep Compass 2.0 Limited Plus 4X2 Diesel
+Jeep,Compass,2.0 Limited Plus 4X4 Diesel,5,Diesel,6.7,Jeep Compass 2.0 Limited Plus 4X4 Diesel
+Jeep,Compass,2.0 Sport Plus,5,Diesel,6.7,Jeep Compass 2.0 Sport Plus
+Jeep,Compass,1.4 Sport Plus,5,Petrol,6.7,Jeep Compass 1.4 Sport Plus
+Jeep,Compass,1.4 Longitude (O) At,5,Petrol,6.7,Jeep Compass 1.4 Longitude (O) At
+Jeep,Compass,1.4 Limited (O) At Petrol Black Pack,5,Petrol,6.7,Jeep Compass 1.4 Limited (O) At Petrol Black Pack
+Jeep,Compass,2.0 Limited (O) Black Pack,5,Diesel,6.7,Jeep Compass 2.0 Limited (O) Black Pack
+Jeep,Compass,2.0 Limited (O) 4X4 Black Pack,5,Diesel,6.7,Jeep Compass 2.0 Limited (O) 4X4 Black Pack
+Jeep,Compass,2.0 Limited Plus 4X4 At,5,Diesel,6.7,Jeep Compass 2.0 Limited Plus 4X4 At
+Jeep,Compass,2.0 Longitude 4X4 At,5,Diesel,6.7,Jeep Compass 2.0 Longitude 4X4 At
+Toyota,Corolla Altis,G Petrol,5,Petrol,9.5,Toyota Corolla Altis G Petrol
+Toyota,Corolla Altis,G At Petrol,5,Petrol,9.5,Toyota Corolla Altis G At Petrol
+Toyota,Corolla Altis,Gl Petrol,5,Petrol,9.5,Toyota Corolla Altis Gl Petrol
+Toyota,Corolla Altis,Gl Diesel,5,Diesel,18.2,Toyota Corolla Altis Gl Diesel
+Toyota,Corolla Altis,G Diesel,5,Diesel,18.4,Toyota Corolla Altis G Diesel
+Toyota,Corolla Altis,Vl At Petrol,5,Petrol,9.5,Toyota Corolla Altis Vl At Petrol
+Honda,Civic,1.8 V Cvt,5,Petrol,6.7,Honda Civic 1.8 V Cvt
+Honda,Civic,1.8 Vx Cvt,5,Petrol,6.7,Honda Civic 1.8 Vx Cvt
+Honda,Civic,1.8 Zx Cvt,5,Petrol,6.7,Honda Civic 1.8 Zx Cvt
+Honda,Civic,1.6 Vx Mt,5,Diesel,6.7,Honda Civic 1.6 Vx Mt
+Honda,Civic,1.6 Zx Mt,5,Diesel,6.7,Honda Civic 1.6 Zx Mt
+Mg,Zs Ev,Excite,5,Electric,6.7,Mg Zs Ev Excite
+Mg,Zs Ev,Exclusive,5,Electric,6.7,Mg Zs Ev Exclusive
+Kia,Carnival,Premium 7 Str,7,Diesel,6.7,Kia Carnival Premium 7 Str
+Kia,Carnival,Premium 8 Str,7,Diesel,6.7,Kia Carnival Premium 8 Str
+Kia,Carnival,Prestige 7 Str,7,Diesel,6.7,Kia Carnival Prestige 7 Str
+Kia,Carnival,Prestige 9 (6+3) Str,7,Diesel,6.7,Kia Carnival Prestige 9 (6+3) Str
+Kia,Carnival,Limousine 7 Str,7,Diesel,6.7,Kia Carnival Limousine 7 Str
+Skoda,Superb,Style 1.8 Tsi Mt,5,Petrol,10.6,Skoda Superb Style 1.8 Tsi Mt
+Skoda,Superb,Style 1.8 Tsi At,5,Petrol,10.1,Skoda Superb Style 1.8 Tsi At
+Skoda,Superb,L & K 1.8 Tsi At,5,Petrol,11.0,Skoda Superb L & K 1.8 Tsi At
+Skoda,Superb,L & K 2.0 Tdi At,5,Diesel,15.1,Skoda Superb L & K 2.0 Tdi At
+Skoda,Superb,Style 2.0 Tdi At,5,Diesel,15.1,Skoda Superb Style 2.0 Tdi At
+Skoda,Superb,Corporate Edition 1.8 Tsi At,5,Petrol,10.1,Skoda Superb Corporate Edition 1.8 Tsi At
+Skoda,Superb,Corporate Edition 2.0 Tdi At,5,Diesel,15.1,Skoda Superb Corporate Edition 2.0 Tdi At
+Volvo,V40,Kinetic,5,Diesel,16.0,Volvo V40 Kinetic
+Volvo,V40,R Design,5,Diesel,16.0,Volvo V40 R Design
+Toyota,Fortuner,2.8 4X2 At,7,Diesel,12.55,Toyota Fortuner 2.8 4X2 At
+Toyota,Fortuner,2.8 4X2 Mt,7,Diesel,12.0,Toyota Fortuner 2.8 4X2 Mt
+Toyota,Fortuner,2.8 4X4 Mt,7,Diesel,12.0,Toyota Fortuner 2.8 4X4 Mt
+Toyota,Fortuner,2.8 4X4 At,7,Diesel,12.0,Toyota Fortuner 2.8 4X4 At
+Toyota,Fortuner,2.7 4X2 At,7,Petrol,7.8,Toyota Fortuner 2.7 4X2 At
+Toyota,Fortuner,2.7 4X2 Mt,7,Petrol,7.8,Toyota Fortuner 2.7 4X2 Mt
+Toyota,Fortuner,Trd Celebratory Edition,7,Diesel,12.55,Toyota Fortuner Trd Celebratory Edition
+Ford,Endeavour,3.2L 4X4 At Titanium Plus,7,Diesel,7.7,Ford Endeavour 3.2L 4X4 At Titanium Plus
+Ford,Endeavour,2.2L 4X2 At Titanium Plus,7,Diesel,9.3,Ford Endeavour 2.2L 4X2 At Titanium Plus
+Ford,Endeavour,2.2L 4X2 Mt Titanium,7,Diesel,9.3,Ford Endeavour 2.2L 4X2 Mt Titanium
+Mini,Cooper 3 Door,Cooper D,4,Diesel,6.7,Mini Cooper 3 Door Cooper D
+Mini,Cooper 3 Door,Cooper S,5,Petrol,6.7,Mini Cooper 3 Door Cooper S
+Skoda,Kodiaq Scout,2.0 Tdi At,7,Diesel,6.7,Skoda Kodiaq Scout 2.0 Tdi At
+Bmw,X1,Sdrive20D Expedition,5,Diesel,18.0,Bmw X1 Sdrive20D Expedition
+Bmw,X1,Sdrive20D Xline,5,Diesel,18.0,Bmw X1 Sdrive20D Xline
+Bmw,X1,Xdrive20D M Sport,5,Diesel,18.0,Bmw X1 Xdrive20D M Sport
+Bmw,X1,Sdrive20D M Sport,5,Diesel,6.7,Bmw X1 Sdrive20D M Sport
+Bmw,X1,Sdrive20I Xline,5,Petrol,15.71,Bmw X1 Sdrive20I Xline
+Volvo,S60,Polestar,5,Petrol,13.2,Volvo S60 Polestar
+Volvo,S60,Momentum,5,Diesel,6.7,Volvo S60 Momentum
+Bmw,3-Series,320D Sport,5,Diesel,6.7,Bmw 3-Series 320D Sport
+Bmw,3-Series,320D Luxury Line,5,Diesel,6.7,Bmw 3-Series 320D Luxury Line
+Bmw,3-Series,330I M Sport,5,Petrol,6.7,Bmw 3-Series 330I M Sport
+Volvo,S60 Cross Country,D4,4,Diesel,15.6,Volvo S60 Cross Country D4
+Audi,Q5,35 Tdi Premium Plus,5,Diesel,12.0,Audi Q5 35 Tdi Premium Plus
+Audi,Q5,35 Tdi Technology,5,Diesel,12.0,Audi Q5 35 Tdi Technology
+Audi,Q5,45 Tfsi Premium Plus,5,Petrol,6.7,Audi Q5 45 Tfsi Premium Plus
+Audi,Q5,45 Tfsi Technology,5,Petrol,6.7,Audi Q5 45 Tfsi Technology
+Land Rover Rover,Range Evoque,S,5,Diesel,6.7,Land Rover Rover Range Evoque S
+Land Rover Rover,Range Evoque,Se R-Dynamic,5,Diesel,6.7,Land Rover Rover Range Evoque Se R-Dynamic
+Land Rover Rover,Range Evoque,S Petrol,5,Petrol,6.7,Land Rover Rover Range Evoque S Petrol
+Land Rover Rover,Range Evoque,Se R-Dynamic Petrol,5,Petrol,6.7,Land Rover Rover Range Evoque Se R-Dynamic Petrol
+,Mercedes-Benz E-Class,E200,5,Petrol,8.5,Mercedes-Benz E-Class E200
+,Mercedes-Benz E-Class,E350 D,5,Diesel,7.45,Mercedes-Benz E-Class E350 D
+,Mercedes-Benz E-Class,E220D,5,Diesel,6.7,Mercedes-Benz E-Class E220D
+,Mercedes-Benz E-Class,E 63 S Amg,4,Petrol,4.5,Mercedes-Benz E-Class E 63 S Amg
+,Mercedes-Benz E-Class,E200 Expression,5,Petrol,8.5,Mercedes-Benz E-Class E200 Expression
+,Mercedes-Benz E-Class,E200 Exclusive,5,Petrol,8.5,Mercedes-Benz E-Class E200 Exclusive
+,Mercedes-Benz E-Class,E220D Expression,5,Diesel,6.7,Mercedes-Benz E-Class E220D Expression
+,Mercedes-Benz E-Class,E220D Exclusive,5,Diesel,6.7,Mercedes-Benz E-Class E220D Exclusive
+Volvo,Xc60,Inscription D5,5,Diesel,11.7,Volvo Xc60 Inscription D5
+Bmw,X4,Xdrive20D M Sport X,5,Diesel,6.7,Bmw X4 Xdrive20D M Sport X
+Bmw,X4,Xdrive30D M Sport X,5,Diesel,6.7,Bmw X4 Xdrive30D M Sport X
+Bmw,X4,Xdrive30I M Sport X,5,Petrol,6.7,Bmw X4 Xdrive30I M Sport X
+Jeep,Wrangler,Unlimited,5,Petrol,17.5,Jeep Wrangler Unlimited
+,Mercedes-Benz C-Class Cabriolet,C300,4,Petrol,6.7,Mercedes-Benz C-Class Cabriolet C300
+Bmw,Z4 Roadster,Sdrive 20I,2,Petrol,6.7,Bmw Z4 Roadster Sdrive 20I
+Bmw,Z4 Roadster,M 40I,2,Petrol,6.7,Bmw Z4 Roadster M 40I
+,Mercedes-Benz V-Class,Expression Elwb,7,Diesel,6.7,Mercedes-Benz V-Class Expression Elwb
+,Mercedes-Benz V-Class,Exclusive Lwb,6,Diesel,6.7,Mercedes-Benz V-Class Exclusive Lwb
+,Mercedes-Benz V-Class,Elite,6,Diesel,6.7,Mercedes-Benz V-Class Elite
+Audi,Q7,45 Tdi Premium Plus,7,Diesel,9.3,Audi Q7 45 Tdi Premium Plus
+Audi,Q7,45 Tdi Technology Pack,7,Diesel,9.3,Audi Q7 45 Tdi Technology Pack
+Audi,Q7,40 Tfsi Quattro Premium Plus,7,Petrol,6.7,Audi Q7 40 Tfsi Quattro Premium Plus
+Audi,Q7,40 Tfsi Quattro Technology Pack,7,Petrol,6.7,Audi Q7 40 Tfsi Quattro Technology Pack
+Audi,Q7,45 Tdi Black Styling,7,Diesel,9.3,Audi Q7 45 Tdi Black Styling
+Audi,Q7,40 Tfsi Quattro Black Styling,7,Petrol,6.7,Audi Q7 40 Tfsi Quattro Black Styling
+Land Rover Rover,Range Evoque Convertible,2.0 Hse Dynamic,4,Petrol,15.68,Land Rover Rover Range Evoque Convertible 2.0 Hse Dynamic
+Land Rover Rover,Range Velar,2.0 Diesel R-Dynamic S,5,Diesel,15.68,Land Rover Rover Range Velar 2.0 Diesel R-Dynamic S
+Land Rover Rover,Range Velar,2.0 Petrol R-Dynamic S,5,Petrol,12.63,Land Rover Rover Range Velar 2.0 Petrol R-Dynamic S
+,Mercedes-Benz E-Class All Terrain,E 220D,5,Diesel,6.7,Mercedes-Benz E-Class All Terrain E 220D
+Volvo,Xc90,D5 Inscription,7,Diesel,13.2,Volvo Xc90 D5 Inscription
+Volvo,Xc90,D5 Momentum,7,Diesel,13.2,Volvo Xc90 D5 Momentum
+Volvo,Xc90,T8 Excellence,4,Hybrid,5.0,Volvo Xc90 T8 Excellence
+Volvo,Xc90,T8 Inscription,7,Hybrid,6.7,Volvo Xc90 T8 Inscription
+Volvo,Xc90,D5 R-Design,7,Diesel,13.2,Volvo Xc90 D5 R-Design
+Land Rover Rover,Range Sport,5.0L V8 Svr Petrol,5,Petrol,6.7,Land Rover Rover Range Sport 5.0L V8 Svr Petrol
+Land Rover Rover,Range Sport,2.0L S Petrol,7,Petrol,6.7,Land Rover Rover Range Sport 2.0L S Petrol
+Land Rover Rover,Range Sport,2.0L Se Petrol,7,Petrol,6.7,Land Rover Rover Range Sport 2.0L Se Petrol
+Land Rover Rover,Range Sport,3.0L V6 Se Petrol,7,Petrol,6.7,Land Rover Rover Range Sport 3.0L V6 Se Petrol
+Land Rover Rover,Range Sport,2.0L Hse Petrol,7,Petrol,6.7,Land Rover Rover Range Sport 2.0L Hse Petrol
+Land Rover Rover,Range Sport,3.0L V6 Hse Petrol,7,Petrol,6.7,Land Rover Rover Range Sport 3.0L V6 Hse Petrol
+Land Rover Rover,Range Sport,5.0L V8 Autobiography Dynamic Petrol,5,Petrol,6.7,Land Rover Rover Range Sport 5.0L V8 Autobiography Dynamic Petrol
+Land Rover Rover,Range Sport,3.0L Tdv6 S Diesel,5,Diesel,6.7,Land Rover Rover Range Sport 3.0L Tdv6 S Diesel
+Land Rover Rover,Range Sport,3.0L Tdv6 Se Diesel,5,Diesel,6.7,Land Rover Rover Range Sport 3.0L Tdv6 Se Diesel
+Land Rover Rover,Range Sport,4.4L Sdv8 Hse Diesel,7,Diesel,5.9,Land Rover Rover Range Sport 4.4L Sdv8 Hse Diesel
+Jaguar,Xj,3.0L,5,Diesel,9.5,Jaguar Xj 3.0L
+Jaguar,Xj,3.0L Portfolio,5,Diesel,9.5,Jaguar Xj 3.0L Portfolio
+Jaguar,Xj,50,5,Diesel,9.5,Jaguar Xj 50
+Porsche,Cayenne,E-Hybrid,5,Hybrid,6.7,Porsche Cayenne E-Hybrid
+Porsche,Cayenne,Turbo,5,Petrol,6.7,Porsche Cayenne Turbo
+Porsche,Cayenne,Base,5,Petrol,6.7,Porsche Cayenne Base
+Maserati,Ghibli,Diesel,5,Diesel,6.7,Maserati Ghibli Diesel
+Maserati,Ghibli,Gransport,5,Diesel,6.7,Maserati Ghibli Gransport
+Maserati,Ghibli,Granlusso,5,Diesel,6.7,Maserati Ghibli Granlusso
+Toyota,Land Cruiser,Vx,7,Diesel,5.3,Toyota Land Cruiser Vx
+Audi,Rs7,Sportback,4,Petrol,5.6,Audi Rs7 Sportback
+Land Rover Rover,Range,5.0L V8 Autobiography Petrol,7,Petrol,4.4,Land Rover Rover Range 5.0L V8 Autobiography Petrol
+Land Rover Rover,Range,5.0L V8 Svautobiography Dynamic Petrol,5,Petrol,4.4,Land Rover Rover Range 5.0L V8 Svautobiography Dynamic Petrol
+Land Rover Rover,Range,3.0L V6 Vogue Lwb Petrol,7,Petrol,8.1,Land Rover Rover Range 3.0L V6 Vogue Lwb Petrol
+Land Rover Rover,Range,5.0L V8 Svautobiography Lwb Petrol,5,Petrol,8.0,Land Rover Rover Range 5.0L V8 Svautobiography Lwb Petrol
+Land Rover Rover,Range,3.0L Tdv6 Vogue Diesel,5,Diesel,6.7,Land Rover Rover Range 3.0L Tdv6 Vogue Diesel
+Land Rover Rover,Range,3.0L Tdv6 Vogue Lwb Diesel,7,Diesel,6.7,Land Rover Rover Range 3.0L Tdv6 Vogue Lwb Diesel
+Land Rover Rover,Range,4.4L Sdv8 Autobiography Lwb Diesel,7,Diesel,6.7,Land Rover Rover Range 4.4L Sdv8 Autobiography Lwb Diesel
+Land Rover Rover,Range,4.4L Sdv8 Svautobiography Lwb Diesel,4,Diesel,8.69,Land Rover Rover Range 4.4L Sdv8 Svautobiography Lwb Diesel
+Land Rover Rover,Range,4.4L Sdv8 Vogue Se Lwb Diesel,7,Diesel,6.7,Land Rover Rover Range 4.4L Sdv8 Vogue Se Lwb Diesel
+Land Rover Rover,Range,3.0L V6 Vogue Se Lwb Petrol,7,Petrol,8.1,Land Rover Rover Range 3.0L V6 Vogue Se Lwb Petrol
+Maserati,Grancabrio,Standard,4,Petrol,4.0,Maserati Grancabrio Standard
+,Mercedes-Benz Amg-Gt,S,2,Petrol,5.0,Mercedes-Benz Amg-Gt S
+,Mercedes-Benz Amg-Gt,R,2,Petrol,5.0,Mercedes-Benz Amg-Gt R
+,Mercedes-Benz Amg-Gt,Roadster,2,Petrol,5.0,Mercedes-Benz Amg-Gt Roadster
+,Mercedes-Benz Amg Gt 4-Door Coupe,63 S 4Matic+,4,Petrol,6.7,Mercedes-Benz Amg Gt 4-Door Coupe 63 S 4Matic+
+Lamborghini,Huracan,Lp 610-4,2,Petrol,5.6,Lamborghini Huracan Lp 610-4
+Lamborghini,Huracan,Lp 580-2,2,Petrol,5.8,Lamborghini Huracan Lp 580-2
+Lamborghini,Huracan,Avio,2,Petrol,10.6,Lamborghini Huracan Avio
+Lamborghini,Huracan,Performante,2,Petrol,5.6,Lamborghini Huracan Performante
+Lamborghini,Huracan,Lp 580-2 Spyder,2,Petrol,5.8,Lamborghini Huracan Lp 580-2 Spyder
+Lamborghini,Huracan,Lp 610-4 Spyder,2,Petrol,5.6,Lamborghini Huracan Lp 610-4 Spyder
+Lamborghini,Huracan,Evo,2,Petrol,5.6,Lamborghini Huracan Evo
+Lamborghini,Huracan,Evo Spyder,2,Petrol,5.6,Lamborghini Huracan Evo Spyder
+Lamborghini,Huracan,Evo Rwd,2,Petrol,5.6,Lamborghini Huracan Evo Rwd
+Ferrari,488 Gtb,Std,2,Petrol,3.2,Ferrari 488 Gtb Std
+Ferrari,488 Gtb,Spider,2,Petrol,3.2,Ferrari 488 Gtb Spider
+Ferrari,Gtc4 Lusso,V8 T,4,Petrol,6.7,Ferrari Gtc4 Lusso V8 T
+Ferrari,Gtc4 Lusso,V12,4,Petrol,6.7,Ferrari Gtc4 Lusso V12
+Lamborghini,Aventador,Lp 700-4,2,Petrol,3.0,Lamborghini Aventador Lp 700-4
+Lamborghini,Aventador,Lp700-4 Roadster,2,Petrol,3.6,Lamborghini Aventador Lp700-4 Roadster
+Lamborghini,Aventador,S,2,Petrol,3.6,Lamborghini Aventador S
+,Rolls-Royce Dawn,Convertible,4,Petrol,7.9,Rolls-Royce Dawn Convertible
+,Rolls-Royce Drophead Coupe,Phantom,4,Petrol,4.38,Rolls-Royce Drophead Coupe Phantom
+Maruti Suzuki,Omni,5 Str Bs-Iv,5,Petrol,13.0,Maruti Suzuki Omni 5 Str Bs-Iv
+Maruti Suzuki,Omni,E 8 Str Bs-Iv,8,Petrol,13.0,Maruti Suzuki Omni E 8 Str Bs-Iv
+,Go+,Datsun D,7,Petrol,12.8,Go+ Datsun D
+,Go+,Datsun T,7,Petrol,12.8,Go+ Datsun T
+,Go+,Datsun T (O),7,Petrol,16.3,Go+ Datsun T (O)
+,Go+,Datsun A (O),7,Petrol,20.62,Go+ Datsun A (O)
+,Go+,Datsun A,7,Petrol,20.62,Go+ Datsun A
+,Go+,Datsun T Vdc,7,Petrol,12.8,Go+ Datsun T Vdc
+,Go+,Datsun T (O) Vdc,7,Petrol,16.3,Go+ Datsun T (O) Vdc
+,Go+,Datsun T Cvt,7,Petrol,12.8,Go+ Datsun T Cvt
+,Go+,Datsun T (O) Cvt,7,Petrol,16.3,Go+ Datsun T (O) Cvt
+Fiat,Punto Evo Pure,1.2L Fire Dynamic,5,Petrol,12.0,Fiat Punto Evo Pure 1.2L Fire Dynamic
+Fiat,Punto Evo Pure,1.3,5,Diesel,6.7,Fiat Punto Evo Pure 1.3
+Ford,Figo,Ambiente 1.2 Ti-Vct,5,Petrol,6.7,Ford Figo Ambiente 1.2 Ti-Vct
+Ford,Figo,Ambiente 1.5 Tdci,5,Diesel,17.0,Ford Figo Ambiente 1.5 Tdci
+Ford,Figo,Titanium 1.2 Ti-Vct,5,Petrol,6.7,Ford Figo Titanium 1.2 Ti-Vct
+Ford,Figo,Titanium1.5 Tdci,5,Diesel,6.7,Ford Figo Titanium1.5 Tdci
+Ford,Figo,Titanium Blu 1.2 Ti-Vct,5,Petrol,6.7,Ford Figo Titanium Blu 1.2 Ti-Vct
+Ford,Figo,Titanium Blu 1.5 Tdci,5,Diesel,6.7,Ford Figo Titanium Blu 1.5 Tdci
+Maruti Suzuki,Baleno,1.3 Delta,5,Diesel,27.39,Maruti Suzuki Baleno 1.3 Delta
+Maruti Suzuki,Baleno,1.3 Alpha,5,Diesel,27.39,Maruti Suzuki Baleno 1.3 Alpha
+Maruti Suzuki,Baleno,1.3 Sigma,5,Diesel,27.39,Maruti Suzuki Baleno 1.3 Sigma
+Maruti Suzuki,Baleno,1.3 Zeta,5,Diesel,27.39,Maruti Suzuki Baleno 1.3 Zeta
+Maruti Suzuki,Baleno,1.2 Alpha,5,Petrol,21.4,Maruti Suzuki Baleno 1.2 Alpha
+Maruti Suzuki,Baleno,1.2 Alpha Cvt,5,Petrol,21.4,Maruti Suzuki Baleno 1.2 Alpha Cvt
+Maruti Suzuki,Baleno,1.2 Delta,5,Petrol,21.4,Maruti Suzuki Baleno 1.2 Delta
+Maruti Suzuki,Baleno,1.2 Delta Cvt,5,Petrol,21.4,Maruti Suzuki Baleno 1.2 Delta Cvt
+Maruti Suzuki,Baleno,1.2 Sigma,5,Petrol,21.4,Maruti Suzuki Baleno 1.2 Sigma
+Maruti Suzuki,Baleno,1.2 Zeta,5,Petrol,21.4,Maruti Suzuki Baleno 1.2 Zeta
+Maruti Suzuki,Baleno,1.2 Delta Dualjet,5,Petrol,21.4,Maruti Suzuki Baleno 1.2 Delta Dualjet
+Maruti Suzuki,Baleno,1.2 Zeta Dualjet,5,Petrol,21.4,Maruti Suzuki Baleno 1.2 Zeta Dualjet
+Maruti Suzuki,Baleno,1.2 Zeta Cvt,5,Petrol,21.4,Maruti Suzuki Baleno 1.2 Zeta Cvt
+Hyundai,Grand I10,1.2 Kappa Vtvt Magna,5,Petrol,18.9,Hyundai Grand I10 1.2 Kappa Vtvt Magna
+Hyundai,Grand I10,1.2 Kappa Vtvt Sportz,5,Petrol,18.9,Hyundai Grand I10 1.2 Kappa Vtvt Sportz
+Hyundai,Grand I10,1.2 Kappa Vtvt Magna At,5,Petrol,18.9,Hyundai Grand I10 1.2 Kappa Vtvt Magna At
+Hyundai,Grand I10,1.2 Kappa Vtvt Sportz At,5,Petrol,18.9,Hyundai Grand I10 1.2 Kappa Vtvt Sportz At
+Hyundai,Grand I10,1.2 Kappa Vtvt Sportz Dual Tone,5,Petrol,18.9,Hyundai Grand I10 1.2 Kappa Vtvt Sportz Dual Tone
+Hyundai,Grand I10,1.2 Kappa Vtvt Magna Cng,5,CNG,6.7,Hyundai Grand I10 1.2 Kappa Vtvt Magna Cng
+Fiat,Linea Classic,1.3 Multijet,5,Diesel,16.2,Fiat Linea Classic 1.3 Multijet
+Fiat,Linea Classic,1.4,5,Petrol,11.4,Fiat Linea Classic 1.4
+Fiat,Linea Classic,Plus 1.3 Multijet,5,Diesel,16.2,Fiat Linea Classic Plus 1.3 Multijet
+Nissan,Sunny,Xe Petrol,5,Petrol,10.6,Nissan Sunny Xe Petrol
+Nissan,Sunny,Xl Petrol,5,Petrol,10.6,Nissan Sunny Xl Petrol
+Nissan,Sunny,Xl Diesel,5,Diesel,18.0,Nissan Sunny Xl Diesel
+Nissan,Sunny,Xv Diesel,5,Diesel,18.0,Nissan Sunny Xv Diesel
+Nissan,Sunny,Xe Diesel,5,Diesel,18.0,Nissan Sunny Xe Diesel
+Nissan,Sunny,Xv Cvt,5,Petrol,10.6,Nissan Sunny Xv Cvt
+Nissan,Sunny,Special Edition Diesel,5,Diesel,18.0,Nissan Sunny Special Edition Diesel
+Maruti Suzuki,Ertiga,Lxi,7,Petrol,6.7,Maruti Suzuki Ertiga Lxi
+Maruti Suzuki,Ertiga,Zxi,7,Petrol,6.7,Maruti Suzuki Ertiga Zxi
+Maruti Suzuki,Ertiga,Vxi At,7,Petrol,6.7,Maruti Suzuki Ertiga Vxi At
+Maruti Suzuki,Ertiga,Zxi Plus,7,Petrol,6.7,Maruti Suzuki Ertiga Zxi Plus
+Maruti Suzuki,Ertiga,Vxi,7,Petrol,6.7,Maruti Suzuki Ertiga Vxi
+Maruti Suzuki,Ertiga,Zxi At,7,Petrol,6.7,Maruti Suzuki Ertiga Zxi At
+Maruti Suzuki,Ertiga,1.5L Vdi,7,Diesel,6.7,Maruti Suzuki Ertiga 1.5L Vdi
+Maruti Suzuki,Ertiga,1.5L Zdi,7,Diesel,6.7,Maruti Suzuki Ertiga 1.5L Zdi
+Maruti Suzuki,Ertiga,1.5L Zdi Plus,7,Diesel,6.7,Maruti Suzuki Ertiga 1.5L Zdi Plus
+Maruti Suzuki,Ertiga,Vxi Cng (Cng +,7,CNG + Petrol,6.7,Maruti Suzuki Ertiga Vxi Cng (Cng +
+Maruti Suzuki,Baleno Rs,Rs 1.0,5,Petrol,21.4,Maruti Suzuki Baleno Rs Rs 1.0
+Honda,Wr-V,Vx Diesel,5,Diesel,25.5,Honda Wr-V Vx Diesel
+Honda,Wr-V,Vx Petrol,5,Petrol,17.5,Honda Wr-V Vx Petrol
+Honda,Wr-V,S Diesel,5,Diesel,25.5,Honda Wr-V S Diesel
+Honda,Wr-V,S Petrol,5,Petrol,17.5,Honda Wr-V S Petrol
+Honda,Wr-V,Edge Plus Edition Diesel,5,Diesel,25.5,Honda Wr-V Edge Plus Edition Diesel
+Honda,Wr-V,Edge Plus Edition Petrol,5,Petrol,17.5,Honda Wr-V Edge Plus Edition Petrol
+Honda,Wr-V,Exclusive Edition Diesel,5,Diesel,25.5,Honda Wr-V Exclusive Edition Diesel
+Honda,Wr-V,Exclusive Edition Petrol,5,Petrol,17.5,Honda Wr-V Exclusive Edition Petrol
+Honda,Wr-V,V Diesel,5,Diesel,25.5,Honda Wr-V V Diesel
+Mahindra,Tuv300,T4 Plus,7,Diesel,18.49,Mahindra Tuv300 T4 Plus
+Mahindra,Tuv300,T6 Plus,7,Diesel,18.49,Mahindra Tuv300 T6 Plus
+Mahindra,Tuv300,T8,7,Diesel,18.49,Mahindra Tuv300 T8
+Mahindra,Tuv300,T10,7,Diesel,18.49,Mahindra Tuv300 T10
+Mahindra,Tuv300,T10 (O),7,Diesel,18.49,Mahindra Tuv300 T10 (O)
+Mahindra,Tuv300,T10 Dual Tone,7,Diesel,18.49,Mahindra Tuv300 T10 Dual Tone
+Mahindra,Tuv300,T10 (O) Dual Tone,7,Diesel,18.49,Mahindra Tuv300 T10 (O) Dual Tone
+Maruti Suzuki,S-Cross,1.3L Sigma,5,Diesel,23.65,Maruti Suzuki S-Cross 1.3L Sigma
+Maruti Suzuki,S-Cross,1.3L Delta,5,Diesel,23.65,Maruti Suzuki S-Cross 1.3L Delta
+Maruti Suzuki,S-Cross,1.3L Zeta,5,Diesel,23.65,Maruti Suzuki S-Cross 1.3L Zeta
+Maruti Suzuki,S-Cross,1.3L Alpha,5,Diesel,23.65,Maruti Suzuki S-Cross 1.3L Alpha
+Renault,Captur,Rxe Petrol,5,Petrol,6.7,Renault Captur Rxe Petrol
+Renault,Captur,Rxe Diesel,5,Diesel,6.7,Renault Captur Rxe Diesel
+Renault,Captur,Platine Diesel Dual Tone,5,Diesel,6.7,Renault Captur Platine Diesel Dual Tone
+Renault,Captur,Platine Petrol Dual Tone,5,Petrol,6.7,Renault Captur Platine Petrol Dual Tone
+Mahindra,Xylo,D2 Bs-Iv,7,Diesel,10.7,Mahindra Xylo D2 Bs-Iv
+Mahindra,Xylo,D4 Bs-Iv,7,Diesel,10.3,Mahindra Xylo D4 Bs-Iv
+Mahindra,Xylo,H4 Bs-Iv,7,Diesel,11.4,Mahindra Xylo H4 Bs-Iv
+Mahindra,Xylo,H4 Abs Bs-Iv,7,Diesel,11.4,Mahindra Xylo H4 Abs Bs-Iv
+Mahindra,Xylo,H8 Abs Airbags Bs-Iv,8,Diesel,11.4,Mahindra Xylo H8 Abs Airbags Bs-Iv
+Kia,Seltos,Hte 1.5,5,Petrol,6.7,Kia Seltos Hte 1.5
+Kia,Seltos,Htk 1.5,5,Petrol,6.7,Kia Seltos Htk 1.5
+Kia,Seltos,Htk Plus 1.5,5,Petrol,6.7,Kia Seltos Htk Plus 1.5
+Kia,Seltos,Htx 1.5,5,Petrol,6.7,Kia Seltos Htx 1.5
+Kia,Seltos,Htx Cvt 1.5,5,Petrol,6.7,Kia Seltos Htx Cvt 1.5
+Kia,Seltos,Hte 1.5 Diesel,5,Diesel,6.7,Kia Seltos Hte 1.5 Diesel
+Kia,Seltos,Htk 1.5 Diesel,5,Diesel,6.7,Kia Seltos Htk 1.5 Diesel
+Kia,Seltos,Htk Plus 1.5 Diesel,5,Diesel,6.7,Kia Seltos Htk Plus 1.5 Diesel
+Kia,Seltos,Htk Plus At 1.5 Diesel,5,Diesel,6.7,Kia Seltos Htk Plus At 1.5 Diesel
+Kia,Seltos,Htx Plus 1.5 Diesel,5,Diesel,6.7,Kia Seltos Htx Plus 1.5 Diesel
+Kia,Seltos,Htx Plus At 1.5 Diesel,5,Diesel,6.7,Kia Seltos Htx Plus At 1.5 Diesel
+Kia,Seltos,Gtk 1.4,5,Petrol,6.7,Kia Seltos Gtk 1.4
+Kia,Seltos,Gtx 1.4,5,Petrol,6.7,Kia Seltos Gtx 1.4
+Kia,Seltos,Gtx At 1.4,5,Petrol,6.7,Kia Seltos Gtx At 1.4
+Kia,Seltos,Gtx Plus 1.4,5,Petrol,6.7,Kia Seltos Gtx Plus 1.4
+Kia,Seltos,Htx 1.5 Diesel,5,Diesel,6.7,Kia Seltos Htx 1.5 Diesel
+Nissan,Terrano,Xe D 85Ps,5,Diesel,17.1,Nissan Terrano Xe D 85Ps
+Nissan,Terrano,Xv D Premium 110 Ps Amt,5,Diesel,16.0,Nissan Terrano Xv D Premium 110 Ps Amt
+Nissan,Terrano,Xl (P),5,Petrol,10.1,Nissan Terrano Xl (P)
+Nissan,Terrano,Xl D(O),5,Diesel,17.1,Nissan Terrano Xl D(O)
+Nissan,Terrano,Xv D Premium 110 Ps,5,Diesel,16.0,Nissan Terrano Xv D Premium 110 Ps
+Nissan,Terrano,Sport Edition,5,Diesel,17.1,Nissan Terrano Sport Edition
+Tata,Safari Storme,2.2 Lx 4X2,7,Diesel,10.8,Tata Safari Storme 2.2 Lx 4X2
+Tata,Safari Storme,2.2 Ex 4X2,7,Diesel,10.8,Tata Safari Storme 2.2 Ex 4X2
+Tata,Safari Storme,2.2 Vx 4X2 Varicor 400,7,Diesel,10.8,Tata Safari Storme 2.2 Vx 4X2 Varicor 400
+Tata,Safari Storme,2.2 Vx 4X4 Varicor 400,7,Diesel,13.0,Tata Safari Storme 2.2 Vx 4X4 Varicor 400
+Mg,Hector,1.5L Style,5,Petrol,6.7,Mg Hector 1.5L Style
+Mg,Hector,2.0L Style,5,Diesel,6.7,Mg Hector 2.0L Style
+Mg,Hector,2.0L Super,5,Diesel,6.7,Mg Hector 2.0L Super
+Mg,Hector,2.0L Smart,5,Diesel,6.7,Mg Hector 2.0L Smart
+Mg,Hector,2.0L Sharp,5,Diesel,6.7,Mg Hector 2.0L Sharp
+Mg,Hector,1.5L Super,5,Petrol,6.7,Mg Hector 1.5L Super
+Mg,Hector,1.5L Super Hybrid,5,Hybrid,6.7,Mg Hector 1.5L Super Hybrid
+Mg,Hector,1.5L Sharp Hybrid,5,Hybrid,6.7,Mg Hector 1.5L Sharp Hybrid
+Mg,Hector,1.5L Smart Hybrid,5,Hybrid,6.7,Mg Hector 1.5L Smart Hybrid
+Mg,Hector,1.5L Smart Dct,5,Petrol,6.7,Mg Hector 1.5L Smart Dct
+Mg,Hector,1.5L Sharp Dct,5,Petrol,6.7,Mg Hector 1.5L Sharp Dct
+Tata,Nexon Ev,Xm,5,Electric,6.7,Tata Nexon Ev Xm
+Tata,Nexon Ev,Xz Plus,5,Electric,6.7,Tata Nexon Ev Xz Plus
+Tata,Nexon Ev,Xz Plus Lux,5,Electric,6.7,Tata Nexon Ev Xz Plus Lux
+Hyundai,Elantra,S,5,Petrol,13.1,Hyundai Elantra S
+Hyundai,Elantra,Sx,5,Petrol,13.1,Hyundai Elantra Sx
+Hyundai,Elantra,Sx At,5,Petrol,13.1,Hyundai Elantra Sx At
+Hyundai,Elantra,Sx(O) At,5,Petrol,13.1,Hyundai Elantra Sx(O) At
+Hyundai,Tucson,2Wd Mt Diesel,5,Diesel,16.0,Hyundai Tucson 2Wd Mt Diesel
+Hyundai,Tucson,2Wd Mt Petrol,5,Petrol,13.0,Hyundai Tucson 2Wd Mt Petrol
+Hyundai,Tucson,2Wd At Gl Diesel,5,Diesel,16.0,Hyundai Tucson 2Wd At Gl Diesel
+Hyundai,Tucson,2Wd At Gl Petrol,5,Petrol,13.0,Hyundai Tucson 2Wd At Gl Petrol
+Hyundai,Tucson,4Wd At Gls Diesel,5,Diesel,16.38,Hyundai Tucson 4Wd At Gls Diesel
+Hyundai,Tucson,2Wd At Gls Petrol,5,Petrol,13.3,Hyundai Tucson 2Wd At Gls Petrol
+Hyundai,Tucson,2Wd At Gl(O) Petrol,5,Petrol,13.3,Hyundai Tucson 2Wd At Gl(O) Petrol
+Hyundai,Tucson,2Wd At Gl(O) Diesel,5,Diesel,16.38,Hyundai Tucson 2Wd At Gl(O) Diesel
+Volkswagen,Passat,2.0 Tdi Comfortline,5,Diesel,6.7,Volkswagen Passat 2.0 Tdi Comfortline
+Volkswagen,Passat,2.0 Tdi Highline,5,Diesel,6.7,Volkswagen Passat 2.0 Tdi Highline
+Volkswagen,Passat,2.0 Tdi Comfortline Connect,5,Diesel,6.7,Volkswagen Passat 2.0 Tdi Comfortline Connect
+Volkswagen,Passat,2.0 Tdi Highline Connect,5,Diesel,6.7,Volkswagen Passat 2.0 Tdi Highline Connect
+,Mercedes-Benz A-Class,180,5,Petrol,12.03,Mercedes-Benz A-Class 180
+,Mercedes-Benz A-Class,200D,5,Diesel,12.03,Mercedes-Benz A-Class 200D
+Volvo,V40 Cross Country,D3,5,Diesel,13.05,Volvo V40 Cross Country D3
+Volvo,V40 Cross Country,T4,5,Petrol,12.0,Volvo V40 Cross Country T4
+Mini,Countryman,Cooper S,5,Petrol,6.7,Mini Countryman Cooper S
+Mini,Countryman,Cooper Sd,5,Diesel,6.7,Mini Countryman Cooper Sd
+Mini,Countryman,Cooper S Jcw Inspired,5,Petrol,6.7,Mini Countryman Cooper S Jcw Inspired
+Mini,Countryman,Black Edition,5,Petrol,6.7,Mini Countryman Black Edition
+,Mercedes-Benz C-Class,C 220D Prime,5,Diesel,6.7,Mercedes-Benz C-Class C 220D Prime
+,Mercedes-Benz C-Class,C 220D Progressive,5,Diesel,6.7,Mercedes-Benz C-Class C 220D Progressive
+,Mercedes-Benz C-Class,C 300D Amg Line,5,Diesel,6.7,Mercedes-Benz C-Class C 300D Amg Line
+,Mercedes-Benz C-Class,C 43 Amg,5,Petrol,6.7,Mercedes-Benz C-Class C 43 Amg
+,Mercedes-Benz C-Class,C 200 Prime,5,Petrol,6.7,Mercedes-Benz C-Class C 200 Prime
+,Mercedes-Benz C-Class,C 200 Progressive,5,Petrol,6.7,Mercedes-Benz C-Class C 200 Progressive
+Toyota,Prius,Z8,5,Hybrid,15.1,Toyota Prius Z8
+Lexus,Es,300H,5,Hybrid,17.8,Lexus Es 300H
+Lexus,Nx 300H,F-Sport,5,Petrol,6.7,Lexus Nx 300H F-Sport
+Lexus,Nx 300H,Luxury,5,Petrol,6.7,Lexus Nx 300H Luxury
+Jaguar,F-Pace,Prestige,5,Diesel,21.27,Jaguar F-Pace Prestige
+Jaguar,F-Pace,Prestige Petrol,5,Petrol,6.7,Jaguar F-Pace Prestige Petrol
+Volvo,V90 Cross Country,D5 Inscription,5,Diesel,13.2,Volvo V90 Cross Country D5 Inscription
+Audi,A5 Cabriolet,2.0 Tdi,4,Diesel,6.7,Audi A5 Cabriolet 2.0 Tdi
+,Mercedes-Benz Gle,300D 4Matic,5,Diesel,6.7,Mercedes-Benz Gle 300D 4Matic
+,Mercedes-Benz Gle,400D 4Matic Hip Hop Edition,5,Diesel,6.7,Mercedes-Benz Gle 400D 4Matic Hip Hop Edition
+,Mercedes-Benz Cls,300D,5,Diesel,6.7,Mercedes-Benz Cls 300D
+Bmw,X7,Xdrive 40I,7,Petrol,6.7,Bmw X7 Xdrive 40I
+Bmw,X7,Xdrive30D Dpe Signature,7,Diesel,6.7,Bmw X7 Xdrive30D Dpe Signature
+Bmw,M4,Coupe,4,Petrol,7.32,Bmw M4 Coupe
+Porsche,911,Carrera S,4,Petrol,7.9,Porsche 911 Carrera S
+Porsche,911,Carrera S Cabriolet,4,Petrol,11.6,Porsche 911 Carrera S Cabriolet
+Nissan,Gtr,3.8 V6,4,Petrol,9.0,Nissan Gtr 3.8 V6
+Aston Martin,Vantage,Coupe,2,Petrol,5.0,Aston Martin Vantage Coupe
+Aston Martin,Rapide,Luxe,4,Petrol,9.1,Aston Martin Rapide Luxe
+Ferrari,812 Superfast,Superfast,2,Petrol,6.7,Ferrari 812 Superfast Superfast
+Maruti Suzuki,Alto 800 Tour,H1,5,Petrol,18.0,Maruti Suzuki Alto 800 Tour H1
+Maruti Suzuki,Alto 800 Tour,H1 (O),5,Petrol,18.0,Maruti Suzuki Alto 800 Tour H1 (O)
+Hyundai,Grand I10 Nios,Magna 1.2 Crdi,5,Diesel,20.7,Hyundai Grand I10 Nios Magna 1.2 Crdi
+Hyundai,Grand I10 Nios,Era 1.2 Vtvt,5,Petrol,6.7,Hyundai Grand I10 Nios Era 1.2 Vtvt
+Hyundai,Grand I10 Nios,Magna 1.2 Vtvt,5,Petrol,6.7,Hyundai Grand I10 Nios Magna 1.2 Vtvt
+Hyundai,Grand I10 Nios,Magna Amt 1.2 Vtvt,5,Petrol,6.7,Hyundai Grand I10 Nios Magna Amt 1.2 Vtvt
+Hyundai,Grand I10 Nios,Sportz 1.2 Vtvt,5,Petrol,6.7,Hyundai Grand I10 Nios Sportz 1.2 Vtvt
+Hyundai,Grand I10 Nios,Sportz Amt 1.2 Vtvt,5,Petrol,6.7,Hyundai Grand I10 Nios Sportz Amt 1.2 Vtvt
+Hyundai,Grand I10 Nios,Sportz Dual Tone 1.2 Vtvt,5,Petrol,6.7,Hyundai Grand I10 Nios Sportz Dual Tone 1.2 Vtvt
+Hyundai,Grand I10 Nios,Asta 1.2 Vtvt,5,Petrol,6.7,Hyundai Grand I10 Nios Asta 1.2 Vtvt
+Hyundai,Grand I10 Nios,Sportz Amt 1.2 Crdi,5,Diesel,6.7,Hyundai Grand I10 Nios Sportz Amt 1.2 Crdi
+Hyundai,Grand I10 Nios,Asta 1.2 Crdi,5,Diesel,6.7,Hyundai Grand I10 Nios Asta 1.2 Crdi
+Hyundai,Xcent,S 1.2,5,Petrol,15.7,Hyundai Xcent S 1.2
+Hyundai,Xcent,S At 1.2,5,Petrol,15.7,Hyundai Xcent S At 1.2
+Hyundai,Xcent,Sx 1.2,5,Petrol,15.7,Hyundai Xcent Sx 1.2
+Hyundai,Xcent,Sx 1.2 (O),5,Petrol,15.7,Hyundai Xcent Sx 1.2 (O)
+Hyundai,Xcent,S 1.2 Crdi,5,Diesel,19.0,Hyundai Xcent S 1.2 Crdi
+Hyundai,Xcent,E,5,Petrol,15.7,Hyundai Xcent E
+Hyundai,Xcent,Sx 1.2 Crdi,5,Diesel,19.0,Hyundai Xcent Sx 1.2 Crdi
+Hyundai,Xcent,Sx 1.2 Crdi (O),5,Diesel,19.0,Hyundai Xcent Sx 1.2 Crdi (O)
+Hyundai,Xcent,E Crdi,5,Diesel,19.0,Hyundai Xcent E Crdi
+Nissan,Micra,Xl (O) Cvt,5,Petrol,6.7,Nissan Micra Xl (O) Cvt
+Nissan,Micra,Xv Cvt,5,Petrol,6.7,Nissan Micra Xv Cvt
+Nissan,Micra,Xld (O),5,Diesel,6.7,Nissan Micra Xld (O)
+Nissan,Micra,Xvd,5,Diesel,19.5,Nissan Micra Xvd
+Mahindra,Bolero,Zlx,7,Diesel,9.4,Mahindra Bolero Zlx
+Mahindra,Bolero,Slx,7,Diesel,12.3,Mahindra Bolero Slx
+Mahindra,Bolero,Sle,7,Diesel,12.3,Mahindra Bolero Sle
+Mahindra,Bolero,Ex,7,Diesel,9.4,Mahindra Bolero Ex
+Mahindra,Bolero,Ex Non Ac,7,Diesel,9.4,Mahindra Bolero Ex Non Ac
+Maruti Suzuki,Ciaz,1.3L Alpha Smart Hybrid,5,Diesel,28.09,Maruti Suzuki Ciaz 1.3L Alpha Smart Hybrid
+Maruti Suzuki,Ciaz,1.3L Sigma Smart Hybrid,5,Diesel,28.09,Maruti Suzuki Ciaz 1.3L Sigma Smart Hybrid
+Maruti Suzuki,Ciaz,1.3L Delta Smart Hybrid,5,Diesel,28.09,Maruti Suzuki Ciaz 1.3L Delta Smart Hybrid
+Maruti Suzuki,Ciaz,1.3L Zeta Smart Hybrid,5,Diesel,28.09,Maruti Suzuki Ciaz 1.3L Zeta Smart Hybrid
+Maruti Suzuki,Ciaz,1.5L Sigma Smart Hybrid,5,Petrol,6.7,Maruti Suzuki Ciaz 1.5L Sigma Smart Hybrid
+Maruti Suzuki,Ciaz,1.5L Delta Smart Hybrid,5,Petrol,6.7,Maruti Suzuki Ciaz 1.5L Delta Smart Hybrid
+Maruti Suzuki,Ciaz,1.5L Zeta Smart Hybrid,5,Petrol,21.56,Maruti Suzuki Ciaz 1.5L Zeta Smart Hybrid
+Maruti Suzuki,Ciaz,1.5L Alpha Smart Hybrid,5,Petrol,6.7,Maruti Suzuki Ciaz 1.5L Alpha Smart Hybrid
+Maruti Suzuki,Ciaz,1.5L Delta At Smart Hybrid,5,Petrol,6.7,Maruti Suzuki Ciaz 1.5L Delta At Smart Hybrid
+Maruti Suzuki,Ciaz,1.5L Zeta At Smart Hybrid,5,Petrol,6.7,Maruti Suzuki Ciaz 1.5L Zeta At Smart Hybrid
+Maruti Suzuki,Ciaz,1.5L Alpha At Smart Hybrid,5,Petrol,6.7,Maruti Suzuki Ciaz 1.5L Alpha At Smart Hybrid
+Maruti Suzuki,Ciaz,1.5L Alpha,5,Diesel,26.82,Maruti Suzuki Ciaz 1.5L Alpha
+Maruti Suzuki,Ciaz,1.5L Delta,5,Diesel,26032.0,Maruti Suzuki Ciaz 1.5L Delta
+Maruti Suzuki,Ciaz,1.5L Zeta,5,Diesel,26.32,Maruti Suzuki Ciaz 1.5L Zeta
+Skoda,Rapid,1.6 Mpi Ambition,5,Petrol,12.0,Skoda Rapid 1.6 Mpi Ambition
+Skoda,Rapid,1.5 Tdi Cr Active,5,Diesel,14.5,Skoda Rapid 1.5 Tdi Cr Active
+Skoda,Rapid,1.6 Mpi Active,5,Petrol,12.0,Skoda Rapid 1.6 Mpi Active
+Skoda,Rapid,1.5 Tdi Cr Ambition,5,Diesel,14.5,Skoda Rapid 1.5 Tdi Cr Ambition
+Skoda,Rapid,1.5 Tdi Cr Ambition At,5,Diesel,14.5,Skoda Rapid 1.5 Tdi Cr Ambition At
+Skoda,Rapid,1.6 Mpi Style At,5,Petrol,12.0,Skoda Rapid 1.6 Mpi Style At
+Skoda,Rapid,1.5 Tdi Cr Style At,5,Diesel,18.0,Skoda Rapid 1.5 Tdi Cr Style At
+Skoda,Rapid,1.5 Tdi Cr Style,5,Diesel,18.0,Skoda Rapid 1.5 Tdi Cr Style
+Skoda,Rapid,1.6 Mpi Style,5,Petrol,12.0,Skoda Rapid 1.6 Mpi Style
+Skoda,Rapid,1.6 Mpi Ambition At,5,Petrol,12.0,Skoda Rapid 1.6 Mpi Ambition At
+Skoda,Rapid,Onyx Mt Petrol,5,Petrol,12.0,Skoda Rapid Onyx Mt Petrol
+Skoda,Rapid,Onyx At Petrol,5,Petrol,12.0,Skoda Rapid Onyx At Petrol
+Skoda,Rapid,Onyx Mt Diesel,5,Diesel,18.0,Skoda Rapid Onyx Mt Diesel
+Skoda,Rapid,Onyx At Diesel,5,Diesel,18.0,Skoda Rapid Onyx At Diesel
+Fiat,Abarth Punto,1.4 T-Jet,5,Petrol,17.0,Fiat Abarth Punto 1.4 T-Jet
+Hyundai,Creta,1.4 Crdi E Plus,5,Diesel,21.38,Hyundai Creta 1.4 Crdi E Plus
+Hyundai,Creta,1.6 Vtvt E Plus,5,Petrol,15.29,Hyundai Creta 1.6 Vtvt E Plus
+Hyundai,Creta,1.6 Vtvt Sx,5,Petrol,15.29,Hyundai Creta 1.6 Vtvt Sx
+Hyundai,Creta,1.6 Vtvt Sx (O),5,Petrol,15.29,Hyundai Creta 1.6 Vtvt Sx (O)
+Hyundai,Creta,1.6 Vtvt Sx At,5,Petrol,15.29,Hyundai Creta 1.6 Vtvt Sx At
+Hyundai,Creta,1.6 Vtvt Sx Dual Tone,5,Petrol,15.29,Hyundai Creta 1.6 Vtvt Sx Dual Tone
+Hyundai,Creta,1.4 Crdi S,5,Diesel,21.38,Hyundai Creta 1.4 Crdi S
+Hyundai,Creta,1.6 Crdi Sx,5,Diesel,17.01,Hyundai Creta 1.6 Crdi Sx
+Hyundai,Creta,1.6 Crdi Sx (O),5,Diesel,17.01,Hyundai Creta 1.6 Crdi Sx (O)
+Hyundai,Creta,1.6 Crdi Sx At,5,Diesel,17.01,Hyundai Creta 1.6 Crdi Sx At
+Hyundai,Creta,1.6 Crdi Sx Dual Tone,5,Diesel,17.01,Hyundai Creta 1.6 Crdi Sx Dual Tone
+Hyundai,Creta,1.6 Crdi S At,5,Diesel,17.01,Hyundai Creta 1.6 Crdi S At
+Hyundai,Creta,1.6 Vtvt Sx (O) Executive,5,Petrol,15.29,Hyundai Creta 1.6 Vtvt Sx (O) Executive
+Hyundai,Creta,1.6 Crdi Sx (O) Executive,5,Diesel,17.01,Hyundai Creta 1.6 Crdi Sx (O) Executive
+Hyundai,Creta,1.4 Crdi Ex,5,Diesel,21.38,Hyundai Creta 1.4 Crdi Ex
+Hyundai,Creta,1.6 Vtvt Ex,5,Petrol,15.29,Hyundai Creta 1.6 Vtvt Ex
+Hyundai,Creta,Sports Edition Petrol,5,Petrol,15.29,Hyundai Creta Sports Edition Petrol
+Hyundai,Creta,Sports Edition Diesel,5,Diesel,6.7,Hyundai Creta Sports Edition Diesel
+Tata,Harrier,Revotorq Xe,5,Diesel,6.7,Tata Harrier Revotorq Xe
+Tata,Harrier,Revotorq Xm,5,Diesel,6.7,Tata Harrier Revotorq Xm
+Tata,Harrier,Revotorq Xt,5,Diesel,6.7,Tata Harrier Revotorq Xt
+Tata,Harrier,Revotorq Xz,5,Diesel,6.7,Tata Harrier Revotorq Xz
+Tata,Harrier,Revotorq Xz Dual Tone,5,Diesel,6.7,Tata Harrier Revotorq Xz Dual Tone
+Tata,Harrier,Revotorq Dark Edition,5,Diesel,6.7,Tata Harrier Revotorq Dark Edition
+Isuzu,Dmax V-Cross,Standard,5,Diesel,7.3,Isuzu Dmax V-Cross Standard
+Isuzu,Dmax V-Cross,High Z,5,Diesel,7.3,Isuzu Dmax V-Cross High Z
+Isuzu,Dmax V-Cross,Z Prestige,5,Diesel,7.3,Isuzu Dmax V-Cross Z Prestige
+Mitsubishi,Outlander,2.4L Outlander,7,Petrol,6.7,Mitsubishi Outlander 2.4L Outlander
+,Mercedes-Benz Gla-Class,200 Sport,5,Petrol,10.0,Mercedes-Benz Gla-Class 200 Sport
+,Mercedes-Benz Gla-Class,200 D Style,5,Diesel,13.4,Mercedes-Benz Gla-Class 200 D Style
+,Mercedes-Benz Gla-Class,200 D Sport,5,Diesel,13.4,Mercedes-Benz Gla-Class 200 D Sport
+,Mercedes-Benz Gla-Class,45 Amg 4Matic,5,Petrol,10.2,Mercedes-Benz Gla-Class 45 Amg 4Matic
+,Mercedes-Benz Gla-Class,220 D 4Matic,5,Diesel,13.4,Mercedes-Benz Gla-Class 220 D 4Matic
+,Mercedes-Benz Gla-Class,45 Aero Edition,5,Petrol,10.2,Mercedes-Benz Gla-Class 45 Aero Edition
+Honda,Accord Hybrid,2.0 At,5,Hybrid,21.0,Honda Accord Hybrid 2.0 At
+Bmw,5-Series,520D Luxury Line,5,Diesel,8.4,Bmw 5-Series 520D Luxury Line
+Bmw,5-Series,530D M Sport,5,Diesel,13.1,Bmw 5-Series 530D M Sport
+Bmw,5-Series,530I M Sport,5,Petrol,15.01,Bmw 5-Series 530I M Sport
+Bmw,6-Series,630D Gt Luxury Line,4,Diesel,6.7,Bmw 6-Series 630D Gt Luxury Line
+Bmw,6-Series,630D Gt M Sport,4,Diesel,6.7,Bmw 6-Series 630D Gt M Sport
+Bmw,6-Series,630I Gt Luxury Line,4,Petrol,4.45,Bmw 6-Series 630I Gt Luxury Line
+Bmw,6-Series,620D Gt Luxury Line,4,Diesel,6.7,Bmw 6-Series 620D Gt Luxury Line
+Porsche,Macan,S,5,Petrol,6.7,Porsche Macan S
+Porsche,Macan,Base,5,Petrol,6.7,Porsche Macan Base
+Jaguar,F-Type,5.0 Convertible R,2,Petrol,12.05,Jaguar F-Type 5.0 Convertible R
+Jaguar,F-Type,5.0 Coupe R,2,Petrol,7.81,Jaguar F-Type 5.0 Coupe R
+Jaguar,F-Type,Svr Coupe,2,Petrol,6.7,Jaguar F-Type Svr Coupe
+Jaguar,F-Type,Svr Convertible,2,Petrol,6.7,Jaguar F-Type Svr Convertible
+Jaguar,F-Type,2.0L Coupe,2,Petrol,6.7,Jaguar F-Type 2.0L Coupe
+Jaguar,F-Type,2.0L Convertible,2,Petrol,6.7,Jaguar F-Type 2.0L Convertible
+Jaguar,F-Type,2.0 Convertible R Dynamic,2,Petrol,6.7,Jaguar F-Type 2.0 Convertible R Dynamic
+Jaguar,F-Type,2.0 Coupe R Dynamic,2,Petrol,6.7,Jaguar F-Type 2.0 Coupe R Dynamic
+Bmw,M5,Competition,4,Petrol,6.7,Bmw M5 Competition
+Lexus,Lx 570,V8,7,Diesel,18.0,Lexus Lx 570 V8
+Ferrari,458 Spider,V8,2,Petrol,3.2,Ferrari 458 Spider V8
+Maruti Suzuki R,Wagon,Vxi,5,Petrol,6.7,Maruti Suzuki R Wagon Vxi
+Maruti Suzuki R,Wagon,Vxi Ags,5,Petrol,6.7,Maruti Suzuki R Wagon Vxi Ags
+Maruti Suzuki R,Wagon,1.2L Zxi,5,Petrol,6.7,Maruti Suzuki R Wagon 1.2L Zxi
+Maruti Suzuki R,Wagon,Lxi,5,Petrol,6.7,Maruti Suzuki R Wagon Lxi
+Maruti Suzuki R,Wagon,1.2L Vxi,5,Petrol,6.7,Maruti Suzuki R Wagon 1.2L Vxi
+Maruti Suzuki R,Wagon,1.2L Vxi Ags,5,Petrol,6.7,Maruti Suzuki R Wagon 1.2L Vxi Ags
+Maruti Suzuki R,Wagon,1.2L Zxi Ags,5,Petrol,6.7,Maruti Suzuki R Wagon 1.2L Zxi Ags
+Maruti Suzuki R,Wagon,Lxi (O),5,Petrol,6.7,Maruti Suzuki R Wagon Lxi (O)
+Maruti Suzuki R,Wagon,Vxi (O),5,Petrol,6.7,Maruti Suzuki R Wagon Vxi (O)
+Maruti Suzuki R,Wagon,1.2L Vxi (O),5,Petrol,6.7,Maruti Suzuki R Wagon 1.2L Vxi (O)
+Maruti Suzuki R,Wagon,1.2L Vxi Ags (O),5,Petrol,6.7,Maruti Suzuki R Wagon 1.2L Vxi Ags (O)
+Maruti Suzuki R,Wagon,Vxi Ags (O),5,Petrol,6.7,Maruti Suzuki R Wagon Vxi Ags (O)
+Maruti Suzuki R,Wagon,Lxi Cng,5,CNG,6.7,Maruti Suzuki R Wagon Lxi Cng
+Maruti Suzuki R,Wagon,Lxi (O) Cng,5,CNG,6.7,Maruti Suzuki R Wagon Lxi (O) Cng
+Tata,Tiago Nrg,1.2L Revotron,5,Petrol,6.7,Tata Tiago Nrg 1.2L Revotron
+Tata,Tiago Nrg,1.05L Revotorq,5,Diesel,6.7,Tata Tiago Nrg 1.05L Revotorq
+Tata,Tiago Nrg,1.2L Revotron Amt,5,Petrol,6.7,Tata Tiago Nrg 1.2L Revotron Amt
+Mahindra,Nuvosport,N4,7,Diesel,13.8,Mahindra Nuvosport N4
+Mahindra,Nuvosport,N6,7,Diesel,13.8,Mahindra Nuvosport N6
+Mahindra,Nuvosport,N8,7,Diesel,13.8,Mahindra Nuvosport N8
+Mahindra,Nuvosport,N4 +,7,Diesel,13.8,Mahindra Nuvosport N4 +
+Mahindra,Nuvosport,N6 Amt,7,Diesel,12.8,Mahindra Nuvosport N6 Amt
+Mahindra,Nuvosport,N8 Amt,7,Diesel,12.8,Mahindra Nuvosport N8 Amt
+Nissan,Kicks,Xl Petrol,5,Petrol,6.7,Nissan Kicks Xl Petrol
+Nissan,Kicks,Xv Petrol,5,Petrol,6.7,Nissan Kicks Xv Petrol
+Nissan,Kicks,Xl Diesel,5,Diesel,6.7,Nissan Kicks Xl Diesel
+Nissan,Kicks,Xv Diesel,5,Diesel,6.7,Nissan Kicks Xv Diesel
+Nissan,Kicks,Xv Premium,5,Diesel,6.7,Nissan Kicks Xv Premium
+Nissan,Kicks,Xv Premium (O),5,Diesel,6.7,Nissan Kicks Xv Premium (O)
+Nissan,Kicks,Xv Premium (O) Dual Tone,5,Diesel,6.7,Nissan Kicks Xv Premium (O) Dual Tone
+Nissan,Kicks,Xe Diesel,5,Diesel,6.7,Nissan Kicks Xe Diesel
+Tata,Winger,15S,16,Diesel,6.7,Tata Winger 15S
+Hyundai,Kona Electric,Premium,4,Electric,6.7,Hyundai Kona Electric Premium
+Toyota,Camry,Hybrid,5,Hybrid,6.7,Toyota Camry Hybrid
+Audi,A5,Sportback,5,Diesel,6.7,Audi A5 Sportback
+Land Rover,Discovery,3.0 Hse Diesel,7,Diesel,6.7,Land Rover Discovery 3.0 Hse Diesel
+Land Rover,Discovery,3.0 Se Diesel,7,Diesel,6.7,Land Rover Discovery 3.0 Se Diesel
+Land Rover,Discovery,3.0 Hse Petrol,7,Petrol,6.7,Land Rover Discovery 3.0 Hse Petrol
+Land Rover,Discovery,3.0 Se Petrol,7,Petrol,6.7,Land Rover Discovery 3.0 Se Petrol
+Land Rover,Discovery,3.0 S Diesel,7,Diesel,6.7,Land Rover Discovery 3.0 S Diesel
+Land Rover,Discovery,3.0 S Petrol,7,Petrol,6.7,Land Rover Discovery 3.0 S Petrol
+Land Rover,Discovery,3.0 Hse Luxury Diesel,7,Diesel,6.7,Land Rover Discovery 3.0 Hse Luxury Diesel
+Land Rover,Discovery,3.0 Hse Luxury Petrol,7,Petrol,6.7,Land Rover Discovery 3.0 Hse Luxury Petrol
+Lexus,Ls 500H,Luxury,5,Hybrid,6.7,Lexus Ls 500H Luxury
+Lexus,Ls 500H,Ultra Luxury,5,Hybrid,6.7,Lexus Ls 500H Ultra Luxury
+Lexus,Ls 500H,Distinct,5,Hybrid,6.7,Lexus Ls 500H Distinct
+,Rolls-Royce Phantom,Sedan,5,Petrol,10.2,Rolls-Royce Phantom Sedan
+,Rolls-Royce Phantom,Ewb,5,Petrol,10.2,Rolls-Royce Phantom Ewb
+Fiat,Punto Evo,Dynamic 1.2,5,Petrol,15.8,Fiat Punto Evo Dynamic 1.2
+Fiat,Punto Evo,Active Multijet 1.3,5,Diesel,21.0,Fiat Punto Evo Active Multijet 1.3
+Fiat,Punto Evo,Dynamic Multijet 1.3,5,Diesel,21.0,Fiat Punto Evo Dynamic Multijet 1.3
+Fiat,Punto Evo,Emotion Multijet 1.3,5,Diesel,21.0,Fiat Punto Evo Emotion Multijet 1.3
+Toyota,Yaris,J,5,Petrol,6.7,Toyota Yaris J
+Toyota,Yaris,G,5,Petrol,6.7,Toyota Yaris G
+Toyota,Yaris,V,5,Petrol,6.7,Toyota Yaris V
+Toyota,Yaris,Vx Cvt,5,Petrol,6.7,Toyota Yaris Vx Cvt
+Toyota,Yaris,G Cvt,5,Petrol,6.7,Toyota Yaris G Cvt
+Toyota,Yaris,J Cvt,5,Petrol,6.7,Toyota Yaris J Cvt
+Toyota,Yaris,V Cvt,5,Petrol,6.7,Toyota Yaris V Cvt
+Toyota,Yaris,Vx,5,Petrol,6.7,Toyota Yaris Vx
+Toyota,Yaris,V (O),5,Petrol,6.7,Toyota Yaris V (O)
+Toyota,Yaris,J (O),5,Petrol,6.7,Toyota Yaris J (O)
+Toyota,Yaris,G (O),5,Petrol,6.7,Toyota Yaris G (O)
+Toyota,Yaris,J (O) Cvt,5,Petrol,6.7,Toyota Yaris J (O) Cvt
+Toyota,Yaris,G (O) Cvt,5,Petrol,6.7,Toyota Yaris G (O) Cvt
+Toyota,Yaris,V (O) Cvt,5,Petrol,6.7,Toyota Yaris V (O) Cvt
+Skoda,Octavia,Ambition 1.4 Tsi,5,Petrol,6.7,Skoda Octavia Ambition 1.4 Tsi
+Skoda,Octavia,Ambition 2.0 Tdi Cr,5,Diesel,6.7,Skoda Octavia Ambition 2.0 Tdi Cr
+Skoda,Octavia,Style 1.4 Tsi,5,Petrol,6.7,Skoda Octavia Style 1.4 Tsi
+Skoda,Octavia,Style 1.8 Tsi At,5,Petrol,6.7,Skoda Octavia Style 1.8 Tsi At
+Skoda,Octavia,Style 2.0 Tdi Cr,5,Diesel,6.7,Skoda Octavia Style 2.0 Tdi Cr
+Skoda,Octavia,Style 2.0 Tdi Cr At,5,Diesel,6.7,Skoda Octavia Style 2.0 Tdi Cr At
+Skoda,Octavia,L & K 1.8 Tsi At,5,Petrol,6.7,Skoda Octavia L & K 1.8 Tsi At
+Skoda,Octavia,L & K 2.0 Tdi Cr At,5,Diesel,6.7,Skoda Octavia L & K 2.0 Tdi Cr At
+Skoda,Octavia,Corporate Edition 1.4 Tsi,5,Petrol,6.7,Skoda Octavia Corporate Edition 1.4 Tsi
+Skoda,Octavia,Corporate Edition 2.0 Tdi,5,Diesel,6.7,Skoda Octavia Corporate Edition 2.0 Tdi
+Skoda,Octavia,Onyx 1.8 Tsi Dsg,5,Petrol,6.7,Skoda Octavia Onyx 1.8 Tsi Dsg
+Skoda,Octavia,Onyx 2.0 Tdi Dsg,5,Diesel,6.7,Skoda Octavia Onyx 2.0 Tdi Dsg
+,Mercedes-Benz Glc,200 Progressive,5,Petrol,6.7,Mercedes-Benz Glc 200 Progressive
+,Mercedes-Benz Glc,220D 4Matic Progressive,5,Diesel,6.7,Mercedes-Benz Glc 220D 4Matic Progressive
+Porsche,Cayenne Coupe,Base,5,Petrol,6.7,Porsche Cayenne Coupe Base
+Porsche,Cayenne Coupe,Turbo,5,Petrol,6.7,Porsche Cayenne Coupe Turbo
+Mahindra,Verito,1.5 D2,5,Diesel,18.0,Mahindra Verito 1.5 D2
+Mahindra,Verito,1.5 D4 Bs-Iv,5,Diesel,18.0,Mahindra Verito 1.5 D4 Bs-Iv
+Mahindra,Verito,1.5 D6 Bs-Iv,5,Diesel,18.0,Mahindra Verito 1.5 D6 Bs-Iv
+Mitsubishi,Pajero Sport,2.5 Mt,7,Diesel,6.5,Mitsubishi Pajero Sport 2.5 Mt
+Mitsubishi,Pajero Sport,2.5 At,7,Diesel,6.5,Mitsubishi Pajero Sport 2.5 At
+Mitsubishi,Pajero Sport,Limited Edition,7,Diesel,6.5,Mitsubishi Pajero Sport Limited Edition
+Mitsubishi,Pajero Sport,Select Plus Mt,7,Diesel,6.5,Mitsubishi Pajero Sport Select Plus Mt
+Mitsubishi,Pajero Sport,Select Plus At,7,Diesel,6.5,Mitsubishi Pajero Sport Select Plus At
+Bentley,Flying Spur,V8,4,Petrol,2.0,Bentley Flying Spur V8
+Bentley,Flying Spur,W12,4,Petrol,2.0,Bentley Flying Spur W12
+Honda,City,Sv Mt Petrol,5,Petrol,14.3,Honda City Sv Mt Petrol
+Honda,City,V Mt Petrol,5,Petrol,14.3,Honda City V Mt Petrol
+Honda,City,Vx Mt Petrol,5,Petrol,14.3,Honda City Vx Mt Petrol
+Honda,City,Vx Cvt Petrol,5,Petrol,14.3,Honda City Vx Cvt Petrol
+Honda,City,Sv Mt Diesel,5,Diesel,22.6,Honda City Sv Mt Diesel
+Honda,City,V Mt Diesel,5,Diesel,22.6,Honda City V Mt Diesel
+Honda,City,Vx Mt Diesel,5,Diesel,22.6,Honda City Vx Mt Diesel
+Honda,City,Zx Mt Diesel,5,Diesel,22.6,Honda City Zx Mt Diesel
+Honda,City,Zx Cvt Petrol,5,Petrol,18.0,Honda City Zx Cvt Petrol
+Honda,City,V Cvt Petrol,5,Petrol,14.3,Honda City V Cvt Petrol
+Mitsubishi,Montero,3.2 At,7,Diesel,8.25,Mitsubishi Montero 3.2 At

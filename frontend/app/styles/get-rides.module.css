@@ -1,0 +1,165 @@
+.pageContainer {
+  background-color: #ffffff; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  padding: 20px;
+}
+
+.filterContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: medium;
+  flex-direction: row;
+
+}
+
+.filterContainer > div {
+  margin-bottom: 10px; 
+  margin-left: 20px;
+  margin-right: 50px;
+  
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale the container by 5% when hovered */
+}
+
+
+.cardContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: flex-start; /* Align items to the top */
+  font-size: medium;
+  transition: transform 0.5s ease;
+}
+
+
+.card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px;
+  width: 370px; /* Adjust width as needed */
+  height: 450px;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Adjust to stack elements vertically */
+  justify-content: space-between;
+  align-items: center; /* Center horizontally */
+  border: 2px solid #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.5s ease;
+}
+
+
+
+.tripdetails {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.bookButtonContainer {
+  
+  
+  display: flex;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+  align-items: flex-end; /* Align items to the bottom */
+  width: 100%;
+  margin-top: auto;
+}
+.bookButtonContainer button {
+  margin: 0 5px; /* Adjust margin between buttons */
+  background-color: #383838;
+  color: yellow;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+
+.tripdetails ul {
+  list-style: none;
+  width: 80%;
+  font-size: medium;
+ 
+}
+
+
+.imageContainer {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align items to the top */
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 35%;
+  height: auto;
+  border-radius: 0px;
+}
+.hide {
+  display: none;
+}
+
+.show {
+  display: block; /* or any appropriate display property */
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navButton {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #383838;
+  color: yellow;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: #5a5a5a;
+}
+
+.cost {
+    text-align: center;
+    font-weight: bold;
+  }
+  .costContainer {
+    margin-bottom: 20px; 
+  }
+
+.dateTime {
+  display: flex;
+  font-size: large;
+  margin-bottom: 40px;
+}
+
+
+.date {
+  margin-right: 40px;
+}
+
+.time {
+  margin-left: 10px;
+}
+
+
+
+
+

@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 247, 247, 0);
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.btn-connect {
+  background-color: yellow;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.btn-connect:hover {
+  color: yellow;
+  background-color: black;
+}
+
+.registerContainer {
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-card {
+  width: 300px; /* Fixed width */
+  height: 420px; /* Fixed height */
+  border: 2px solid #000; /* Border color and width */
+  border-radius: 10px; /* Border radius for round edges */
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header {
+  background-color:yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.header-ele {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.header-ele-links {
+  padding: 10px;
+  border-radius: 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.header-ele-links:hover {
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.link-text {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.link-text:hover {
+  color: black;
+}
+
+.metaChecker {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+.metaInstallText {
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  color: red;
+  font-variant: small-caps;
+}
+
+.btn-install {
+  padding: 10px 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: blue;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

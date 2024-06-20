@@ -93,13 +93,5 @@ Unit tests for the CarPooling smart contract can be found in the tests directory
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
- 
-<h2 align = "center">Our Contributors ❤️</h2>
-<div align = "center">
- <h3>Thank you for contributing to our repository</h3>
-
-![Contributors](https://contrib.rocks/image?repo=StephCurry07/Ether-Wheels)
-
-</div>
 
 

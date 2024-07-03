@@ -27,7 +27,7 @@ const Header = ({ role, balance, connectedAccount }) => {
   return (
     <AppBar position="static" sx={{ backgroundColor: "yellow", color: "skyblue" }}>
       <Toolbar sx={{ display: "flex" }}>
-        <Avatar alt="Logo" src="../images/logo.jpeg" href="/" sx={{ width: 40, height: 40, marginRight: 10 }} />
+        <Avatar alt="Logo" src="../images/ewLogo.png" href="/" sx={{ width: 40, height: 40, marginRight: 10 }} />
         <div className="header-ele" style={{ marginRight: '50px' }}>
           {/* <div className="header-ele-links"> */}
           <div className="link-text">

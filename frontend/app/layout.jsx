@@ -12,11 +12,7 @@ export const metadata = {
         url: '/images/ewLogo.ico',
         href: '/images/ewLogo.ico',
       },
-      {
-        media: '(prefers-color-scheme: dark)',
-        url: '/images/ewLogo.ico',
-        href: '/images/ewLogo.ico',
-      },
+
     ],
   },
 };

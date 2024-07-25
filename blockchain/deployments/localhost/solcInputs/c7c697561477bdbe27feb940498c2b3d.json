@@ -1,0 +1,48 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "@chainlink/contracts/src/v0.8/interfaces/AggregatorInterface.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface AggregatorInterface {\n  function latestAnswer() external view returns (int256);\n\n  function latestTimestamp() external view returns (uint256);\n\n  function latestRound() external view returns (uint256);\n\n  function getAnswer(uint256 roundId) external view returns (int256);\n\n  function getTimestamp(uint256 roundId) external view returns (uint256);\n\n  event AnswerUpdated(int256 indexed current, uint256 indexed roundId, uint256 updatedAt);\n\n  event NewRound(uint256 indexed roundId, address indexed startedBy, uint256 startedAt);\n}\n"
+    },
+    "@chainlink/contracts/src/v0.8/interfaces/AggregatorV2V3Interface.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\nimport \"./AggregatorInterface.sol\";\nimport \"./AggregatorV3Interface.sol\";\n\ninterface AggregatorV2V3Interface is AggregatorInterface, AggregatorV3Interface {}\n"
+    },
+    "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface AggregatorV3Interface {\n  function decimals() external view returns (uint8);\n\n  function description() external view returns (string memory);\n\n  function version() external view returns (uint256);\n\n  function getRoundData(\n    uint80 _roundId\n  ) external view returns (uint80 roundId, int256 answer, uint256 startedAt, uint256 updatedAt, uint80 answeredInRound);\n\n  function latestRoundData()\n    external\n    view\n    returns (uint80 roundId, int256 answer, uint256 startedAt, uint256 updatedAt, uint80 answeredInRound);\n}\n"
+    },
+    "@chainlink/contracts/src/v0.8/tests/MockV3Aggregator.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\nimport \"../interfaces/AggregatorV2V3Interface.sol\";\n\n/**\n * @title MockV3Aggregator\n * @notice Based on the FluxAggregator contract\n * @notice Use this contract when you need to test\n * other contract's ability to read data from an\n * aggregator contract, but how the aggregator got\n * its answer is unimportant\n */\ncontract MockV3Aggregator is AggregatorV2V3Interface {\n  uint256 public constant override version = 0;\n\n  uint8 public override decimals;\n  int256 public override latestAnswer;\n  uint256 public override latestTimestamp;\n  uint256 public override latestRound;\n\n  mapping(uint256 => int256) public override getAnswer;\n  mapping(uint256 => uint256) public override getTimestamp;\n  mapping(uint256 => uint256) private getStartedAt;\n\n  constructor(uint8 _decimals, int256 _initialAnswer) {\n    decimals = _decimals;\n    updateAnswer(_initialAnswer);\n  }\n\n  function updateAnswer(int256 _answer) public {\n    latestAnswer = _answer;\n    latestTimestamp = block.timestamp;\n    latestRound++;\n    getAnswer[latestRound] = _answer;\n    getTimestamp[latestRound] = block.timestamp;\n    getStartedAt[latestRound] = block.timestamp;\n  }\n\n  function updateRoundData(uint80 _roundId, int256 _answer, uint256 _timestamp, uint256 _startedAt) public {\n    latestRound = _roundId;\n    latestAnswer = _answer;\n    latestTimestamp = _timestamp;\n    getAnswer[latestRound] = _answer;\n    getTimestamp[latestRound] = _timestamp;\n    getStartedAt[latestRound] = _startedAt;\n  }\n\n  function getRoundData(\n    uint80 _roundId\n  )\n    external\n    view\n    override\n    returns (uint80 roundId, int256 answer, uint256 startedAt, uint256 updatedAt, uint80 answeredInRound)\n  {\n    return (_roundId, getAnswer[_roundId], getStartedAt[_roundId], getTimestamp[_roundId], _roundId);\n  }\n\n  function latestRoundData()\n    external\n    view\n    override\n    returns (uint80 roundId, int256 answer, uint256 startedAt, uint256 updatedAt, uint80 answeredInRound)\n  {\n    return (\n      uint80(latestRound),\n      getAnswer[latestRound],\n      getStartedAt[latestRound],\n      getTimestamp[latestRound],\n      uint80(latestRound)\n    );\n  }\n\n  function description() external pure override returns (string memory) {\n    return \"v0.8/tests/MockV3Aggregator.sol\";\n  }\n}\n"
+    },
+    "contracts/MockV3Aggregator.sol": {
+      "content": "// contracts/MockV3Aggregator.sol\r\n// SPDX-License-Identifier: MIT\r\npragma solidity 0.8.24;\r\n\r\nimport \"@chainlink/contracts/src/v0.8/tests/MockV3Aggregator.sol\";\r\n"
+    }
+  },
+  "settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata",
+          "devdoc",
+          "userdoc",
+          "storageLayout",
+          "evm.gasEstimates"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}

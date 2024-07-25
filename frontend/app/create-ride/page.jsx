@@ -10,12 +10,12 @@ import styles from "../styles/user-registration.module.css";
 import { ethers } from "ethers";
 import abi from "../../utils/CarPooling.json";
 // import 'dotenv/config';
-const contractAddress = abi.contractAddress;
+const contractAddress = '0xf49c64bee160d7cf17aaada4e7faff368d391e83';
 const contractABI = abi.abi;
 
 const apiKey1 = process.env.NEXT_PUBLIC_RAPIDAPI_KEY1;
-const apiKey = process.env.NEXT_PUBLIC_RAPIDAPI_KEY2;
-const apiKey2 = process.env.NEXT_PUBLIC_RAPIDAPI_KEY3;
+const apiKey = process.env.NEXT_PUBLIC_RAPIDAPI_KEY3;
+const apiKey2 = process.env.NEXT_PUBLIC_RAPIDAPI_KEY2;
 
 const getStateid = (str) => {
   const lowerCaseStr = str.toLowerCase();
@@ -45,9 +45,9 @@ const createRide = () => {
   const [city, setCity] = useState(null);
   const [pupLocationOptions, setPupLocationOptions] = useState([]);
   const [state, setState] = useState(null);
-  const [distance, setDistance] = useState(null);
+  const [distance, setDistance] = useState(100);
   const [fuelPrice, setFuelPrice] = useState(0);
-  const [FP, setFP] = useState(0);
+  const [FP, setFP] = useState(null);
   const [petrolPrice, setPetrolPrice] = useState(null);
   const [exchangeRate, setExchangeRate] = useState(null);
   const mileage = formData.mileage;
@@ -128,7 +128,7 @@ const createRide = () => {
           destination: destination
         },
         headers: {
-          'X-RapidAPI-Key': apiKey2,
+          'X-RapidAPI-Key': apiKey1,
           'X-RapidAPI-Host': 'driving-distance-calculator-between-two-points.p.rapidapi.com'
         }
       };
@@ -150,7 +150,7 @@ const createRide = () => {
         params: { car: 'true' },
         headers: {
           'content-type': 'application/json',
-          'X-RapidAPI-Key': apiKey,
+          'X-RapidAPI-Key': apiKey2,
           'X-RapidAPI-Host': 'distanceto.p.rapidapi.com'
           // J';_q$5}tR:yAG29"]nc@^
           // 'X-RapidAPI-Host': 'driving-distance-calculator-between-two-points.p.rapidapi.com'
@@ -220,7 +220,7 @@ const createRide = () => {
           method: 'GET',
           url: `https://daily-petrol-diesel-lpg-cng-fuel-prices-in-india.p.rapidapi.com/v1/fuel-prices/today/india/${State}`,
           headers: {
-            'X-RapidAPI-Key': apiKey2,
+            'X-RapidAPI-Key': apiKey1,
             'X-RapidAPI-Host': 'daily-petrol-diesel-lpg-cng-fuel-prices-in-india.p.rapidapi.com'
           }
         };
@@ -269,7 +269,7 @@ const createRide = () => {
           setRideFare(fare);
         }
         else{
-          // console.log("Fuel Price: ", fuelPrice);
+          console.log("Fuel Price: ", fuelPrice);
           // console.log("er: ", exchangeRate);
           // console.log("FuelpriceUSD: ", fuelPriceUSD);
           // console.log("Mileage: ", mileage);
@@ -278,7 +278,7 @@ const createRide = () => {
           const fare = (distance / mileage) * fuelPriceUSD;
           // const fare = Math.max(4, (1000 / mileage) * fuelPriceUSD);
           setRideFare(fare);
-          console.log("Fare for fuel vehicles: ", fare);
+          // console.log("Fare for fuel vehicles: ", fare);
         }
       }
     };
@@ -350,6 +350,7 @@ const createRide = () => {
       try {
         const provider = new ethers.BrowserProvider(window.ethereum);
         const signer = await provider.getSigner();
+        console.log("Signer: ", signer);
         const CarPoolingContract = new ethers.Contract(
           contractAddress,
           contractABI,
@@ -460,14 +461,14 @@ const createRide = () => {
     }
   }, [destinationInput]);
 
-  // const locationOptions = [
-  //   { label: 'New York City, NY', value: 'New York City, NY' },
-  //   { label: 'Los Angeles, CA', value: 'Los Angeles, CA' },
-  //   { label: 'Chicago, IL', value: 'Chicago, IL' },
-  //   { label: 'Houston, TX', value: 'Houston, TX' },
-  // ];
+  const locationOptions = [
+    { label: 'New York City', value: 'New York City' },
+    { label: 'Los Angeles', value: 'Los Angeles' },
+    { label: 'Chicago', value: 'Chicago' },
+    { label: 'Houston', value: 'Houston' },
+  ];
 
-  //UNCOMMENT WHEN DONE.... FOR REDUCTION IN API USAGE
+  // UNCOMMENT WHEN DONE.... FOR REDUCTION IN API USAGE
   useEffect(() => {
     if (sourceInput && destinationInput) {
       calcDistance1(sourceInput, destinationInput);
@@ -627,10 +628,12 @@ const createRide = () => {
               inputValue={destinationInput}
               onInputChange={onDestinationInputChange}
               id="destination-input"
+
               isOptionEqualToValue={(option, value) =>
                 option.value === value.value
               }
               options={destinationLocationOptions}
+
               // IN PLACE OF PLACE AUTOCOMPLETE API -> API USAGE 4
               // options={locationOptions}
 
@@ -668,6 +671,7 @@ const createRide = () => {
                 option.value === value.value
               }
               options={pupLocationOptions}
+              // value="Chennai"
 
               // IN PLACE OF PLACE AUTOCOMPLETE API -> API USAGE 4
               // options={locationOptions}

@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import styles from "../styles/user-registration.module.css";
 
 import { ethers } from "ethers";
-import abi from "../../utils/CarPoolingcamp.json";
+import abi from "../../utils/CarPooling.json";
 // import 'dotenv/config';
 const contractAddress = abi.contractAddress;
 const contractABI = abi.abi;
@@ -45,10 +45,10 @@ const createRide = () => {
   const [city, setCity] = useState(null);
   const [pupLocationOptions, setPupLocationOptions] = useState([]);
   const [state, setState] = useState(null);
-  const [distance, setDistance] = useState(null);
+  const [distance, setDistance] = useState(100);
   const [fuelPrice, setFuelPrice] = useState(0);
   const [FP, setFP] = useState(0);
-  const [petrolPrice, setPetrolPrice] = useState(null);
+  const [petrolPrice, setPetrolPrice] = useState(90);
   const [exchangeRate, setExchangeRate] = useState(null);
   const mileage = formData.mileage;
   const maxPassengers = formData.carCapacity;
@@ -460,19 +460,19 @@ const createRide = () => {
     }
   }, [destinationInput]);
 
-  // const locationOptions = [
-  //   { label: 'New York City, NY', value: 'New York City, NY' },
-  //   { label: 'Los Angeles, CA', value: 'Los Angeles, CA' },
-  //   { label: 'Chicago, IL', value: 'Chicago, IL' },
-  //   { label: 'Houston, TX', value: 'Houston, TX' },
-  // ];
+  const locationOptions = [
+    { label: 'New York City, NY', value: 'New York City, NY' },
+    { label: 'Los Angeles, CA', value: 'Los Angeles, CA' },
+    { label: 'Chicago, IL', value: 'Chicago, IL' },
+    { label: 'Houston, TX', value: 'Houston, TX' },
+  ];
 
   //UNCOMMENT WHEN DONE.... FOR REDUCTION IN API USAGE
-  useEffect(() => {
-    if (sourceInput && destinationInput) {
-      calcDistance1(sourceInput, destinationInput);
-    }
-  }, [pickupInput, destinationInput]);
+  // useEffect(() => {
+  //   if (sourceInput && destinationInput) {
+  //     calcDistance1(sourceInput, destinationInput);
+  //   }
+  // }, [pickupInput, destinationInput]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -590,10 +590,10 @@ const createRide = () => {
                 option.value === value.value
               }
               onInputChange={onSourceInputChange}
-              options={sourceLocationOptions}
+              // options={sourceLocationOptions}
 
               // IN PLACE OF PLACE AUTOCOMPLETE API -> API USAGE 4
-              // options={locationOptions}
+              options={locationOptions}
 
               id="source-input"
               sx={{ width: '85%' }}
@@ -630,9 +630,9 @@ const createRide = () => {
               isOptionEqualToValue={(option, value) =>
                 option.value === value.value
               }
-              options={destinationLocationOptions}
+              // options={destinationLocationOptions}
               // IN PLACE OF PLACE AUTOCOMPLETE API -> API USAGE 4
-              // options={locationOptions}
+              options={locationOptions}
 
               sx={{ width: '85%' }}
               renderInput={(params) => (
@@ -667,10 +667,10 @@ const createRide = () => {
               isOptionEqualToValue={(option, value) =>
                 option.value === value.value
               }
-              options={pupLocationOptions}
+              // options={pupLocationOptions}
 
               // IN PLACE OF PLACE AUTOCOMPLETE API -> API USAGE 4
-              // options={locationOptions}
+              options={locationOptions}
 
               sx={{ width: '85%' }}
               renderInput={(params) => (

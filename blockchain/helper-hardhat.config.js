@@ -10,7 +10,7 @@ const networkConfig = {
   2442: {
     name: "cardona",
     ethUsdPriceFeed: "0xd94522a6feF7779f672f4C88eb672da9222f2eAc"
-  }
+  },
   90354: {
     name: "campnetwork",
     ethUsdPriceFeed: "0x1Ea10586afA59D8B316b4EF3810b6B845fA6aBB8"

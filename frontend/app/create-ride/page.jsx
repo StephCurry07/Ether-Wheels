@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import styles from "../styles/user-registration.module.css";
 
 import { ethers } from "ethers";
-import abi from "../../utils/CarPooling.json";
+import abi from "../../utils/CarPoolingcamp.json";
 // import 'dotenv/config';
 const contractAddress = abi.contractAddress;
 const contractABI = abi.abi;
@@ -150,7 +150,7 @@ const createRide = () => {
         params: { car: 'true' },
         headers: {
           'content-type': 'application/json',
-          'X-RapidAPI-Key': apiKey,
+          'X-RapidAPI-Key': apiKey1,
           'X-RapidAPI-Host': 'distanceto.p.rapidapi.com'
           // J';_q$5}tR:yAG29"]nc@^
           // 'X-RapidAPI-Host': 'driving-distance-calculator-between-two-points.p.rapidapi.com'
@@ -220,7 +220,7 @@ const createRide = () => {
           method: 'GET',
           url: `https://daily-petrol-diesel-lpg-cng-fuel-prices-in-india.p.rapidapi.com/v1/fuel-prices/today/india/${State}`,
           headers: {
-            'X-RapidAPI-Key': apiKey2,
+            'X-RapidAPI-Key': apiKey1,
             'X-RapidAPI-Host': 'daily-petrol-diesel-lpg-cng-fuel-prices-in-india.p.rapidapi.com'
           }
         };

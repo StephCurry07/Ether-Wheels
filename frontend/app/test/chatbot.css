@@ -1,0 +1,79 @@
+.inpcontainer {
+    width: 400px;
+    border-top: 1px solid #d1d5db;
+}
+
+.textareaContainer {
+    position: relative;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.textarea {
+    width: 100%;
+    padding: 8px 14px;
+    border: none;
+    resize: none;
+    background-color: #f5f5f5;
+    color: #1f2937;
+    font-size: 14px;
+    line-height: 1.25;
+    outline: none;
+}
+
+.submitButton {
+    bottom:12px;
+    right:8px;
+    position: absolute;
+    background-color: lightskyblue;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    padding: 4px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.indicator {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid #d1d5db;
+    padding: 4px;
+    background-color: #fff;
+    font-size: 10px;
+    color: #9ca3af;
+}
+
+.focusBorder {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 1px solid #d1d5db;
+}
+
+@keyframes loading {
+    0%, 20% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+  }
+  
+  .loadingContainer .loadingDot {
+    animation: loading 1.2s infinite;
+  }

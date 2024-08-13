@@ -1,109 +1,188 @@
-'use client';
+'use client'
+import React, { useState } from 'react';
+import { useSpring, animated } from 'react-spring';
+import styled from 'styled-components';
+import ChatHeader from "./ui/Header";
+import LoadingIndicator from "./ui/Loading";
+import './chatbot.css';
+// import { Chatbox } from '@talkjs/react';
 
-import React, { useState, useEffect } from 'react';
-import Papa from 'papaparse';
-import { TextField, Autocomplete } from "@mui/material";
-import axios from 'axios';
+const ChatbotContainer = styled(animated.div)`
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  bottom: 10px;
+  right: 10px;
+  width: 300px;
+  height: 400px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: linear-gradient(to bottom, yellow 100px, #F8EDED 100px);
+  // background-color: #F8EDED;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: ${({ isVisible }) => (isVisible ? 'block' : 'none')};
+`;
 
-const App = () => {
-    const [carsData, setCarsData] = useState([]);
-    const [cars, setCars] = useState([]);
-    const [selectedCar, setSelectedCar] = useState([]);
-    const [fuelPrice, setFuelPrice] = useState(0);
-    const [mileage, setMileage] = useState(0);
-    const [fare, setFare] = useState(0);
-    const [distance, setDistance] = useState(100);
-    const fuel_type = 'petrol';
-    const stateName = 'delhi'; 
-    const handleCarChange = (event, newValue) => {
-        setSelectedCar(newValue);
-    };
+const Chatbox = styled.div`
+  flex: 1;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  // padding-bottom: 10px;
+`;
 
-    useEffect(() => {
-        const fetchData = async () => {
-            const response = await fetch('https://raw.githubusercontent.com/StephCurry07/carpooling-frontend/master/utils/cars-final.csv');
-            const reader = response.body.getReader();
-            const result = await reader.read();
-            const decoder = new TextDecoder('utf-8');
-            const csvString = decoder.decode(result.value);
-            const { data } = Papa.parse(csvString, { header: true });
-            setCarsData(data);
-            setCars(data.map((car) => car.Combined_Name));
-        };
+const MessageInput = styled.input`
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: calc(70% - 10px);
+  height: 20px;
+  font-size:15px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 20px;
+`;
 
-        fetchData();
-    }, []);
 
-    useEffect(() => {
-        const fetchFuelPrice = async (stateName, fuel_type) => {
-            const options = {
-                method: 'GET',
-                url: `https://daily-petrol-diesel-lpg-cng-fuel-prices-in-india.p.rapidapi.com/v1/fuel-prices/today/india/${stateName}`,
-                // ADD PARAMS ALSO TO MAKE CODE SHORTER LATER ON...AFTER IT STARTS WORKING
-                headers: {
-                    'X-RapidAPI-Key': '38424df195msh9ee1dbed38d22d0p1dd980jsn41f9b6f44895',
-                    'X-RapidAPI-Host': 'daily-petrol-diesel-lpg-cng-fuel-prices-in-india.p.rapidapi.com'
-                }
-            };
-            try {
-                const response = await axios.request(options);
-                if(fuel_type === 'petrol'){
-                    setFuelPrice(response.data.fuel.petrol.retailPrice);
-                }
-                else if(fuel_type === 'diesel'){
-                    setFuelPrice(response.data.fuel.diesel.retailPrice)
-                }
-                else if(fuel_type === 'cng'){
-                    setFuelPrice(response.data.fuel.cng.retailPrice)
-                }
-                console.log(response.data.fuel);
-            } catch (error) {
-                console.error(error);
-            }
+const AssistantButton = styled.button`
+  position: fixed;
+  bottom: 20px;
+  right: 100px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  &:hover {
+    background-color: #0056b3;
+  }
+`;
 
-        };
-        if(fuel_type === 'electric'){
-            setFuelPrice(0.5);
-        }
-        //CALC FARE FOR HYBRID DIRECTLY... NO OTHER METHOD SUITABLE AS FUEL PRICE NEEDS TO BE ADJUSTED (SEE LATER)
-        else{
-            fetchFuelPrice('delhi', 'petrol');
-        }
 
-    }, []);
+const BoldText = ({ children }) => <strong>{children}</strong>;
+const LineBreak = () => <br />;
 
-    useEffect(() => {
-        console.log(fuelPrice);
-        
-    }, [fuelPrice]);
+const renderHTML = (htmlContent) => {
+if (typeof htmlContent === "string") {
+  // Basic HTML parsing (only for simple cases)
+  const parts = htmlContent.split(/(\*\*.*?\*\*|\n)/g).filter(Boolean);
 
-    useEffect(() => {
-        if (selectedCar) {
-            setMileage(selectedCar.City_Mileage);
-            console.log(selectedCar);
-        }
-
-        const calcFare = () => {
-            if (mileage && fuelPrice) {
-                const fare = (distance / selectedCar.City_Mileage) * fuelPrice;
-                setFare(fare);
-                console.log(fare);
-            }
-        };
-
-        calcFare();
-    }, [selectedCar]);
-
-    return (
-        
-        <Autocomplete
-            options={carsData}
-            getOptionLabel={(option) => option.Combined_Name}
-            value={selectedCar.Combined_Name}
-            onChange={handleCarChange}
-            renderInput={(params) => <TextField {...params} label="Select Car" variant="outlined" />}
-        />
-    );
+  return parts.map((part, index) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return <BoldText key={index}>{part.slice(2, -2)}</BoldText>;
+    } else if (part === "\n") {
+      return <LineBreak key={index} />;
+    } else {
+      return <span key={index}>{part}</span>;
+    }
+  });
+} 
+else if (typeof htmlContent === "object") {
+  return (
+    <LoadingIndicator />
+  );
 }
+//   // Example: If the object contains a "text" property
+//   if (htmlContent.text) {
+//     return <span>{htmlContent.text}</span>;
+//   } else {
+//     // Handle other cases or properties
+//     return <span>{JSON.stringify(htmlContent)}</span>;
+//   }
+// } else {
+//   return <span>Unsupported content type</span>;
+// }
+};
 
-export default App;
+const Message = ({ role, content }) => (
+  <div
+    style={{
+      marginBottom: '5px',
+      padding: '1px 2px',
+      borderRadius: '5px',
+      backgroundColor: role === 'user' ? '#d1e7dd' : '#f8d7da', // Different colors for user and bot
+    }}
+  >
+  <p>
+    <strong>{role === 'user' ? 'You' : 'Bot'}: </strong>
+    {renderHTML(content)}
+  </p>
+</div>
+);
+
+export default function SupportChatbot() {
+  const [message, setMessage] = useState('');
+  const [chatHistory, setChatHistory] = useState([]);
+  const [isVisible, setIsVisible] = useState(false);
+
+  const sendMessage = async () => {
+    setChatHistory([...chatHistory, { role: 'user', content: message }, { role: 'bot', content: <LoadingIndicator /> }]);
+    setMessage('');
+
+    const response = await fetch('/api', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ message }),
+    });
+    const data = await response.json();
+
+    // Update the last "Loading..." message with the actual bot response
+    setChatHistory((prevChatHistory) => {
+      const updatedChat = [...prevChatHistory];
+      updatedChat[updatedChat.length - 1] = { role: 'bot', content: data.response };
+      return updatedChat;
+    });
+  };
+
+  const props = useSpring({
+    opacity: isVisible ? 1 : 0,
+    transform: isVisible ? 'translateY(-50px)' : 'translateY(50px)',
+    config: { tension: 220, friction: 20 },
+  });
+
+  return (
+    <>
+      <AssistantButton onClick={() => setIsVisible(!isVisible)}>
+        {isVisible ? 'Close Assistant' : 'Open Assistant'}
+      </AssistantButton>
+      
+      <ChatbotContainer style={props} isVisible={isVisible}>
+        <ChatHeader name = "EW Assistant"/>
+        <Chatbox id="chatbox">
+          {chatHistory.map((chat, index) => (
+            <Message key={index} role={chat.role} content={chat.content} />
+          ))}
+        </Chatbox>
+        <MessageInput
+          type="text"
+          value={message}
+          className='inpcontainer'
+          onChange={(e) => setMessage(e.target.value)}
+          placeholder="Type your message here..."
+          onKeyDown={(e) => {
+            if (e.key === "Enter" && !e.shiftKey) {
+              e.preventDefault();
+              sendMessage();
+              }
+            } 
+          } 
+        />
+        <button
+          className="submitButton"
+          onMouseEnter={(e) => (e.target.style.backgroundColor = '#0056b3')}
+          onMouseLeave={(e) => (e.target.style.backgroundColor = '#007bff')}
+          onClick={sendMessage}
+        >
+          Send
+        </button>
+      </ChatbotContainer>
+    </>
+  );
+}

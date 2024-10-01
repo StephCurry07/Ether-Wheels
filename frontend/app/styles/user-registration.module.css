@@ -1,8 +1,10 @@
 /* styles/passenger-registration.module.css */
 
+
 .container {
   max-width: 40%;
   margin: auto;
+  min-height: 80vh;
 }
 
 .formGroup {

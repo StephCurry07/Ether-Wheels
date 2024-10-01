@@ -2,6 +2,7 @@
 import React from "react";
 import Header from "@components/Header";
 import { useSearchParams } from "next/navigation";
+import Footer from "@components/Footer";
 
 const registerlayout = ({ children }) => {
   const searchParams = useSearchParams();
@@ -16,6 +17,8 @@ const registerlayout = ({ children }) => {
         role={role}
       />
       {children}
+      
+      <Footer />
     </div>
   );
 };

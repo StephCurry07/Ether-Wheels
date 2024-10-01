@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Header from "@components/Header";
+import Footer from "@components/Footer";
 import { useSearchParams } from "next/navigation";
 
 const myRidesLayout = ({ children }) => {
@@ -16,6 +17,8 @@ const myRidesLayout = ({ children }) => {
         role={role}
       />
       {children}
+
+      <Footer />
     </div>
   );
 };

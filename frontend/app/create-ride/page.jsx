@@ -6,9 +6,10 @@ import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFnsV3";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import styles from "../styles/user-registration.module.css";
-
+import ToastService from "@utils/toastService";
 import { ethers } from "ethers";
 import abi from "../../utils/CarPoolingcamp.json";
+import { ToastContainer } from "react-toastify";
 // import 'dotenv/config';
 const contractAddress = abi.contractAddress;
 const contractABI = abi.abi;
@@ -64,7 +65,7 @@ const createRide = () => {
         console.error('Error fetching exchange rate:', error);
       }
     };
-
+    ToastService.success("Ride created successfully!");
     fetchExchangeRate();
   }, []);
 
@@ -76,6 +77,7 @@ const createRide = () => {
       });
     } else {
       console.log("Geolocation is not supported by this browser.");
+      
     }
   }, []);
 
@@ -363,10 +365,11 @@ const createRide = () => {
           BigInt(secondsSinceEpoch),
           tripDetails
         );
-      alert("Ride created successfully!");
+      ToastService.success("Ride created successfully!");
 
     } catch (error) {
       console.log("Error creating ride:", error);
+      ToastService.error("Failed to create ride. Please try again.");
     }
   };
 
@@ -493,6 +496,7 @@ const createRide = () => {
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
       <div className={styles.container}>
+        <ToastContainer />
         <h1>Confirm Ride details:</h1>
         <form onSubmit={handleSubmit}>
           <div className={styles.formGroup}>

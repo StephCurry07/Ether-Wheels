@@ -5,6 +5,7 @@ import { ErrorDecoder } from "ethers-decode-error";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import abi from "../../utils/CarPooling.json";
+import ToastService from "@utils/toastService";
 
 const MyRides = () => {
   const [myRides, setMyRides] = useState([]);
@@ -106,7 +107,7 @@ const MyRides = () => {
 
     const currentTimeSeconds = Math.floor(currentDateTimeUTC.getTime() / 1000);
     if (currentTimeSeconds - Number(startTime) < 0) {
-      alert("You can only perform this action after the ride is started");
+      ToastService.error("You can only perform this action after the ride is started");
       return;
     }
 
@@ -117,7 +118,7 @@ const MyRides = () => {
         console.log(txn);
       } catch (err) {
         const decodedError = await errorDecoder.decode(err);
-        alert(decodedError.args[0]);
+        ToastService.error(decodedError.args[0]);
       }
     } else {
       const txn = await CarPoolingContract.updateStatus(rideId);

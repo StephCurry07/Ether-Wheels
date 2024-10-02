@@ -65,7 +65,7 @@ const createRide = () => {
         console.error('Error fetching exchange rate:', error);
       }
     };
-    ToastService.success("Ride created successfully!");
+
     fetchExchangeRate();
   }, []);
 

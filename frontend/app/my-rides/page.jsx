@@ -136,6 +136,7 @@ const MyRides = () => {
         flexDirection: "column",
         alignItems: "center",
         minHeight: "82vh",
+        marginTop: "25px",
       }}
     >
       {role === "not chosen" || myRides.length == 0 ? (

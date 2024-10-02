@@ -1,7 +1,6 @@
 "use client";
 import { useSearchParams } from "next/navigation";
 import Header from "@components/Header";
-import Footer from "@components/Footer";
 
 const registerlayout = ({ children }) => {
   const searchParams = useSearchParams();
@@ -16,8 +15,6 @@ const registerlayout = ({ children }) => {
         role={role}
       />
       {children}
-
-      <Footer />
     </div>
   );
 };

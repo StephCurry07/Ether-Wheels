@@ -25,20 +25,41 @@ const Header = ({ role, balance, connectedAccount }) => {
 
   return (
     <AppBar
-      position="static"
+      position="relative"
       sx={{
-        backgroundColor: "#1e1e1e",
-        boxShadow: "0 4px 10px rgba(0, 0, 0, 0.3)",
-        padding: "8px",
+        background: "none",
       }}
     >
-      <Toolbar sx={{ display: "flex", alignItems: "center" }}>
+      <svg
+        width="105%"
+        height="120"
+        viewBox="0 0 200 100"
+        preserveAspectRatio="none"
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          transform: "rotate(180deg)",
+          zIndex: 0, 
+        }}
+      >
+        <path d="M0,60 Q20,0 50,30 Q80,60 100,30 Q120,0 150,30 Q180,60 200,30 L200,100 L0,100 Z" fill="#ad520c" />
+      </svg>
+
+      <Toolbar
+        sx={{
+          position: "relative",
+          zIndex: 1,
+          display: "flex",
+          alignItems: "center",
+        }}
+      >
         <Avatar
           alt="Logo"
           src="../images/ewLogo.png"
           sx={{
-            width: 50,
-            height: 50,
+            width: 60,
+            height: 60,
             marginRight: 2,
             cursor: "pointer",
             "&:hover": {
@@ -93,8 +114,8 @@ const Header = ({ role, balance, connectedAccount }) => {
           </Link>
         </div>
 
-
-        <div style={{ 
+        <div
+          style={{
             marginRight: "30px",
             display: "inline-block",
             transition: "transform 0.2s ease-in-out",
@@ -104,8 +125,8 @@ const Header = ({ role, balance, connectedAccount }) => {
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = "scale(1)";
-          }}>
-            
+          }}
+        >
           <Link
             href={{
               pathname: "/my-rides",
@@ -128,7 +149,6 @@ const Header = ({ role, balance, connectedAccount }) => {
             My Rides
           </Link>
         </div>
-
 
         <Typography
           variant="body1"

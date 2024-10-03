@@ -10,6 +10,7 @@ import { useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import abi from "../../utils/CarPooling.json";
 import styles from "../styles/get-rides.module.css";
+import ToastService from "@utils/toastService";
 
 const GetRides = () => {
   const [allRides, setAllRides] = useState([]);
@@ -124,12 +125,12 @@ const GetRides = () => {
       console.log(txn.toString());
 
       if (txn) {
-        alert("Congratulations! Your ride is booked");
+        ToastService.success("Congratulations! Your ride is booked");
         window.location.href = `/my-rides?connectedAccount=${connectedAccount}&balance=${balance}&role=passenger`;
       }
-    } catch (error) {
+        } catch (error) {
       const decodedError = await errorDecoder.decode(error);
-      alert(decodedError.args[0]);
+      ToastService.error(decodedError.args[0]);
     }
   };
   const handlePrev = () => {

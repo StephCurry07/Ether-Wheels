@@ -86,8 +86,10 @@ const MyRides = () => {
       signer
     );
     console.log(rideId);
+    ToastService.info("Cancelling ride. Please wait for the transaction to complete.");
     const txn = await CarPoolingContract.cancelRide(rideId);
     console.log(txn.toString());
+    ToastService.success("Ride cancelled successfully.");
   };
 
   const completed = async (rideId, startTime) => {
@@ -99,7 +101,6 @@ const MyRides = () => {
       signer
     );
     console.log(rideId, startTime);
-
     const currentDateTime = new Date(Date.now());
     const currentDateTimeUTC = new Date(
       currentDateTime.getTime() + currentDateTime.getTimezoneOffset() * 60000
@@ -116,6 +117,7 @@ const MyRides = () => {
         const txn = await CarPoolingContract.rideCompleted(rideId);
         await txn.wait();
         console.log(txn);
+        ToastService.success("Ride completed successfully.");
       } catch (err) {
         const decodedError = await errorDecoder.decode(err);
         ToastService.error(decodedError.args[0]);

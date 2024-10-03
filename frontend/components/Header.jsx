@@ -11,6 +11,8 @@ const Header = ({ role, balance, connectedAccount }) => {
   const _balance = balance + " ETH";
 
   const [anchorEl, setAnchorEl] = React.useState(null);
+  const [roleAnchorEl, setRoleAnchorEl] = React.useState(null);
+
   const copyToClipboard = () => {
     navigator.clipboard.writeText(connectedAccount);
   };
@@ -23,29 +25,23 @@ const Header = ({ role, balance, connectedAccount }) => {
     setAnchorEl(null);
   };
 
+  const handleRoleMenuOpen = (event) => {
+    setRoleAnchorEl(event.currentTarget);
+  };
+
+  const handleRoleMenuClose = () => {
+    setRoleAnchorEl(null);
+  };
+
   return (
     <AppBar
       position="relative"
       sx={{
-        background: "none",
+        background: "#1e1e1e",
+        boxShadow: "0 4px 10px rgba(0, 0, 0, 0.3)",	
+        padding: "8px",
       }}
     >
-      <svg
-        width="105%"
-        height="120"
-        viewBox="0 0 200 100"
-        preserveAspectRatio="none"
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          transform: "rotate(180deg)",
-          zIndex: 0, 
-        }}
-      >
-        <path d="M0,60 Q20,0 50,30 Q80,60 100,30 Q120,0 150,30 Q180,60 200,30 L200,100 L0,100 Z" fill="#ad520c" />
-      </svg>
-
       <Toolbar
         sx={{
           position: "relative",
@@ -56,35 +52,27 @@ const Header = ({ role, balance, connectedAccount }) => {
       >
         <Avatar
           alt="Logo"
-          src="../images/ewLogo.png"
+          src="../images/ewLogo.jpeg"
           sx={{
             width: 60,
             height: 60,
             marginRight: 2,
             cursor: "pointer",
             "&:hover": {
-              transform: "scale(1.05)",
+              transform: "scale(1.1)",
               transition: "transform 0.2s ease-in-out",
             },
           }}
         />
-        <Typography
-          variant="h6"
-          sx={{
-            fontWeight: "bold",
-            marginRight: "auto",
-            color: "#f4f4f4",
-          }}
-        >
-          Role : {role}
-        </Typography>
-
+        
         <div
           style={{
-            marginRight: "30px",
+            marginRight: "auto",
             display: "inline-block",
             transition: "transform 0.2s ease-in-out",
+            cursor: "pointer",
           }}
+          onClick={handleRoleMenuOpen}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = "scale(1.05)";
           }}
@@ -92,15 +80,13 @@ const Header = ({ role, balance, connectedAccount }) => {
             e.currentTarget.style.transform = "scale(1)";
           }}
         >
-          <Link
-            href={{
-              pathname: "/register",
-              query: { connectedAccount, balance, role },
-            }}
-            style={{
-              textDecoration: "none",
+          <Typography
+            variant="h6"
+            sx={{
+              fontWeight: "bold",
               color: "#f4f4f4",
-              fontWeight: "500",
+              display: "inline-block",
+              marginRight: 1,
               transition: "color 0.2s ease-in-out",
             }}
             onMouseEnter={(e) => {
@@ -110,9 +96,43 @@ const Header = ({ role, balance, connectedAccount }) => {
               e.target.style.color = "#f4f4f4";
             }}
           >
-            Change Role
-          </Link>
+            Role : {role}
+          </Typography>
         </div>
+        
+        <Menu
+          anchorEl={roleAnchorEl}
+          open={Boolean(roleAnchorEl)}
+          onClose={handleRoleMenuClose}
+          sx={{
+            "& .MuiPaper-root": {
+              backgroundColor: "#333",
+              color: "#f4f4f4",
+              minWidth: "220px",
+            },
+          }}
+        >
+          <MenuItem
+            onClick={handleRoleMenuClose}
+            sx={{
+              padding: "10px 20px",
+              transition: "background-color 0.3s ease-in-out",
+              "&:hover": {
+                backgroundColor: "#444",
+              },
+              "& a": { color: "inherit", textDecoration: "none" },
+            }}
+          >
+            <Link
+              href={{
+                pathname: "/register",
+                query: { connectedAccount, balance, role },
+              }}
+            >
+              <Typography variant="inherit">Change Role</Typography>
+            </Link>
+          </MenuItem>
+        </Menu>
 
         <div
           style={{
@@ -158,7 +178,7 @@ const Header = ({ role, balance, connectedAccount }) => {
             fontWeight: "500",
           }}
         >
-          Balance: {_balance}
+          Balance : {_balance}
         </Typography>
 
         <IconButton

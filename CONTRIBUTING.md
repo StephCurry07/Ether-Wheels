@@ -2,6 +2,8 @@
 
 Thank you for considering contributing to our project! We welcome contributions from everyone, whether it's filing a bug report, submitting a feature request, or creating a pull request. Your involvement helps to make this project better for everyone.
 
+NOTE: PLEASE GO THROUGH THE README FILE FOR THE DEATILS OF THE PROJECT.
+
 ## Bug Reports and Feature Requests
 
 If you encounter any bugs or have ideas for new features, please [open an issue](https://github.com/your_username/your_project/issues/new) on GitHub. When creating an issue, please provide as much detail as possible, including steps to reproduce for bugs and a clear description for feature requests.

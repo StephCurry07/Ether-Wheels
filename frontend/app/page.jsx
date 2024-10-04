@@ -5,10 +5,14 @@ import PrimaryButton from "@components/PrimaryButton";
 import Link from "next/link";
 import Image from "next/image";
 import styles from './styles/user-registration.module.css';
+import { toast, ToastContainer } from 'react-toastify';
+import ToastService from '@utils/toastService'; // Import the toast service
+
 const HomePage = () => {
   const [ethereum, setEthereum] = useState(undefined);
   const [connectedAccount, setConnectedAccount] = useState(undefined);
   const [balance, setBalance] = useState(undefined);
+  
 
   const handleAccounts = async (accounts) => {
     if (accounts.length > 0) {
@@ -63,12 +67,13 @@ const HomePage = () => {
 
   const connectAccount = async () => {
     if (!ethereum) {
-      alert("MetaMask is required to connect an account");
+      ToastService.error("MetaMask is required to connect an account");
       return;
     }
 
     const accounts = await ethereum.request({ method: "eth_requestAccounts" });
     await handleAccounts(accounts);
+    ToastService.success("Connected to MetaMask");
   };
 
   if (!ethereum) {
@@ -77,6 +82,7 @@ const HomePage = () => {
 
   return (
     <div className="imageContainer">
+      <ToastContainer />
       <Image
         src="/images/carpooling.svg"
         alt="Carpooling home page image"

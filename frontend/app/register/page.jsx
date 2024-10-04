@@ -9,7 +9,7 @@ const RegisterPage = () => {
   const balance = searchParams.get("balance");
 
   return (
-    <div className="registerContainer">
+    <div className="registerContainer" style={{ minHeight: "72vh" }}>
       <div className="register-card">
         <Image
           src="/images/driver.jpg"

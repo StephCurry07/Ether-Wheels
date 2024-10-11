@@ -1,23 +1,23 @@
-'use client';
+"use client";
 
 import { Autocomplete, TextField } from "@mui/material";
-import Link from 'next/link';
-import { useRouter, useSearchParams } from 'next/navigation';
-import Papa from 'papaparse';
-import { useEffect, useState } from 'react';
-import styles from '../../styles/user-registration.module.css';
+import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
+import Papa from "papaparse";
+import { useEffect, useState } from "react";
+import styles from "../../styles/user-registration.module.css";
 
 const DriverRegistration = ({ data }) => {
   const [formData, setFormData] = useState({
-    name: '',
-    age: '',
-    gender: '',
-    phone: '',
-    email: '',
-    carName: '',
-    carCapacity: '',
-    mileage: '',
-    fuel_type: '',
+    name: "",
+    age: "",
+    gender: "",
+    phone: "",
+    email: "",
+    carName: "",
+    carCapacity: "",
+    mileage: "",
+    fuel_type: "",
   });
 
   const [carsData, setCarsData] = useState([]);
@@ -25,13 +25,15 @@ const DriverRegistration = ({ data }) => {
   const [selectedCar, setSelectedCar] = useState([]);
   const [fare, setFare] = useState(0);
   const [distance, setDistance] = useState(100);
-  
+
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('https://raw.githubusercontent.com/StephCurry07/carpooling-frontend/master/utils/cars-final.csv');
+      const response = await fetch(
+        "https://raw.githubusercontent.com/StephCurry07/carpooling-frontend/master/utils/cars-final.csv"
+      );
       const reader = response.body.getReader();
       const result = await reader.read();
-      const decoder = new TextDecoder('utf-8');
+      const decoder = new TextDecoder("utf-8");
       const csvString = decoder.decode(result.value);
       const { data } = Papa.parse(csvString, { header: true });
       setCarsData(data);
@@ -61,37 +63,60 @@ const DriverRegistration = ({ data }) => {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // localStorage.setItem('formData', JSON.stringify(formData));
-    router.push({
-      pathname: '/create-ride',
+  const handleCarChange = (event, newValue) => {
+    setSelectedCar(newValue);
+    setFormData({
+      ...formData,
+      carName: newValue.Combined_Name,
+      carCapacity: newValue.Seating_Capacity,
+      mileage: newValue.City_Mileage,
+      fuel_type: newValue.Fuel_Type,
     });
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   console.log(formData);
- 
-  //   localStorage.setItem('formData', JSON.stringify(formData));
-  //   window.location.href = '/create-ride';
-  // };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-  const handleCarChange = (event, newValue) => {
-    setSelectedCar(newValue);
-    // const { carName, value } = event.target;
-    setFormData({
-      ...formData,
-      ['carName']: newValue.Combined_Name,
-      ['carCapacity']: newValue.Seating_Capacity,
-      ['mileage']: newValue.City_Mileage,
-      ['fuel_type']: newValue.Fuel_Type,
+    // Call the API to send confirmation email after the form is submitted
+    await sendEmailConfirmation();
+
+    // Proceed with redirection after email confirmation
+    router.push({
+      pathname: "/create-ride",
     });
-    console.log(newValue);
+  };
+
+  const sendEmailConfirmation = async () => {
+    const emailData = {
+      emailUser: process.env.NEXT_PUBLIC_EMAIL_USERNAME, // replace with your email
+      emailPass: process.env.NEXT_PUBLIC_EMAIL_PASSWORD, // replace with your email password
+      recipientEmails: [formData.email], // driver's email
+      senderName: "EtherWheels - A Ride Sharing Platform", // sender name
+      subject: "Driver Registration Confirmation",
+      placeholders: {
+        name: formData.name,
+      },
+      templateId: 2, // Assuming you have a template for registration confirmation
+    };
+
+    try {
+      const response = await fetch("/api/email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(emailData),
+      });
+
+      const result = await response.json();
+      console.log("Email response:", result);
+    } catch (error) {
+      console.error("Error sending email:", error);
+    }
   };
 
   return (
-    <div className={styles.container} >
+    <div className={styles.container}>
       <h1>Register as Driver</h1>
       <form onSubmit={handleSubmit}>
         <fieldset>
@@ -153,21 +178,21 @@ const DriverRegistration = ({ data }) => {
           <legend>Enter your car details: </legend>
 
           <div className={styles.formGroup}>
-            <label className={styles.label} >Car name</label>
+            <label className={styles.label}>Car name</label>
             <Autocomplete
               options={carsData}
               getOptionLabel={(option) => option.Combined_Name || ""}
-              defaultValue={selectedCar.Combined_Name}
               onChange={handleCarChange}
-              renderInput={(params) => <TextField {...params} label="Select Car" variant="outlined" />}
-              // className={styles.inputField}
-              sx={{width: '83%'}}
+              renderInput={(params) => (
+                <TextField {...params} label="Select Car" variant="outlined" />
+              )}
+              sx={{ width: "83%" }}
             />
-            
           </div>
           <div className={styles.formGroup}>
-
-            <label className={styles.label} >Car Capacity(Max. Num of Passengers):</label>
+            <label className={styles.label}>
+              Car Capacity(Max. Num of Passengers):
+            </label>
             <input
               type="text"
               id="cap"
@@ -191,9 +216,13 @@ const DriverRegistration = ({ data }) => {
           }}
           style={{ marginTop: "auto" }}
         >
-          <button type="submit" className={`${styles.submitButton} ${styles.center__relative}`}>Submit</button>
+          <button
+            type="submit"
+            className={`${styles.submitButton} ${styles.center__relative}`}
+          >
+            Submit
+          </button>
         </Link>
-
       </form>
     </div>
   );

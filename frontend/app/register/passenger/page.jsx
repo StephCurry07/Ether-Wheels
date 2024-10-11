@@ -31,6 +31,34 @@ const PassengerRegistration = () => {
     e.preventDefault();
     console.log(formData);
   };
+  const sendEmailConfirmation = async () => {
+    const emailData = {
+      emailUser: process.env.NEXT_PUBLIC_EMAIL_USERNAME, // replace with your email
+      emailPass: process.env.NEXT_PUBLIC_EMAIL_PASSWORD,    // replace with your email password
+      recipientEmails: [formData.email],    // driver's email
+      senderName: "EtherWheels - A Ride Sharing Platform",             // sender name
+      subject: "Passenger Registration Confirmation",
+      placeholders: {
+        name: formData.name,
+      },
+      templateId: 2, // Assuming you have a template for registration confirmation
+    };
+
+    try {
+      const response = await fetch('/api/email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(emailData),
+      });
+
+      const result = await response.json();
+      console.log("Email response:", result);
+    } catch (error) {
+      console.error("Error sending email:", error);
+    }
+  };
   return (
 
     <div className={styles.container}>

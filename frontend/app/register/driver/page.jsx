@@ -63,23 +63,13 @@ const DriverRegistration = ({ data }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // localStorage.setItem('formData', JSON.stringify(formData));
     router.push({
       pathname: '/create-ride',
     });
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   console.log(formData);
- 
-  //   localStorage.setItem('formData', JSON.stringify(formData));
-  //   window.location.href = '/create-ride';
-  // };
-
   const handleCarChange = (event, newValue) => {
     setSelectedCar(newValue);
-    // const { carName, value } = event.target;
     setFormData({
       ...formData,
       ['carName']: newValue.Combined_Name,
@@ -119,13 +109,17 @@ const DriverRegistration = ({ data }) => {
           </div>
           <div className={styles.formGroup}>
             <label className={styles.label}>Gender:</label>
-            <input
-              type="text"
+            <select
               id="gender"
               name="gender"
               onChange={handleChange}
               className={styles.inputField}
-            />
+            >
+              <option value="">Select Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
           </div>
           <div className={styles.formGroup}>
             <label className={styles.label}>Phone:</label>
@@ -160,13 +154,11 @@ const DriverRegistration = ({ data }) => {
               defaultValue={selectedCar.Combined_Name}
               onChange={handleCarChange}
               renderInput={(params) => <TextField {...params} label="Select Car" variant="outlined" />}
-              // className={styles.inputField}
               sx={{width: '83%'}}
             />
             
           </div>
           <div className={styles.formGroup}>
-
             <label className={styles.label} >Car Capacity(Max. Num of Passengers):</label>
             <input
               type="text"

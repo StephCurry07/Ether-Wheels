@@ -85,10 +85,7 @@ contract CarPooling {
     }
 
     function bookRide(uint256 rideId) public payable duplicate(rideId) {
-        if (msg.value < rides[rideId].rideFare)
-            revert ERROR_CarPooling({
-                message: "Money sent not equal to ride Fare"
-            });
+        require(msg.value >= rides[rideId].rideFare, "Money sent not equal to ride Fare");
         rides[rideId].passengers.push(msg.sender);
         addressToRides[msg.sender].push(rideId);
 
@@ -96,21 +93,15 @@ contract CarPooling {
     }
 
     modifier duplicate(uint256 rideId) {
-        Ride memory r = rides[rideId];
-        if (msg.sender == r.driver || r.passengers.length == r.maxPassengers) {
-            revert ERROR_CarPooling({
-                message: "Driver cannot book the ride or maximum passengers reached"
-            });
-        }
-        for (uint256 i = 0; i < r.passengers.length; i++) {
-            if (msg.sender == r.passengers[i]) {
-                revert ERROR_CarPooling({
-                    message: "You have already booked the ride"
-                });
-            }
-        }
-        _;
+    Ride memory r = rides[rideId];
+    require(msg.sender != r.driver, "Driver cannot book the ride");
+    require(r.passengers.length < r.maxPassengers, "Maximum passengers reached");
+
+    for (uint256 i = 0; i < r.passengers.length; i++) {
+        require(msg.sender != r.passengers[i], "You have already booked the ride");
     }
+    _;
+}
 
     function updateStatus(uint256 rideId) public {
         // completion of ride by passengers
@@ -118,11 +109,8 @@ contract CarPooling {
         uint256[] memory pRides = addressToRides[passenger];
         (bool exists, uint256 index) = getIndex(pRides, rideId);
 
-        if (!exists) {
-            revert ERROR_CarPooling({
-                message: "Ride is not registered with passenger"
-            });
-        }
+       require(exists, "Ride is not registered with passenger");
+
 
         completionStatus[rideId] += 1;
 
@@ -135,14 +123,9 @@ contract CarPooling {
 
     function rideCompleted(uint256 rideId) public {
         // driver withdrawing money
-        if (msg.sender != rides[rideId].driver) {
-            revert ERROR_CarPooling({message: "Sender is not the driver"});
-        }
-        if (completionStatus[rideId] != rides[rideId].passengers.length) {
-            revert ERROR_CarPooling({
-                message: "Not all passengers have marked the ride as completed"
-            });
-        }
+        require(msg.sender == rides[rideId].driver, "Sender is not the driver");
+        require(completionStatus[rideId] == rides[rideId].passengers.length, "Not all passengers have marked the ride as completed");
+
 
         uint256 count = rides[rideId].passengers.length;
         uint256 amount = count * rides[rideId].rideFare;
@@ -155,11 +138,7 @@ contract CarPooling {
         uint256[] memory driverRides = addressToRides[msg.sender];
         (bool exists, uint256 index) = getIndex(driverRides, rideId);
 
-        if (!exists) {
-            revert ERROR_CarPooling({
-                message: "Ride is not registerd with driver"
-            });
-        }
+        require(exists, "Ride is not registered with driver");
 
         addressToRides[msg.sender][index] = driverRides[driverRides.length - 1];
         addressToRides[msg.sender].pop();
@@ -171,9 +150,7 @@ contract CarPooling {
         uint256[] memory keys = rideKeys;
         (exists, index) = getIndex(keys, rideId);
 
-        if (!exists) {
-            revert ERROR_CarPooling({message: "Key does not exist"});
-        }
+        require(exists, "Key does not exist");
 
         rideKeys[index] = keys[keys.length - 1];
         rideKeys.pop();
@@ -200,9 +177,7 @@ contract CarPooling {
             uint256[] memory driverRides = addressToRides[msg.sender];
             (bool exists, uint256 index) = getIndex(driverRides, rideId);
 
-            if (!exists) {
-                revert ERROR_CarPooling("Ride is not registered with the user");
-            }
+            require(exists, "Ride is not registered with the user");
 
             addressToRides[msg.sender][index] = driverRides[
                 driverRides.length - 1
@@ -216,9 +191,7 @@ contract CarPooling {
             uint256[] memory keys = rideKeys;
             (exists, index) = getIndex(keys, rideId);
 
-            if (!exists) {
-                revert ERROR_CarPooling("Key does not exist");
-            }
+            require(exists, "Ride is not registered with the user");
 
             rideKeys[index] = keys[keys.length - 1];
             rideKeys.pop();
@@ -244,9 +217,8 @@ contract CarPooling {
             bool exists;
             uint256[] memory userRides = addressToRides[passenger];
             (exists, index) = getIndex(userRides, rideId);
-            if (!exists) {
-                revert ERROR_CarPooling("Ride is not registered with user");
-            }
+            require(exists, "Ride is not registered with user");
+
             addressToRides[msg.sender][index] = userRides[userRides.length - 1];
             addressToRides[msg.sender].pop();
 

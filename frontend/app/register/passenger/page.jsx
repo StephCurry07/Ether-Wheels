@@ -31,17 +31,16 @@ const PassengerRegistration = () => {
     e.preventDefault();
     console.log(formData);
   };
-  return (
 
+  return (
     <div className={styles.container}>
       <h1>Register as Passenger</h1>
       <form onSubmit={handleSubmit}>
-
         <fieldset>
           <legend>Your details:</legend>
 
           <div className={styles.formGroup}>
-            <label className={styles.label} >Name:</label>
+            <label className={styles.label}>Name:</label>
             <input
               type="text"
               id="name"
@@ -64,14 +63,18 @@ const PassengerRegistration = () => {
           </div>
           <div className={styles.formGroup}>
             <label className={styles.label} htmlFor="gender">Gender:</label>
-            <input
-              type="text"
+            <select
               id="gender"
               name="gender"
               value={formData.gender}
               onChange={handleChange}
               className={styles.inputField}
-            />
+            >
+              <option value="">Select Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
           </div>
           <div className={styles.formGroup}>
             <label className={styles.label} htmlFor="phone">Phone:</label>
@@ -107,7 +110,12 @@ const PassengerRegistration = () => {
             }}
             style={{ marginTop: "auto" }}
           >
-            <button type="submit" className={`${styles.submitButton} ${styles.center__relative}`}>Submit</button>
+            <button
+              type="submit"
+              className={`${styles.submitButton} ${styles.center__relative}`}
+            >
+              Submit
+            </button>
           </Link>
         </fieldset>
         {/* <div className={styles.formGroup}>
@@ -183,4 +191,3 @@ const PassengerRegistration = () => {
 };
 
 export default PassengerRegistration;
-

@@ -48,9 +48,9 @@ const MessageInput = styled.input`
 
 
 const AssistantButton = styled.button`
-  position: fixed;
-  bottom: 20px;
-  right: 100px;
+  position: fixed; /* Change to fixed to stay relative to viewport */
+  bottom: 80px; /* Space above the footer */
+  right: 20px; /* Adjusted for better positioning */
   padding: 10px 15px;
   background-color: #007bff;
   color: white;
@@ -62,6 +62,7 @@ const AssistantButton = styled.button`
     background-color: #0056b3;
   }
 `;
+
 
 
 const BoldText = ({ children }) => <strong>{children}</strong>;

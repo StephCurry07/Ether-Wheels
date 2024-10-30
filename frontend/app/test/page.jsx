@@ -4,8 +4,6 @@ import { useSpring, animated } from 'react-spring';
 import styled from 'styled-components';
 import ChatHeader from "./ui/Header";
 import LoadingIndicator from "./ui/Loading";
-import './chatbot.css';
-// import { Chatbox } from '@talkjs/react';
 
 const ChatbotContainer = styled(animated.div)`
   position: fixed;

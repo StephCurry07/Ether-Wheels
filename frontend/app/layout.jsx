@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
+import { CopilotChat } from './../components/CopilotChat';
 import "./global.css";
-import SupportChatbot from "./test/page";
+import { CopilotKit } from "@copilotkit/react-core";
+import "@copilotkit/react-ui/styles.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,8 +25,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        {children}
-        <SupportChatbot />
+        <CopilotKit runtimeUrl="/api/copilotkit">
+          {children}
+          <CopilotChat/>
+        </CopilotKit>
       </body>
     </html>
   );

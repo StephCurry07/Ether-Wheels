@@ -2,6 +2,7 @@
 import React from "react";
 import Header from "@components/Header";
 import { useSearchParams } from "next/navigation";
+import { CopilotPopup } from "@copilotkit/react-ui";
 
 const registerlayout = ({ children }) => {
   const searchParams = useSearchParams();

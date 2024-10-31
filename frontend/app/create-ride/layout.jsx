@@ -1,5 +1,6 @@
 "use client";
 import { useSearchParams } from "next/navigation";
+import { CopilotPopup } from "@copilotkit/react-ui";
 import Header from "@components/Header";
 
 const registerlayout = ({ children }) => {

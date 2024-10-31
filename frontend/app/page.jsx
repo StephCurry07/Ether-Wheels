@@ -12,6 +12,7 @@ const HomePage = () => {
   const [ethereum, setEthereum] = useState(undefined);
   const [connectedAccount, setConnectedAccount] = useState(undefined);
   const [balance, setBalance] = useState(undefined);
+  const [isGuest, setIsGuest] = useState(false);
   
 
   const handleAccounts = async (accounts) => {
@@ -76,8 +77,17 @@ const HomePage = () => {
     ToastService.success("Connected to MetaMask");
   };
 
-  if (!ethereum) {
-    return <InstallMetaMask />;
+  const loginAsGuest = () => {
+    setIsGuest(true);
+  };
+
+  if (!ethereum && !isGuest) {
+    return (
+      <>
+        <InstallMetaMask />
+        <button onClick={loginAsGuest}>Continue as Guest</button>
+      </>
+    );
   }
 
   return (
@@ -90,7 +100,7 @@ const HomePage = () => {
         height={200}
         className="image"
       />
-      {!connectedAccount ? (
+      {!connectedAccount && !isGuest ? (
         <div
           style={{
             display: "flex",
@@ -109,9 +119,15 @@ const HomePage = () => {
             metamask wallet so go ahead and do that and we'll see you on the
             other side.
           </p>
-          <PrimaryButton onClick={connectAccount}>
-            Connect MetaMask Wallet
-          </PrimaryButton>
+          <div className="login-buttons"  style={{ display: "flex"}}>
+            <PrimaryButton onClick={connectAccount}  style={{marginRight:"10px"}}>
+              Connect MetaMask Wallet
+            </PrimaryButton>
+            <PrimaryButton onClick={loginAsGuest}  style={{marginLeft:"10px"}}>
+              Continue as Guest <br />
+              (<span style={{ fontSize: "small", color: "red" }}>backend won't work</span>)
+            </PrimaryButton>
+          </div>
         </div>
       ) : (
         <div
@@ -129,12 +145,12 @@ const HomePage = () => {
             as either a Driver or a Passenger for the current session and get
             started.
           </p>
-          <p>Connected Account: {connectedAccount}</p>
+          <p>Connected Account: {connectedAccount || "Guest User"}</p>
           <Link
             href={{
               pathname: "/register",
               query: {
-                connectedAccount: connectedAccount,
+                connectedAccount: connectedAccount || "guest",
                 balance: balance,
                 role: "not chosen",
               },

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Header from "@components/Header";
+import { CopilotPopup } from "@copilotkit/react-ui";
 import { useSearchParams } from "next/navigation";
 
 const myRidesLayout = ({ children }) => {

@@ -81,11 +81,11 @@ const Header = ({ role, balance, connectedAccount }) => {
             }}
           >
             <Typography
-              variant="h6"
               sx={{
                 color: "#f4f4f4",
                 display: "inline-block",
                 transition: "color 0.2s ease-in-out",
+                fontWeight: "bold",
               }}
               onMouseEnter={(e) => {
                 e.target.style.color = "#ffc107";
